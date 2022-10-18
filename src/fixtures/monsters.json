@@ -1,0 +1,20 @@
+[
+    {
+        "model": "monsters.monsters",
+        "pk": 1,
+        "fields": {
+            "name": "Dread Cyclops",
+            "level": 62,
+            "zone_mob": 6
+        }
+    },
+    {
+        "model": "monsters.monsters",
+        "pk": 2,
+        "fields": {
+            "name": "Runic Golem",
+            "level": 72,
+            "zone_mob": 4
+        }
+    }
+]

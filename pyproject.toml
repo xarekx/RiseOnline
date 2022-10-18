@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "RiseOnlineWorld"
+version = "0.1.0"
+description = ""
+authors = ["xarekx <arektarnowski4@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.1"
+django-environ = "^0.8.1"
+django-extensions = "^3.1.5"
+django-tailwind = "^3.1.1"
+Pillow = "^9.0.1"
+sqlite-utils = "^3.25.1"
+fontawesome = "^5.10.1"
+fontawesomefree = "^6.1.1"
+psycopg2 = "^2.9.3"
+gunicorn = "^20.1.0"
+django-dotenv = "^1.4.2"
+django-env = "^0.2.1"
+tailwindcss = "^0.0.1"
+npm = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+app = "manage:runserver"

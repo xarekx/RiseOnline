@@ -1,0 +1,56 @@
+{% extends 'base-login.html' %}
+{% block title %} Rise Online World Login {% endblock %}
+
+{% block body %}
+<div class="flex h-full justify-center items-center">
+    <div class="flex flex-col bg-dark mx-auto">
+        <div class="flex h-10 justify-center items-center my-auto">
+                <h2 class="text-white text-2xs md:text-xs">Sign Up</h2>
+        </div>
+        <hr class="bg-white mb-2">
+        <div class="flex flex-col text-black px-14 md:px-20" >
+            <form method="POST" class="w-full">
+                {% csrf_token %}
+                <label class="flex text-white mb-1 w-full text-2xs md:text-xs">Username</label>
+                <div class="form-group">
+                    <input type="text" placeholder="Username" name="username" class="form-control text-2xs md:text-xs h-8 md:w-72">
+                </div>
+                <label class="text-white mb-1 text-2xs md:text-xs">Email</label>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" name="email" class="form-control text-2xs md:text-xs h-8 md:w-72">
+                </div>
+                <label class="text-white mb-1 text-2xs md:text-xs">Password</label>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" name="password1" class="form-control text-2xs md:text-xs h-8 md:w-72">
+                </div>
+                <label class="text-white mb-1 text-2xs md:text-xs">Repeat Password</label>
+                <div class="form-group">
+                    <input type="password" placeholder="Repeat password" name="password2" class="form-control text-2xs md:text-xs h-8 md:w-72">
+                </div>
+                <div class="flex mt-4">
+                <button type="submit" class="btn text-white border-sky-600 hover:bg-sky-600 me-4 w-[6rem] text-2xs md:text-xs">Sign Up</button>
+                <button class="btn text-white border-sky-600 hover:bg-sky-600 space-x-4 w-[6rem] text-2xs md:text-xs" type="button" onclick="location.href='/login';"> 
+                    <p>Sign In</p>
+                </button>
+                </div>
+                <div class="text-white mt-2 text-2xs md:text-xs mb-2 w">
+                    {% if form.errors %}
+                        {% for field in form %}
+                            {% for error in field.errors %}
+                                {% if error == 'This password is too short. It must contain at least 8 characters.'%}
+                                <span>Password must contain at least 8 characters</span>
+                                {% else %}
+                                    {% if error == 'This field is required.'%}
+                                    <span>{{field.label}} field is required.<br></span>
+                                    {% endif %}
+                                {% endif %}
+                                
+                            {% endfor %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

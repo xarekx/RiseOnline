@@ -1,0 +1,50 @@
+[
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 1,
+        "fields": {
+            "name": "News",
+            "priority": 1
+        }
+    },
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 2,
+        "fields": {
+            "name": "Skills",
+            "priority": 2
+        }
+    },
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 3,
+        "fields": {
+            "name": "Quests",
+            "priority": 3
+        }
+    },
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 4,
+        "fields": {
+            "name": "Items",
+            "priority": 4
+        }
+    },
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 5,
+        "fields": {
+            "name": "Zones",
+            "priority": 5
+        }
+    },
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 6,
+        "fields": {
+            "name": "Monsters",
+            "priority": 6
+        }
+    }
+]

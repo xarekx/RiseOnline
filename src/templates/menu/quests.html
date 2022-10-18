@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% block title %} Rise Online World Login {% endblock %}
+{% comment %} 360x800 mobile {% endcomment %}
+{% comment %} 768x1024 tablet {% endcomment %}
+{% block body %}
+<script src="../static/scripts.js"></script>
+<div class="flex flex-col min-h-screen 
+            sm:min-h-screen 
+            md:min-h-screen 
+            lg:min-h-screen 
+            xl:min-h-screen 
+            2xl:min-h-screen ">
+
+<!--    main content div -->
+    <main class ="flex space-x-2 text-2xs
+                    sm:text-xs sm:space-x-8 sm:mx-8 sm:mb-auto
+                    md:text-xs md:space-x-12 md:mx-8 md:mb-auto
+                    lg:text-sm lg:space-x-16 lg:mx-12 lg:mb-auto 
+                    xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto 
+                    2xl:text-base">
+
+<!--        left menu -->
+        <div class="flex h-fit bg-zinc-800  ml-2 2xl:ml-10 text-justify">
+            <div class="flex-col text-white sm:w-20 md:w-20 lg:w-24 2xl:w-24 m-0 text-center">
+                {% for item in left_side_item %}
+                    <div id ="{{item.name}}" class="nav_item" >
+                            {% if item.name == 'News' %}
+                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/';">{{item.name}}</div>
+                            {% elif item.name == 'Skills' %} 
+                            <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" >{{item.name}}</div>
+                                <div class="pt-0 hidden bg-neutral-800 w-full">
+                                    <ul class="">
+                                        <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/warrior';">Warrior</li>
+                                        <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/mage';">Mage</li>
+                                        <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/priest';">Priest</li>
+                                        <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/rogue';">Rogue</li>
+                                    </ul>
+                                </div>    
+                            {% else %}
+                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/{{item.name | lower}}';">{{item.name}}</div>
+                            {% endif %}
+                    </div>
+                {% endfor %}
+                {% if user.is_authenticated %}
+                <div>
+                    <div class="block p-2 hover:text-sky-600 text-center cursor-pointer leftNavItem" onclick="location.href='/admin';">Admin</div> 
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+
+<!--    content div -->
+    <div class="flex flex-col h-fit bg-[#191D21] w-screen">
+
+            <span class="text-white text-center mt-2 "><strong>Quest Table</strong></span>
+
+            <table id="questTable" class="table-auto text-white m-3">
+                <thead>
+                    <tr>
+                        <th class="border text-center w-max xl:w-48 hover:cursor-pointer hover:text-sky-700">Title</th>
+                        <th class="border text-center w-16 ps-2 pe-2 hover:cursor-pointer hover:text-sky-700" data-type="number">Lvl</th>
+                        <th class="border text-center w-16 hover:cursor-pointer hover:text-sky-700">Experience</th>
+                        <th class="border text-center w-16 xl:w-36 hover:cursor-pointer hover:text-sky-700">Start Zone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for quest in quests %}
+                    <tr>
+                        <td class="border text-center">{{quest.title}}</td>
+                        <td class="border text-center">{{quest.required_level}}</td>
+                        <td class="border text-center">{{quest.exp}}</td>
+                        <td class="border text-center">{{quest.start_zone}}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+
+        </div>
+
+<!--    right adds  -->
+
+        <div class="flex-col me-2 
+                   ">
+<!--            first add-->
+            <div class="flex w-16 h-24 bg-zinc-800 text-white 
+                        sm:w-20 sm:h-28 
+                        md:w-24 md:h-36
+                        lg:h-48 lg:w-28
+                        xl:h-48 xl:w-32
+                        2xl:h-48 2xl:w-36">
+                First add
+            </div>
+<!-- second add -->
+            <div class="flex w-16 bg-zinc-800  my-2 h-24  text-white 
+                        sm:w-20 sm:h-28
+                        md:w-24 md:h-36
+                        lg:h-48 lg:w-28
+                        xl:h-48 xl:w-32
+                        2xl:h-48 2xl:w-36">
+                Second add
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+
+
+<script type="text/javascript">
+    const table = document.getElementById('questTable');
+
+    // Query the headers
+
+    const headers = table.querySelectorAll('th');
+
+    // Loop over the headers
+
+    [].forEach.call(headers, function (header, index) {
+        header.addEventListener('click', function () {
+        // This function will sort the column
+
+        sortColumn(index);
+        });
+    });
+
+    const tableBody = table.querySelector('tbody');
+    const rows = tableBody.querySelectorAll('tr');
+
+   const sortColumn = function (index) {
+
+        // Get the current direction
+        const direction = directions[index] || 'asc';
+
+        // A factor based on the direction
+        const multiplier = (direction === 'asc') ? 1 : -1;
+
+        // Clone the rows
+        const newRows = Array.from(rows);
+
+        // Sort rows by the content of cells
+        newRows.sort(function (rowA, rowB) {
+
+        // Get the content of cells
+        const cellA = rowA.querySelectorAll('td')[index].innerHTML;
+        const cellB = rowB.querySelectorAll('td')[index].innerHTML;
+
+        // Transform the content of cells
+        const a = transform(index, cellA);
+        const b = transform(index, cellB);
+
+        // And compare them
+        switch (true) {
+            case a > b: return 1 * multiplier;
+            case a < b: return -1 * multiplier;
+            case a === b: return 0;
+        }
+   });
+
+    // Remove old rows
+    [].forEach.call(rows, function (row) {
+        tableBody.removeChild(row);
+    });
+
+    // Append new row
+    newRows.forEach(function (newRow) {
+        tableBody.appendChild(newRow);
+    });
+
+    directions[index] = direction === 'asc' ? 'desc' : 'asc';
+};
+    const directions = Array.from(headers).map(function (header) {
+        return '';
+    });
+
+    const transform = function (index, content) {
+        // Get the data type of column
+        const type = headers[index].getAttribute('data-type');
+        switch (type) {
+            case 'number':
+                return parseFloat(content);
+            case 'string':
+            default:
+                return content;
+        }
+};
+
+</script>
+{% endblock %}

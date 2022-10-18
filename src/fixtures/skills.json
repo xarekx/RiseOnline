@@ -1,0 +1,3872 @@
+[
+{
+    "model": "skills.skills",
+    "pk": 3,
+    "fields": {
+        "name": "Terror",
+        "skill_class": "Warrior",
+        "description": "Deals 300% damage, ignoring the opponent''s physical defense.",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/terror.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 4,
+    "fields": {
+        "name": "Skewer",
+        "skill_class": "Warrior",
+        "description": "With a chance to pin the opponent to the ground, he attacks an attack that deals 300% damage.",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/skewer.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 5,
+    "fields": {
+        "name": "Vengeance",
+        "skill_class": "Warrior",
+        "description": "Deals 200% damage to the opponent. Restores 20% of the damage dealt by HP.",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/vengeance.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 6,
+    "fields": {
+        "name": "Ultimate Defense",
+        "skill_class": "Warrior",
+        "description": "Deals 300% damage, ignoring the opponent''s physical defense.",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ultimate_defense.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 7,
+    "fields": {
+        "name": "Blood Bath",
+        "skill_class": "Warrior",
+        "description": "Regenerates 5000 health points within 10 seconds.",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/blood_bath.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 8,
+    "fields": {
+        "name": "Resilient",
+        "skill_class": "Warrior",
+        "description": "Damage taken is deducted from mana for 10 seconds. If there is no mana point, it will be deducted from health points.",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/resilient.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 9,
+    "fields": {
+        "name": "Blink",
+        "skill_class": "Warrior",
+        "description": "Jumps next to a party member nearby.",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/blink.jpg",
+        "skill_point": 48,
+        "skill_level": 48
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 10,
+    "fields": {
+        "name": "Warlord''s Istinct",
+        "skill_class": "Warrior",
+        "description": "(Passive) After killing the enemy, physical damage is increased by 10% for a short time",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/warlord_instinct.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 11,
+    "fields": {
+        "name": "Basic Strike",
+        "skill_class": "Priest",
+        "description": "Deal 75% damage to the enemy",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/basic_strike.jpg",
+        "skill_point": 1,
+        "skill_level": 1
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 12,
+    "fields": {
+        "name": "First Aid",
+        "skill_class": "Priest",
+        "description": "Heal 20 HP of a friendly target",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/first_aid.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 13,
+    "fields": {
+        "name": "Smash",
+        "skill_class": "Warrior",
+        "description": "Deal 80% of base attack damage to the enemy",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/smash.jpg",
+        "skill_point": 1,
+        "skill_level": 1
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 14,
+    "fields": {
+        "name": "Sprint",
+        "skill_class": "Warrior",
+        "description": "Increases self running speed by 50% for 10 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sprint.jpg",
+        "skill_point": 1,
+        "skill_level": 1
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 15,
+    "fields": {
+        "name": "Sword Strike",
+        "skill_class": "Warrior",
+        "description": "Deals 125% damage to the target",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sword_strike.jpg",
+        "skill_point": 3,
+        "skill_level": 3
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 16,
+    "fields": {
+        "name": "Sweep",
+        "skill_class": "Warrior",
+        "description": "Deals 125% damage to the target.",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sweep.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 17,
+    "fields": {
+        "name": "Defense Boost",
+        "skill_class": "Warrior",
+        "description": "Increases 100 physical defense for 20 seconds.",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/defense_boost.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 18,
+    "fields": {
+        "name": "Hurl",
+        "skill_class": "Warrior",
+        "description": "Deal 100% of base attack damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/hurl.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 19,
+    "fields": {
+        "name": "Crusher",
+        "skill_class": "Warrior",
+        "description": "Deal 150% base attack damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/crusher.jpg",
+        "skill_point": 12,
+        "skill_level": 12
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 20,
+    "fields": {
+        "name": "Maim",
+        "skill_class": "Warrior",
+        "description": "Inflict 150% damage and chance to slow down the enemy",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/maim.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 21,
+    "fields": {
+        "name": "Riposte",
+        "skill_class": "Warrior",
+        "description": "Deal 200% of base attack damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/riposte.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 22,
+    "fields": {
+        "name": "Slaughter",
+        "skill_class": "Warrior",
+        "description": "Deal 200% True Damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/slaughter.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 23,
+    "fields": {
+        "name": "Marauder",
+        "skill_class": "Warrior",
+        "description": "Deal %200 of basic damage. Gains HP as %5 of damage dealt.",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/marauder.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 24,
+    "fields": {
+        "name": "Execution",
+        "skill_class": "Warrior",
+        "description": "Deal 250% of base attack damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/execution.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 25,
+    "fields": {
+        "name": "Ripper",
+        "skill_class": "Warrior",
+        "description": "Deal %250 of basic damage. Gains HP as %5 of damage dealt.",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ripper.jpg",
+        "skill_point": 48,
+        "skill_level": 48
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 26,
+    "fields": {
+        "name": "Havoc",
+        "skill_class": "Warrior",
+        "description": "Deal 200% damage to the enemy. Bleeding effect: Damages 500 damages over 20 seconds",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/havoc.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 27,
+    "fields": {
+        "name": "Frenzy",
+        "skill_class": "Warrior",
+        "description": "Increases physical attack power by 25% but decreases physical defense by 400 for 20 sec.",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/frenzy.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 28,
+    "fields": {
+        "name": "Juggernaut",
+        "skill_class": "Warrior",
+        "description": "Deal 300% of base attack damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/juggernaut.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 29,
+    "fields": {
+        "name": "Avenger",
+        "skill_class": "Warrior",
+        "description": "Deal %300 of basic damage. Gains HP as %5 of damage dealt.",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/avenger.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 30,
+    "fields": {
+        "name": "Hellraiser",
+        "skill_class": "Warrior",
+        "description": "Deal 250% damage to the enemy. Bleeding effect: Damages 1000 damages over 10 seconds",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/hellraiser.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 31,
+    "fields": {
+        "name": "Guard",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases physical defense by 5%. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/guard.jpg",
+        "skill_point": 6,
+        "skill_level": 6
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 32,
+    "fields": {
+        "name": "Magic Protection",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases magical resistances by 10. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/magic_protection.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 33,
+    "fields": {
+        "name": "Magic Shield",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases magical resistances by 20. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/magic_shield.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 34,
+    "fields": {
+        "name": "Tickle",
+        "skill_class": "Warrior",
+        "description": "Throws a rock to the monster",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/tickle.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 35,
+    "fields": {
+        "name": "Magic Wall",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases magical resistances by 30. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/magic_wall.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 36,
+    "fields": {
+        "name": "Fortify",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases physical defense by 10%. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fortify.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 37,
+    "fields": {
+        "name": "Endurance",
+        "skill_class": "Warrior",
+        "description": "Restore 1000 HP in 10 sec",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/endurance.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 38,
+    "fields": {
+        "name": "Magic Dome",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases magical resistances by 50. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/magic_dome.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 39,
+    "fields": {
+        "name": "Attention",
+        "skill_class": "Warrior",
+        "description": "Get attention of monsters in selected area",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/attention.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 40,
+    "fields": {
+        "name": "Divine Shield",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases magical resistances by 50. If shield is squipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/divine_shield.jpg",
+        "skill_point": 50,
+        "skill_level": 50
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 41,
+    "fields": {
+        "name": "Vanguard",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increases physical defense by 15%. If shield is equipped buff doubles",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/vanguard.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 42,
+    "fields": {
+        "name": "Avoidance",
+        "skill_class": "Warrior",
+        "description": "(Passive) Increase your physical defense by 20% when your HP is 30% or lower",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/avoidance.jpg",
+        "skill_point": 0,
+        "skill_level": 0
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 43,
+    "fields": {
+        "name": "Sacred Armor",
+        "skill_class": "Warrior",
+        "description": "(Passive) Decreases the damage taken by 10%",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sacred_armor.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 44,
+    "fields": {
+        "name": "Bash",
+        "skill_class": "Warrior",
+        "description": "Deal 120% True Damage",
+        "skill_tree": "Attk",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/bash.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 45,
+    "fields": {
+        "name": "Sprint",
+        "skill_class": "Priest",
+        "description": "Increases self running speed by 50% for 10 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sprint_MkUHtv8.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 46,
+    "fields": {
+        "name": "Holy Shock I",
+        "skill_class": "Priest",
+        "description": "Perform a magical attack",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/holy_shock_1.jpg",
+        "skill_point": 3,
+        "skill_level": 3
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 47,
+    "fields": {
+        "name": "Wound Healing",
+        "skill_class": "Priest",
+        "description": "Heal 30 HP of a friendly target",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/wound_healing.jpg",
+        "skill_point": 4,
+        "skill_level": 4
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 48,
+    "fields": {
+        "name": "Mace Strike",
+        "skill_class": "Priest",
+        "description": "Perform a physical attack that deals 100% damage",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/mace_strike.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 49,
+    "fields": {
+        "name": "Light Recovery",
+        "skill_class": "Priest",
+        "description": "Restore 60 HP per second for 15 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/light_recovery.jpg",
+        "skill_point": 6,
+        "skill_level": 6
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 50,
+    "fields": {
+        "name": "Holy Shock II",
+        "skill_class": "Priest",
+        "description": "Perform a great magical attack",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/holy_shock_2.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 51,
+    "fields": {
+        "name": "Strengthen",
+        "skill_class": "Priest",
+        "description": "Increases strength stat points by 20",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/strengthen.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 52,
+    "fields": {
+        "name": "Holy Shock III",
+        "skill_class": "Priest",
+        "description": "Perform a greater magical attack",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/holy_shock_3.jpg",
+        "skill_point": 15,
+        "skill_level": 15
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 53,
+    "fields": {
+        "name": "Aarvad''s Myth",
+        "skill_class": "Priest",
+        "description": "Increases your attack with the power by 20%",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/aarvads_myth.jpg",
+        "skill_point": 25,
+        "skill_level": 25
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 54,
+    "fields": {
+        "name": "Light Bandage",
+        "skill_class": "Priest",
+        "description": "Heal 100 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/light_bandage_5uJ4oD0.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 55,
+    "fields": {
+        "name": "Vigor",
+        "skill_class": "Priest",
+        "description": "Restore 100 HP in total for 30 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/vigor.jpg",
+        "skill_point": 6,
+        "skill_level": 6
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 56,
+    "fields": {
+        "name": "Club Strike I",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals 100% damage",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/club_strike_1.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 57,
+    "fields": {
+        "name": "Light Healing",
+        "skill_class": "Priest",
+        "description": "Heal 250 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/light_bandage.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 58,
+    "fields": {
+        "name": "Rescue",
+        "skill_class": "Priest",
+        "description": "Heal 250 HP of nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/rescue.jpg",
+        "skill_point": 12,
+        "skill_level": 12
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 59,
+    "fields": {
+        "name": "Club Strike II",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals 125% damage",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/club_strike_2.jpg",
+        "skill_point": 14,
+        "skill_level": 14
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 60,
+    "fields": {
+        "name": "Energy Regeneration",
+        "skill_class": "Priest",
+        "description": "Increases 50% mana regeneration of nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/energy_regeneration.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 61,
+    "fields": {
+        "name": "Healing Flow",
+        "skill_class": "Priest",
+        "description": "Heal 500 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/healing_flow.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 62,
+    "fields": {
+        "name": "Club Strike III",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals 150% damage",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/club_strike_3.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 63,
+    "fields": {
+        "name": "Enlightenment",
+        "skill_class": "Priest",
+        "description": "Restore 500 HP in total for 30 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/enlightenment.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 64,
+    "fields": {
+        "name": "Strength of the Beast",
+        "skill_class": "Priest",
+        "description": "Increases strength stat points by 30",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/strength_of_the_best.jpg",
+        "skill_point": 25,
+        "skill_level": 25
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 65,
+    "fields": {
+        "name": "Restoration",
+        "skill_class": "Priest",
+        "description": "Heal 500 HP of a friendly target and restores 500 HP for 15 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/restoration.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 66,
+    "fields": {
+        "name": "Dispel",
+        "skill_class": "Priest",
+        "description": "Removes all the negative effects from a party member",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/dispel_UWvyAYp.jpg",
+        "skill_point": 30,
+        "skill_level": 30
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 67,
+    "fields": {
+        "name": "Restoring",
+        "skill_class": "Priest",
+        "description": "Restore 1000 HP in total for 30 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/restoring.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 68,
+    "fields": {
+        "name": "Healing Spring",
+        "skill_class": "Priest",
+        "description": "Heal 1000 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/healing_spring.jpg",
+        "skill_point": 35,
+        "skill_level": 35
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 69,
+    "fields": {
+        "name": "Awe",
+        "skill_class": "Priest",
+        "description": "Increases 100% mana regeneration of nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/awe.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 70,
+    "fields": {
+        "name": "Healing Essence",
+        "skill_class": "Priest",
+        "description": "Heal 1500 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/healing_essence.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 71,
+    "fields": {
+        "name": "Impact",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals 200% damage",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/impact.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 72,
+    "fields": {
+        "name": "Remedy",
+        "skill_class": "Priest",
+        "description": "Restore 1500 HP in total for 30 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/remedy.jpg",
+        "skill_point": 42,
+        "skill_level": 42
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 73,
+    "fields": {
+        "name": "Uplift",
+        "skill_class": "Priest",
+        "description": "Heal 2000 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/uplift.jpg",
+        "skill_point": 45,
+        "skill_level": 45
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 74,
+    "fields": {
+        "name": "Superior Healing",
+        "skill_class": "Priest",
+        "description": "Restore 2000 HP in total for 30 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/superior_healing.jpg",
+        "skill_point": 46,
+        "skill_level": 46
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 75,
+    "fields": {
+        "name": "Therapy",
+        "skill_class": "Priest",
+        "description": "Heal 4000 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/therapy.jpg",
+        "skill_point": 50,
+        "skill_level": 50
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 76,
+    "fields": {
+        "name": "Greater Impact",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals 250% damage",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/greater_impact.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 77,
+    "fields": {
+        "name": "Exclusive Healing",
+        "skill_class": "Priest",
+        "description": "Restore 2500 HP in total for 30 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/exclusive_healing.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 78,
+    "fields": {
+        "name": "Prayer",
+        "skill_class": "Priest",
+        "description": "Heal 8000 HP of a friendly target",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/prayer.jpg",
+        "skill_point": 55,
+        "skill_level": 55
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 79,
+    "fields": {
+        "name": "Greater Heal",
+        "skill_class": "Priest",
+        "description": "Heal 1000 HP of nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/greater_heal.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 80,
+    "fields": {
+        "name": "Prey",
+        "skill_class": "Priest",
+        "description": "Increases 200% mana regeneration of nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/prey.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 81,
+    "fields": {
+        "name": "Mass Heal",
+        "skill_class": "Priest",
+        "description": "Recovers 7500 HP of the nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/mass_heal.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 82,
+    "fields": {
+        "name": "Purifier",
+        "skill_class": "Priest",
+        "description": "Restore 2500 HP of nearby party members for 15 seconds",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/purifier.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 83,
+    "fields": {
+        "name": "Miracle",
+        "skill_class": "Priest",
+        "description": "Removes all the curses from nearby party members",
+        "skill_tree": "Heal",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/miracle.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 84,
+    "fields": {
+        "name": "Protection",
+        "skill_class": "Priest",
+        "description": "Increases a nearby friendly target''s physical defense by 25 for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/protection.jpg",
+        "skill_point": 0,
+        "skill_level": 0
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 85,
+    "fields": {
+        "name": "Life Breath",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 100 for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/life_breath.jpg",
+        "skill_point": 0,
+        "skill_level": 0
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 86,
+    "fields": {
+        "name": "Absorb Magic I",
+        "skill_class": "Priest",
+        "description": "Increases magical resistance by 25",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/absorb_magic_1.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 87,
+    "fields": {
+        "name": "Plea",
+        "skill_class": "Priest",
+        "description": "Increases a nearby friendly target''s physical defense by 50 for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/plea.jpg",
+        "skill_point": 12,
+        "skill_level": 12
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 88,
+    "fields": {
+        "name": "Blessing",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 250 for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/blessing.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 89,
+    "fields": {
+        "name": "Stone Skin",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s defenses by 100 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/stone_skin.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 90,
+    "fields": {
+        "name": "Light Barrage",
+        "skill_class": "Priest",
+        "description": "Increases a nearby friendly target''s physical defense by 120 for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/light_barrage.jpg",
+        "skill_point": 22,
+        "skill_level": 22
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 91,
+    "fields": {
+        "name": "Vitality",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s HP by 250 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/vitality.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 92,
+    "fields": {
+        "name": "Fateful",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 25% for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fateful.jpg",
+        "skill_point": 25,
+        "skill_level": 25
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 93,
+    "fields": {
+        "name": "Inspire",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 500 for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/inspire.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 94,
+    "fields": {
+        "name": "Ancient Blood",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s HP by 500 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ancient_blood.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 95,
+    "fields": {
+        "name": "Absorb Magic II",
+        "skill_class": "Priest",
+        "description": "Increases magical resistance by 50",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/absorb_magic_2.jpg",
+        "skill_point": 34,
+        "skill_level": 34
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 96,
+    "fields": {
+        "name": "Rock Skin",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s defenses by 150 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/rock_skin.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 97,
+    "fields": {
+        "name": "Absorb Magic III",
+        "skill_class": "Priest",
+        "description": "Increases magical resistance by 75",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/absorb_magic_3.jpg",
+        "skill_point": 42,
+        "skill_level": 42
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 98,
+    "fields": {
+        "name": "Faith",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 1000 for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/faith.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 99,
+    "fields": {
+        "name": "Immortality",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 50% for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/immortality.jpg",
+        "skill_point": 45,
+        "skill_level": 45
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 100,
+    "fields": {
+        "name": "Bolster",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s HP by 1000 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/bolster.jpg",
+        "skill_point": 46,
+        "skill_level": 46
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 101,
+    "fields": {
+        "name": "Barrage",
+        "skill_class": "Priest",
+        "description": "Increases a nearby friendly target''s physical defense by 200 for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/barrage.jpg",
+        "skill_point": 48,
+        "skill_level": 48
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 102,
+    "fields": {
+        "name": "Iron Skin",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s defenses by 225 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/iron_skin.jpg",
+        "skill_point": 50,
+        "skill_level": 50
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 103,
+    "fields": {
+        "name": "Spell Wall I",
+        "skill_class": "Priest",
+        "description": "Increases magical resistance by 100",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/spell_wall_1.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 104,
+    "fields": {
+        "name": "Determined",
+        "skill_class": "Priest",
+        "description": "Increases a nearby friendly target''s physical defense by 275 for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/determined.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 105,
+    "fields": {
+        "name": "Aegis",
+        "skill_class": "Priest",
+        "description": "Increases nearby party member''s defenses by 275 at once for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/aegis.jpg",
+        "skill_point": 55,
+        "skill_level": 55
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 106,
+    "fields": {
+        "name": "Ultimate Endurance",
+        "skill_class": "Priest",
+        "description": "Increases a party member''s HP by 1750 for 15 minutes from any distance",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ultimate__endurance.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 107,
+    "fields": {
+        "name": "Spell Wall II",
+        "skill_class": "Priest",
+        "description": "Increases magical resistance by 125",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/spell_wall_2.jpg",
+        "skill_point": 58,
+        "skill_level": 58
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 108,
+    "fields": {
+        "name": "Shelter",
+        "skill_class": "Priest",
+        "description": "Increases a nearby friendly target''s physical defense by 330 for 15 minutes",
+        "skill_tree": "Buff",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/shelter.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 109,
+    "fields": {
+        "name": "Escape",
+        "skill_class": "Priest",
+        "description": "Teleport to the gate you''ve chosen as resurrection point",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/escape.jpg",
+        "skill_point": 4,
+        "skill_level": 4
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 110,
+    "fields": {
+        "name": "Torture",
+        "skill_class": "Priest",
+        "description": "Decreases Physical Defense of the enemy by 30%",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/torture.jpg",
+        "skill_point": 6,
+        "skill_level": 6
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 111,
+    "fields": {
+        "name": "Low Energy",
+        "skill_class": "Priest",
+        "description": "Decreases Mana Point of the enemy by 500",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/low_energy.jpg",
+        "skill_point": 12,
+        "skill_level": 12
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 112,
+    "fields": {
+        "name": "Conjure",
+        "skill_class": "Priest",
+        "description": "Decreases Magic Attack of the enemy by 20%",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/conjure.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 113,
+    "fields": {
+        "name": "Weak Spot",
+        "skill_class": "Priest",
+        "description": "Decreases Magic Attack of the enemy by -70",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/weak_spot.jpg",
+        "skill_point": 18,
+        "skill_level": 18
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 114,
+    "fields": {
+        "name": "Energy Drain",
+        "skill_class": "Priest",
+        "description": "Decreases Mana Point of the enemy by 1000",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/energy_drain.jpg",
+        "skill_point": 26,
+        "skill_level": 26
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 115,
+    "fields": {
+        "name": "Empathy",
+        "skill_class": "Priest",
+        "description": "Removes HP buffs from an enemy",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/empathy.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 116,
+    "fields": {
+        "name": "Revive",
+        "skill_class": "Priest",
+        "description": "Revive a friendly target that has been defeated in combat with 50% experience loss",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/revive.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 117,
+    "fields": {
+        "name": "Sleep",
+        "skill_class": "Priest",
+        "description": "Puts a monster to sleep for a short period of time",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sleep.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 118,
+    "fields": {
+        "name": "Curse",
+        "skill_class": "Priest",
+        "description": "Decreases Max HP of the enemy by 25%. Doesn''t work on monsters",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/curse.jpg",
+        "skill_point": 48,
+        "skill_level": 48
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 119,
+    "fields": {
+        "name": "Resurrect",
+        "skill_class": "Priest",
+        "description": "Revive a friendly target that has been defeated in combat with 25% experience loss",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/resurrect.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 120,
+    "fields": {
+        "name": "Lullaby",
+        "skill_class": "Priest",
+        "description": "Puts all the monsters to sleep in selected area for a short period of time",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/lullaby.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 121,
+    "fields": {
+        "name": "Weaken",
+        "skill_class": "Priest",
+        "description": "Decreases Physical Defense of all enemies by 25% in a selected area",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/weaken.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 122,
+    "fields": {
+        "name": "Prophecy",
+        "skill_class": "Priest",
+        "description": "Decreases Magic Attack of all enemies by 15% in a selected area",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/prophecy.jpg",
+        "skill_point": 58,
+        "skill_level": 58
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 123,
+    "fields": {
+        "name": "Energy Burn",
+        "skill_class": "Priest",
+        "description": "Decreases Mana Point of the enemy by 4000",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/energy_burn.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 124,
+    "fields": {
+        "name": "Misfortune",
+        "skill_class": "Priest",
+        "description": "Decreases Magic Attack of all enemies by -50 in a selected area",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/misfortune.jpg",
+        "skill_point": 62,
+        "skill_level": 62
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 125,
+    "fields": {
+        "name": "Sabotage",
+        "skill_class": "Priest",
+        "description": "Decreases the Physical Attack of the enemy by 30%",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sabotage.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 126,
+    "fields": {
+        "name": "Retribution",
+        "skill_class": "Priest",
+        "description": "Decreases Physical Attack of all enemies by 25% in a selected area",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/retribution.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 127,
+    "fields": {
+        "name": "Mana Infusion",
+        "skill_class": "Priest",
+        "description": "Decreases Mana Point of all enemies by 3000 in a selected area",
+        "skill_tree": "Dbf",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/mana_infusion.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 128,
+    "fields": {
+        "name": "Undying",
+        "skill_class": "Priest",
+        "description": "(Passive) Increases your Physical Defense by 20% when your HP is 30% or below",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/undying.jpg",
+        "skill_point": 0,
+        "skill_level": 0
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 129,
+    "fields": {
+        "name": "Massive Impact",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals %300 damage.",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/massive_impact.jpg",
+        "skill_point": 1,
+        "skill_level": 1
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 130,
+    "fields": {
+        "name": "Sacred Armor",
+        "skill_class": "Priest",
+        "description": "(Passive) Decreases the damage taken by 10%",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sacred_armor_b1YOSmW.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 131,
+    "fields": {
+        "name": "Superior Impact",
+        "skill_class": "Priest",
+        "description": "Perform an attack that deals %350 damage.",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/superior_impact.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 132,
+    "fields": {
+        "name": "Invicible",
+        "skill_class": "Priest",
+        "description": "(Passive) After a kill, you''re immortal for 5 seconds (immune to all damage). Doesn''t work on monsters",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/invincible.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 133,
+    "fields": {
+        "name": "Staff Strike",
+        "skill_class": "Mage",
+        "description": "Deal 60% damage with the staff",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/staff_strike.jpg",
+        "skill_point": 1,
+        "skill_level": 1
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 134,
+    "fields": {
+        "name": "Sprint",
+        "skill_class": "Mage",
+        "description": "Increases self running speed by 50% for 10 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sprint_3DMuduO.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 135,
+    "fields": {
+        "name": "Fire Shock",
+        "skill_class": "Mage",
+        "description": "Perform a fire attack to the enemy",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_shock.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 136,
+    "fields": {
+        "name": "Freezing Shock",
+        "skill_class": "Mage",
+        "description": "Perform a glacial attack that slows down the enemy for a short",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/freezing_shock.jpg",
+        "skill_point": 3,
+        "skill_level": 3
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 137,
+    "fields": {
+        "name": "Lighting Shock",
+        "skill_class": "Mage",
+        "description": "Perform a lightning attack to the enemy",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/lighting_shock.jpg",
+        "skill_point": 4,
+        "skill_level": 4
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 138,
+    "fields": {
+        "name": "Teleport",
+        "skill_class": "Mage",
+        "description": "Summon a friendly player from any distance to your location",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/teleport.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 139,
+    "fields": {
+        "name": "Venom",
+        "skill_class": "Mage",
+        "description": "Venom the enemies in selected area.DoT every sec for 10 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/venom.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 140,
+    "fields": {
+        "name": "Escape",
+        "skill_class": "Mage",
+        "description": "Teleport to the gate you''ve chosen as Rebirth/Resurrection point",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/escape_ZGLCPc0.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 141,
+    "fields": {
+        "name": "Recall",
+        "skill_class": "Mage",
+        "description": "Summon all party members from any distance to the gate you''ve chosen as Rebirth/Resurrection point",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/recall.jpg",
+        "skill_point": 30,
+        "skill_level": 30
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 142,
+    "fields": {
+        "name": "Burn Away",
+        "skill_class": "Mage",
+        "description": "Perform a quick fire spell to burn the enemy",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/burn_away.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 143,
+    "fields": {
+        "name": "Burnout",
+        "skill_class": "Mage",
+        "description": "Burn the target. DoT every 2 sec for 20 seconds",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/burnout.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 144,
+    "fields": {
+        "name": "Fire Ball",
+        "skill_class": "Mage",
+        "description": "Cast a fire ball spell at enemy from a long distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_ball.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 145,
+    "fields": {
+        "name": "Flameburst",
+        "skill_class": "Mage",
+        "description": "Ignite enemy for a period of time.DoT every 2 sec for 20 seconds",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/flameburst.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 146,
+    "fields": {
+        "name": "Fire Endurance",
+        "skill_class": "Mage",
+        "description": "Increase fire resistance by 45",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_endurance.jpg",
+        "skill_point": 22,
+        "skill_level": 22
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 147,
+    "fields": {
+        "name": "Fire Bolt",
+        "skill_class": "Mage",
+        "description": "Cast a fire bolt to the enemy from a long distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_bolt.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 148,
+    "fields": {
+        "name": "Fire Blow",
+        "skill_class": "Mage",
+        "description": "Cast a fire spell to burn the enemies on selected area",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_blow.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 149,
+    "fields": {
+        "name": "Fire Wave",
+        "skill_class": "Mage",
+        "description": "Launch a fire wave at your enemy from a long distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_wave.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 150,
+    "fields": {
+        "name": "Burn Down",
+        "skill_class": "Mage",
+        "description": "Burn down your enemy with the flames.DoT every 2 sec for 20 seconds",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/burn_down.jpg",
+        "skill_point": 38,
+        "skill_level": 38
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 151,
+    "fields": {
+        "name": "Fire Breath",
+        "skill_class": "Mage",
+        "description": "Hit with the staff to burn the enemy from a short distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_breath.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 152,
+    "fields": {
+        "name": "Pyromancer",
+        "skill_class": "Mage",
+        "description": "Cast a quick fire spell at enemy from a short distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/pyromancer.jpg",
+        "skill_point": 42,
+        "skill_level": 42
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 153,
+    "fields": {
+        "name": "Hellfire",
+        "skill_class": "Mage",
+        "description": "Launches hell fires on selected area to burn all enemies",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/hellfire.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 154,
+    "fields": {
+        "name": "Fire Immunity",
+        "skill_class": "Mage",
+        "description": "Increase fire resistance by 75",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_immunity.jpg",
+        "skill_point": 46,
+        "skill_level": 46
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 155,
+    "fields": {
+        "name": "Fire Storm",
+        "skill_class": "Mage",
+        "description": "Burn your enemy with a great fire storm",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_storm.jpg",
+        "skill_point": 50,
+        "skill_level": 50
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 156,
+    "fields": {
+        "name": "Fire Release",
+        "skill_class": "Mage",
+        "description": "Releases a fire spell at enemy from a long distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_release.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 157,
+    "fields": {
+        "name": "Hatred",
+        "skill_class": "Mage",
+        "description": "Cast a quick fire spell at enemy with all the hate from a short distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/hatred.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 158,
+    "fields": {
+        "name": "Fire Surge",
+        "skill_class": "Mage",
+        "description": "Ignite enemy for a short period of time.DoT every 2 sec for 10 seconds",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_surge.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 159,
+    "fields": {
+        "name": "Sun Blast",
+        "skill_class": "Mage",
+        "description": "Summon a sun blast from the sky to the enemies on selected area.DoT every 2 sec for 20 seconds",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sun_blast.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 160,
+    "fields": {
+        "name": "Soulburn",
+        "skill_class": "Mage",
+        "description": "Cast a great fire spell at enemy to burn its soul from a long distance",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/soulburn.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 161,
+    "fields": {
+        "name": "Flame Meteor",
+        "skill_class": "Mage",
+        "description": "Summons flaming meteors to attack enemies within selected area",
+        "skill_tree": "Fire",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/flame_meteor.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 162,
+    "fields": {
+        "name": "Ice Shock",
+        "skill_class": "Mage",
+        "description": "Basic Glacial attack",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_shock.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 163,
+    "fields": {
+        "name": "Chill Out",
+        "skill_class": "Mage",
+        "description": "Chill the enemy''s heart.It has a chance to slow down the enemy",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/chill_out.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 164,
+    "fields": {
+        "name": "Ice Ball",
+        "skill_class": "Mage",
+        "description": "Cast an ice ball at enemy from a long distance",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_ball.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 165,
+    "fields": {
+        "name": "Glacial Shock",
+        "skill_class": "Mage",
+        "description": "Cast a glacial shock at enemy.DoT every 2 sec for 20 seconds",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/glacial_shock.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 166,
+    "fields": {
+        "name": "Ice Endurance",
+        "skill_class": "Mage",
+        "description": "Increase Glacial Resistance by 45",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_endurance.jpg",
+        "skill_point": 22,
+        "skill_level": 22
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 167,
+    "fields": {
+        "name": "Ice Skin",
+        "skill_class": "Mage",
+        "description": "Cast a spell that creates a glacial skin on your body and increases physical defense by 100 for 5 minutes",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_skin.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 168,
+    "fields": {
+        "name": "Ice Bolt",
+        "skill_class": "Mage",
+        "description": "Cast an ice bolt at enemy from a long distance",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_bolt.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 169,
+    "fields": {
+        "name": "Glacial Blow",
+        "skill_class": "Mage",
+        "description": "Cast a glacial spell to inflict ice damage on selected area",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/glacial_blow.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 170,
+    "fields": {
+        "name": "Glacial Wave",
+        "skill_class": "Mage",
+        "description": "Launch a glacial wave at your enemy from a long distance",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/glacial_wave.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 171,
+    "fields": {
+        "name": "Ice Spike",
+        "skill_class": "Mage",
+        "description": "Cast an ice spike that freezes and slows down the enemy",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_spike.jpg",
+        "skill_point": 38,
+        "skill_level": 38
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 172,
+    "fields": {
+        "name": "Freezing Breath",
+        "skill_class": "Mage",
+        "description": "Hit with the staff to deal ice damage to the enemy from a short distance",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/freezing_breath.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 173,
+    "fields": {
+        "name": "Frozen Kiss",
+        "skill_class": "Mage",
+        "description": "Cast a quick glacial spell at enemy from a short distance",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/frozen_kiss.jpg",
+        "skill_point": 42,
+        "skill_level": 42
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 174,
+    "fields": {
+        "name": "Frozen",
+        "skill_class": "Mage",
+        "description": "Cast a greater glacial spell to attack all of your enemies around you.It slows down the enemies",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/frozen.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 175,
+    "fields": {
+        "name": "Ice Immunity",
+        "skill_class": "Mage",
+        "description": "Increase Glacial Resistance by 75",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_immunity.jpg",
+        "skill_point": 46,
+        "skill_level": 46
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 176,
+    "fields": {
+        "name": "Ice Crush",
+        "skill_class": "Mage",
+        "description": "Crush enemy with glacial spell",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_crush.jpg",
+        "skill_point": 50,
+        "skill_level": 50
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 177,
+    "fields": {
+        "name": "Frost Wave",
+        "skill_class": "Mage",
+        "description": "Cast a frost wave at enemy from a long distance",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/frost_wave.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 178,
+    "fields": {
+        "name": "Ice Surge",
+        "skill_class": "Mage",
+        "description": "Cast a Glacial Spell at enemy.DoT every 2 sec for 20 seconds",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_surge.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 179,
+    "fields": {
+        "name": "Ice Wall",
+        "skill_class": "Mage",
+        "description": "Cast a spell that creates a glacial skin on your body and increases physical defense by 200 for 5 minutes",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_wall.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 180,
+    "fields": {
+        "name": "Ice Blast",
+        "skill_class": "Mage",
+        "description": "Cast an Ice Blast to attack enemies in selected area and slows them down",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_blast.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 181,
+    "fields": {
+        "name": "Freezing Meteor",
+        "skill_class": "Mage",
+        "description": "Summon freezing meteor to strike enemy",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/freezing_meteor.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 182,
+    "fields": {
+        "name": "Ice Meteors",
+        "skill_class": "Mage",
+        "description": "Summon ice meteors to strike enemies in selected area",
+        "skill_tree": "Ice",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/ice_meteors.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 183,
+    "fields": {
+        "name": "Thunder Shock",
+        "skill_class": "Mage",
+        "description": "Perform a quick lightning spell to shock the enemy",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunder_shock.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 184,
+    "fields": {
+        "name": "Seal of Magic",
+        "skill_class": "Mage",
+        "description": "Seal the target to neutralize the magic power of your apponent",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/seal_of_magic.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 185,
+    "fields": {
+        "name": "Static Spear",
+        "skill_class": "Mage",
+        "description": "Launch a lightning spell to attack enemy from long distance.It has a chance to neutralize the magic power of your opponent",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/static_spear.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 186,
+    "fields": {
+        "name": "Thunder Cage",
+        "skill_class": "Mage",
+        "description": "Creates a static cage around the target to decrease its lightning resisance by 10%",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunder_cage.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 187,
+    "fields": {
+        "name": "Lighting Endurance",
+        "skill_class": "Mage",
+        "description": "Increase lightning resistance by 45",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/lighting_endurance.jpg",
+        "skill_point": 22,
+        "skill_level": 22
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 188,
+    "fields": {
+        "name": "Thunder Blow",
+        "skill_class": "Mage",
+        "description": "Launch a thunder blow to attack your opponent from long distance",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunder_blow.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 189,
+    "fields": {
+        "name": "Exploding Bolt",
+        "skill_class": "Mage",
+        "description": "Launch an exploding bolt to inflict damage to the enemy from long distance",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/exploding_bolt.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 190,
+    "fields": {
+        "name": "Thunder Wave",
+        "skill_class": "Mage",
+        "description": "Launch a thunder wave to attack your enemy from long distance",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunder_wave.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 191,
+    "fields": {
+        "name": "Seal of Lighting",
+        "skill_class": "Mage",
+        "description": "Seal the target with an electrical shock for a period of time .It has a chance to neutralize the magic power of your opponent",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/seal_of_lighting.jpg",
+        "skill_point": 38,
+        "skill_level": 38
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 192,
+    "fields": {
+        "name": "Shocking Breath",
+        "skill_class": "Mage",
+        "description": "Hit with the staff to deal lightning damage to the enemy from a short distance.Damages over time",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/shocking_breath.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 193,
+    "fields": {
+        "name": "Thunder Strike",
+        "skill_class": "Mage",
+        "description": "Cast a quick lightning spell at enemy from a short distance",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunder_strike.jpg",
+        "skill_point": 42,
+        "skill_level": 42
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 194,
+    "fields": {
+        "name": "Static Cloud",
+        "skill_class": "Mage",
+        "description": "Cast a static cloud in selected area to strike several lightning",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/static_cloud.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 195,
+    "fields": {
+        "name": "Lighting Immunity",
+        "skill_class": "Mage",
+        "description": "Increase lightning resistance by 75",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/lighing_immunity.jpg",
+        "skill_point": 46,
+        "skill_level": 46
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 196,
+    "fields": {
+        "name": "Thunder Crush",
+        "skill_class": "Mage",
+        "description": "Launch a lightning spell to the enemy from long distance",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunder_crush.jpg",
+        "skill_point": 50,
+        "skill_level": 50
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 197,
+    "fields": {
+        "name": "Vampiric Shock",
+        "skill_class": "Mage",
+        "description": "Cast a vampiric lightning to the enemy and drain HP for your party members",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/vampiric_shock.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 198,
+    "fields": {
+        "name": "Static Blast",
+        "skill_class": "Mage",
+        "description": "Cast a greater lightning spell at enemy from a short distance",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/static_blast.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 199,
+    "fields": {
+        "name": "Lighting Surge",
+        "skill_class": "Mage",
+        "description": "Attack enemy with strong elecrtic shock.Damages over time",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/lighting_surge.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 200,
+    "fields": {
+        "name": "Stormbringer",
+        "skill_class": "Mage",
+        "description": "Use your magical powers to bring storm over enemies in selected area",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/stormbringer.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 201,
+    "fields": {
+        "name": "Blinding",
+        "skill_class": "Mage",
+        "description": "Inflict lightning damage to the enemies in a selected area.This spell makes the enemies blind for 2 sec and interrupt their skil",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/blinding.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 202,
+    "fields": {
+        "name": "Wand of Lighting",
+        "skill_class": "Mage",
+        "description": "Hit with the staff to deal lightning damage to the enemy from a short distance. Damages over time.",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/wand_of_lighting.jpg",
+        "skill_point": 65,
+        "skill_level": 65
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 203,
+    "fields": {
+        "name": "Thunderstruck",
+        "skill_class": "Mage",
+        "description": "Cast a lightning meteor to inflict damage to the enemy",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunderstruck.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 204,
+    "fields": {
+        "name": "Lighting Meteor",
+        "skill_class": "Mage",
+        "description": "Cast thunder from the sky to attack enemies in selected area",
+        "skill_tree": "Light",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/lighting_meteor.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 205,
+    "fields": {
+        "name": "Meditation",
+        "skill_class": "Mage",
+        "description": "(Passive) Increases your physical defense by 20% when your HP is 30% or below",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/meditation.jpg",
+        "skill_point": 0,
+        "skill_level": 0
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 206,
+    "fields": {
+        "name": "Magic Boost",
+        "skill_class": "Mage",
+        "description": "Increases magic attack power by 30% for a period of time",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/magic_boost.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 207,
+    "fields": {
+        "name": "Sacred Armor",
+        "skill_class": "Mage",
+        "description": "(Passive) Decreases the damage taken by 10%",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sacred_armor_kCvjJ0r.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 208,
+    "fields": {
+        "name": "Kaleb''s Silence",
+        "skill_class": "Mage",
+        "description": "Curse the enemy to not let him to use any skill for 5 seconds",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/kalebs_silence.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 209,
+    "fields": {
+        "name": "Fresh mind",
+        "skill_class": "Mage",
+        "description": "Enables to use a skill twice",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fresh_mind.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 210,
+    "fields": {
+        "name": "Smash",
+        "skill_class": "Rogue",
+        "description": "Deal 80% of base attack damage to the enemy",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/smash_JabWLZy.jpg",
+        "skill_point": 1,
+        "skill_level": 1
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 211,
+    "fields": {
+        "name": "Sprint",
+        "skill_class": "Rogue",
+        "description": "Increases self running speed by 50% for 10 seconds",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sprint_afSjMCr.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 212,
+    "fields": {
+        "name": "Quick Shot",
+        "skill_class": "Rogue",
+        "description": "An arrow shoot that every hunter learn it first. Causes 100% damage",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/quick_shot.jpg",
+        "skill_point": 3,
+        "skill_level": 3
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 213,
+    "fields": {
+        "name": "Scratch",
+        "skill_class": "Rogue",
+        "description": "Cause 100% damage + 20 additional damage",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/scratch.jpg",
+        "skill_point": 3,
+        "skill_level": 3
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 214,
+    "fields": {
+        "name": "Hunt",
+        "skill_class": "Rogue",
+        "description": "Stab the target and deal 160% damage",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/hunt.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 215,
+    "fields": {
+        "name": "Rapid Arrow",
+        "skill_class": "Rogue",
+        "description": "Fire a shot to the target and deal 125% of base attack damage",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/rapid_arrow.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 216,
+    "fields": {
+        "name": "Dash",
+        "skill_class": "Rogue",
+        "description": "ncreases the target''s running speed 50% for 10 minutes",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/dash.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 217,
+    "fields": {
+        "name": "Adrenaline",
+        "skill_class": "Rogue",
+        "description": "Increases the attack power of you and your party members by 20% for 5 min",
+        "skill_tree": "Train",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/adrenaline.jpg",
+        "skill_point": 25,
+        "skill_level": 25
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 218,
+    "fields": {
+        "name": "Slash",
+        "skill_class": "Rogue",
+        "description": "Deal 100% True Damage.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/slash.jpg",
+        "skill_point": 12,
+        "skill_level": 12
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 219,
+    "fields": {
+        "name": "Swift Blow",
+        "skill_class": "Rogue",
+        "description": "Stab the target and deal 150% damage",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/swift_blow.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 220,
+    "fields": {
+        "name": "Cut Off",
+        "skill_class": "Rogue",
+        "description": "Deal 150% True Damage.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/cut_off.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 221,
+    "fields": {
+        "name": "Toxic Dagger",
+        "skill_class": "Rogue",
+        "description": "Inflict %100 poison damage and decreases %10 anti dagger def for 10 sec",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/toxic_dagger.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 222,
+    "fields": {
+        "name": "Deep Cut",
+        "skill_class": "Rogue",
+        "description": "Deal 200% True Damage.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/deep_cut.jpg",
+        "skill_point": 40,
+        "skill_level": 40
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 223,
+    "fields": {
+        "name": "Fatal Blow",
+        "skill_class": "Rogue",
+        "description": "Stab the target and deal 250% damage",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fatal_blow.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 224,
+    "fields": {
+        "name": "Savage",
+        "skill_class": "Rogue",
+        "description": "Stab the target and deal 500% damage. If the target has 20% Hp or lower, deals critical damage.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/savage.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 225,
+    "fields": {
+        "name": "Camouflage",
+        "skill_class": "Rogue",
+        "description": "Steps into the shadow and becomes invisible for 50 seconds.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/camouflage.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 226,
+    "fields": {
+        "name": "Bloodlust",
+        "skill_class": "Rogue",
+        "description": "Drain 10% HP from an enemy. Doesn''t work on monsters.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/bloodlust.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 227,
+    "fields": {
+        "name": "Shuriken",
+        "skill_class": "Rogue",
+        "description": "Throws a shuriken at enemy",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/shuriken.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 228,
+    "fields": {
+        "name": "Carnage",
+        "skill_class": "Rogue",
+        "description": "Deal 400% True Damage.",
+        "skill_tree": "Asass",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/carnage.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 229,
+    "fields": {
+        "name": "Vanish",
+        "skill_class": "Rogue",
+        "description": "Vanish for 40 seconds from enemies sight. Attacking cancels it",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/vanish.jpg",
+        "skill_point": 4,
+        "skill_level": 4
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 230,
+    "fields": {
+        "name": "Minor Sacrifice",
+        "skill_class": "Rogue",
+        "description": "Sacrifices 440 mana points to recover 240 health points",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/minor_sacrifice.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 231,
+    "fields": {
+        "name": "Avoid",
+        "skill_class": "Rogue",
+        "description": "Increases physical defense by 250",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/avoid.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 232,
+    "fields": {
+        "name": "Rush",
+        "skill_class": "Rogue",
+        "description": "Increases self running speed by 100% for a short period of time",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/rush.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 233,
+    "fields": {
+        "name": "Willpower",
+        "skill_class": "Rogue",
+        "description": "Increases physical defense by 350",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/willpower.jpg",
+        "skill_point": 28,
+        "skill_level": 28
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 234,
+    "fields": {
+        "name": "Dispel",
+        "skill_class": "Rogue",
+        "description": "Removes negative effects.",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/dispel.jpg",
+        "skill_point": 29,
+        "skill_level": 29
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 235,
+    "fields": {
+        "name": "Sharp Eye",
+        "skill_class": "Rogue",
+        "description": "Sharpens your party member''s eyes to reveal camouflaged enemies",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sharp_eye.jpg",
+        "skill_point": 32,
+        "skill_level": 32
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 236,
+    "fields": {
+        "name": "Devotion",
+        "skill_class": "Rogue",
+        "description": "(Passive) Decrease the taken physical damage by %5",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/devotion.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 237,
+    "fields": {
+        "name": "Deadly Touch",
+        "skill_class": "Rogue",
+        "description": "(Passive) Increases critical hit chance by %5",
+        "skill_tree": "Def",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/deadly_touch.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 238,
+    "fields": {
+        "name": "Long Shot",
+        "skill_class": "Rogue",
+        "description": "Shoot an arrow that inflicts 150% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/long_shot.jpg",
+        "skill_point": 4,
+        "skill_level": 4
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 239,
+    "fields": {
+        "name": "True Shot",
+        "skill_class": "Rogue",
+        "description": "Shoot an accurate arrow that deals 120% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/true_shot.jpg",
+        "skill_point": 8,
+        "skill_level": 8
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 240,
+    "fields": {
+        "name": "Charged Shot",
+        "skill_class": "Rogue",
+        "description": "Shoot an accurate arrow that deals 160% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/charged_shot.jpg",
+        "skill_point": 12,
+        "skill_level": 12
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 241,
+    "fields": {
+        "name": "Fire Shot",
+        "skill_class": "Rogue",
+        "description": "Fire an arrow at target that causes fire damage",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_shot.jpg",
+        "skill_point": 16,
+        "skill_level": 16
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 242,
+    "fields": {
+        "name": "Stepback",
+        "skill_class": "Rogue",
+        "description": "Jumps back",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/stepback.jpg",
+        "skill_point": 20,
+        "skill_level": 20
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 243,
+    "fields": {
+        "name": "Tripple Shot",
+        "skill_class": "Rogue",
+        "description": "Fire triple arrows causing base of attack damage",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/tripple_shot.jpg",
+        "skill_point": 24,
+        "skill_level": 24
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 244,
+    "fields": {
+        "name": "Arrow Shower",
+        "skill_class": "Rogue",
+        "description": "Fires arrows to the sky to create an arrow shower in selected area",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/arrow_shower.jpg",
+        "skill_point": 30,
+        "skill_level": 30
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 245,
+    "fields": {
+        "name": "Impressive Shot",
+        "skill_class": "Rogue",
+        "description": "Shoot an arrow that inflicts 250% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/impressive_shot.jpg",
+        "skill_point": 36,
+        "skill_level": 36
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 246,
+    "fields": {
+        "name": "Toxic Touch",
+        "skill_class": "Rogue",
+        "description": "Shoot a poisoned arrow at target to cause additional poison damage",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/toxic_touch.jpg",
+        "skill_point": 44,
+        "skill_level": 44
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 247,
+    "fields": {
+        "name": "Windcutter",
+        "skill_class": "Rogue",
+        "description": "Shoot an accurate arrow that deals 240% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/windcutter.jpg",
+        "skill_point": 48,
+        "skill_level": 48
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 248,
+    "fields": {
+        "name": "Fire Burst",
+        "skill_class": "Rogue",
+        "description": "Fire an arrow that explodes",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/fire_burst.jpg",
+        "skill_point": 52,
+        "skill_level": 52
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 249,
+    "fields": {
+        "name": "Critical Shot",
+        "skill_class": "Rogue",
+        "description": "Fire an arrow that deals critical damage",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/critical_shot.jpg",
+        "skill_point": 54,
+        "skill_level": 54
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 250,
+    "fields": {
+        "name": "Penta Shot",
+        "skill_class": "Rogue",
+        "description": "Fire five shots at once causing base of attack damage",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/penta_shot.jpg",
+        "skill_point": 56,
+        "skill_level": 56
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 251,
+    "fields": {
+        "name": "Thunder Bolt",
+        "skill_class": "Rogue",
+        "description": "Shoot an arrow that causes 240% damage. It has a chance to stun the enemy for 2 seconds.",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/thunderbolt.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 252,
+    "fields": {
+        "name": "Bloodwind",
+        "skill_class": "Rogue",
+        "description": "Shoot an accurate arrow that deals 320% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/bloodwind.jpg",
+        "skill_point": 60,
+        "skill_level": 60
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 253,
+    "fields": {
+        "name": "Frost Arrow",
+        "skill_class": "Rogue",
+        "description": "Shoot an arrow that causes 240% damage. It has a chance to slow down the enemy.",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/frost_arrow.jpg",
+        "skill_point": 64,
+        "skill_level": 64
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 254,
+    "fields": {
+        "name": "Stunning Bolt",
+        "skill_class": "Rogue",
+        "description": "Fires an arrow to the sky, after a short delay it rains down to stun enemies in a small area.",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/stunning_bolt.jpg",
+        "skill_point": 68,
+        "skill_level": 68
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 255,
+    "fields": {
+        "name": "Trick Shot",
+        "skill_class": "Rogue",
+        "description": "Shoot an accurate arrow that deals 360% damage to the target",
+        "skill_tree": "Arch",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/trick_shot.jpg",
+        "skill_point": 70,
+        "skill_level": 70
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 256,
+    "fields": {
+        "name": "Assasination",
+        "skill_class": "Rogue",
+        "description": "(Passive) Increases 20% crit chance when HP is 20% or below",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/assasination.jpg",
+        "skill_point": 0,
+        "skill_level": 0
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 257,
+    "fields": {
+        "name": "Elemental Shield",
+        "skill_class": "Rogue",
+        "description": "Increases all elemantal resistances by 110 for 35 seconds",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/elemental_shield.jpg",
+        "skill_point": 2,
+        "skill_level": 2
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 258,
+    "fields": {
+        "name": "Sacred Armor",
+        "skill_class": "Rogue",
+        "description": "(Passive) Decreases the damage taken by 10%",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/sacred_armor_AfpDa1G.jpg",
+        "skill_point": 5,
+        "skill_level": 5
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 259,
+    "fields": {
+        "name": "Smoke Bomb",
+        "skill_class": "Rogue",
+        "description": "Uses a smoke bomb to escape the fight",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/smoke_bomb.jpg",
+        "skill_point": 7,
+        "skill_level": 7
+    }
+},
+{
+    "model": "skills.skills",
+    "pk": 260,
+    "fields": {
+        "name": "Who Is Next",
+        "skill_class": "Rogue",
+        "description": "(Passive) After killing an enemy, gains %20 crit rate for 10 seconds. Doesn''t stack.",
+        "skill_tree": "Mstr",
+        "mana": 0,
+        "cooldown": 0.0,
+        "img": "skills/who_is_next.jpg",
+        "skill_point": 10,
+        "skill_level": 10
+    }
+}
+]

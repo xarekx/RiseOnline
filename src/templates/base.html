@@ -1,0 +1,193 @@
+{% load static tailwind_tags %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    {% tailwind_css %}
+    <script src="https://kit.fontawesome.com/0a517b291a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    
+   
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body class="flex flex-col gap-10 bg-[url('/static/background_photo.jpg')] h-screen">
+    
+    
+    <div class="flex bg-zinc-800">
+        <div class="w-full">
+            <div class="flex py-1 justify-between
+            2xl:py-4 2xl:justify-start 2xl:space-x-10">
+                <div class="flex justify-start lg:w-0 lg:flex-1 ">
+                    <a href="{% url 'index' %}" >
+                        <img class="h-4 mb-2 mt-2.5 ml-2
+                        sm:ml-3 sm:h-5
+                        md:h-6 md:ml-4
+                        lg:ml-4 lg:mt-2  lg:h-7 
+                        xl:ml-4 xl:h-8 xl:mb-2 xl:mt-2 " src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
+                    </a>
+                </div>
+                <ul class="flex text-xs justify-center items-center">
+                    {% if user.is_authenticated %}
+                        <span class="text-white text-2xs
+                        sm:text-xs
+                        md:text-xs
+                        lg:text-sm
+                        xl:text-[16px]
+                        2xl:text-base">Login: {{user.username}}</span>
+                        <span class=" text-black align-center hover:text-sky-700 text-2xs pl-2 pr-2
+                        sm:text-xs
+                        md:text-xs
+                        lg:text-sm
+                        xl:text-[16px]
+                        2xl:text-base 2xl:pl-4 2xl:pr-4"><button class="bg-[#f8f9fa] hover:bg-slate-300 border-solid pl-1 pr-1 
+                        sm:text-2xs
+                        md:pb-1 md:pt-1 md:text-xs
+                        lg:pb-1
+                        xl:pb-1 
+                        2xl:pb-1  rounded-sm"  onclick="window.location.href='logout'">Logout</button></span>
+                    {% else %}
+                        <a class="text-sky-600 py-2.5 px-2  hover:text-sky-700 text-2xs sm:text-xs
+                        md:text-xs
+                        lg:text-sm
+                        xl:text-[16px]
+                        2xl:text-base" href=" {% url 'login' %}">Sign In</a>
+                        <a class="text-sky-600 py-2.5 px-2 hover:text-sky-700 text-2xs sm:text-xs
+                        md:text-xs
+                        lg:text-sm
+                        xl:text-[16px]
+                        2xl:text-base" href="{% url 'signup' %}">Sign Up</a>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="flex justify-center" aria-label="Newest Photos" >
+        <div class="relative w-1/2 h-vh-2 md:h-vh-3 lg:h-vh-4 2xl:h-vh-5" data-carousel>
+          <button class="carousel-button prev text-base left-1 md:left-2 md:text-[1.5rem] xl:text-[2.5rem] " data-carousel-button="prev"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="carousel-button next text-base right-1 md:right-2 md:text-[1.5rem] xl:text-[2.5rem]" data-carousel-button="next"><i class="fa-solid fa-arrow-right"></i></button>
+          <ul data-slides class="m-0 p-0 list-none">
+            <li class="w-full h-full slide absolute inset-0 opacity-0 ease-in-out duration-300 delay-300" data-active>
+              <img src="../static/rise.jpg" alt="Nature Image #1" class="block w-full h-full object-fit object-center">
+            </li>
+            <li class="w-full h-full slide absolute inset-0 opacity-0 ease-in-out duration-300 delay-300">
+              <img src="../static/rise1.jpg" alt="Nature Image #2" class="block w-full h-full object-fit object-center">
+            </li>
+            <li class="w-full h-full slide absolute inset-0  opacity-0 ease-in-out duration-300 delay-300" >
+              <img src="../static/rise2.jpg" alt="Nature Image #3" class="block w-full h-full object-fit object-center">
+            </li>
+          </ul>
+        </div>
+      </section>
+        
+    {% block body %}
+    {% endblock %}
+    
+        <footer class="flex flex-col mt-auto w-full bg-zinc-800 
+                        sm:text-xs 
+                        md:text-xs
+                        lg:text-sm
+                        2xl:text-lg">
+                
+            <div class="flex justify-around h-full w-full ">
+                <div class="flex flex-col items-center justify-center w-1/6">
+                    <div class="flex flex-row ">
+                        <i class="fa-solid fa-dice-d6 text-white text-sm md:text-base 2xl:text-[1.5rem] m-2"></i>
+                        <i class="fa-solid fa-gamepad text-white text-sm md:text-base 2xl:text-[1.5rem] m-2 "></i>
+                    </div>
+                    <div class="flex flex-row">
+                        <i class="fa-solid fa-headset text-white text-sm md:text-base 2xl:text-[1.5rem] mt-2 mr-2"></i>
+                        <i class="fa-solid fa-ghost text-white text-sm md:text-base 2xl:text-[1.5rem] m-2"></i>
+                    </div>
+                </div>
+
+                <div class="grid grid-flow-col text-white grid-cols-3 w-1/2">
+
+                    <!--        first column-->
+
+                            <div class="">
+                                <h2 class="text-[12px] mt-2 mb-2 md:text-[16px] lg:text-[18px] 2xl:text-[24px]">Navigation</h2>
+                                <ul class="mb-2 text-2xs">
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
+                                        <i class="fa-solid fa-newspaper text-white mr-2 active"></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">News</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
+                                        <i class="fa-solid fa-scroll text-white mr-1.5"></i><a href="{% url 'quests' %}" class="hover:text-gray-300 cursor-pointer">Quests</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
+                                        <i class="fa-solid fa-ring text-white mr-2"></i><a href="{% url 'index'%}" class="hover:text-gray-300 cursor-pointer">Items</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
+                                        <i class="fa-solid fa-dungeon text-white mr-2"></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">Zones</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    <!-- second column -->
+                
+                            <div class="">
+                                <h2 class="text-[12px] mt-2 mb-2 md:text-[16px] lg:text-[18px] 2xl:text-[24px]">Logged</h2>
+                                <ul class="mb-2 text-2xs">
+                                    <li class="sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400  m-0 p-0">
+                                        <i class="fa-solid fa-calculator text-white mr-3"></i><a href="{% url 'login'%}" class="hover:text-gray-300 cursor-pointer">Drop Calc</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
+                                        <i class="fa-solid fa-share text-white mr-2.5"></i><a href="{% url 'login'%}" class="hover:text-gray-300 cursor-pointer">Share Drop</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
+                                        <i class="fa-solid fa-user-group text-white mr-2 "></i><a href="{% url 'login'%}" class="hover:text-gray-300 cursor-pointer">Create Party</a>
+                                    </li>
+                                </ul>
+                            </div>
+                
+                    <!-- third column -->
+                        
+                            <div class="">
+                
+                                <p class="text-[12px] mt-2 mb-2 md:text-[16px] lg:text-[18px] 2xl:text-[24px]">Contact</p>
+                                <ul class="mb-2 text-2xs">
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
+                                        <i class="fa-solid fa-user-graduate text-white mr-2" ></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">About me</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
+                                        <i class="fa-brands fa-facebook text-white mr-2"></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">Facebook</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
+                                        <i class="fa-brands fa-linkedin text-white mr-2 "></i><a href="https://pl.linkedin.com/in/arkadiusz-tarnowski-142a20182" class="hover:text-gray-300 cursor-pointer">Linkedin</a>
+                                    </li>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
+                                        <i class="fa-brands fa-github text-white mr-2"></i><a href="https://github.com/xarekx" class="hover:text-gray-300 cursor-pointer">Github</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+        
+        <span class="flex text-white justify-end mr-3 mt-0.5">Created by Arkadiusz Tarnowski</span>
+    </footer>
+    <script src="../static/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    let leftNav = document.getElementsByClassName("leftNavItem");
+    let i; 
+    
+    for(i=0; i<leftNav.length; i++) {
+        leftNav[i].addEventListener("click", function() { 
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                    content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            } 
+        })
+    }
+</script>
+</body>
+</html>

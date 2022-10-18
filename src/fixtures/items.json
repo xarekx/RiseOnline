@@ -1,0 +1,32 @@
+[
+    {
+        "model": "items.items",
+        "pk": 1,
+        "fields": {
+            "name": "Hand Axe of Minotaur",
+            "img": "items/Minotaur_axe.png",
+            "item_type": "Axe",
+            "dropped_by": 1
+        }
+    },
+    {
+        "model": "items.items",
+        "pk": 2,
+        "fields": {
+            "name": "Hearthseeker",
+            "img": "items/hearthseeker.png",
+            "item_type": "Sword",
+            "dropped_by": 2
+        }
+    },
+    {
+        "model": "items.items",
+        "pk": 3,
+        "fields": {
+            "name": "Arch Sword",
+            "img": "items/arch_sword.png",
+            "item_type": "Sword",
+            "dropped_by": 2
+        }
+    }
+]
