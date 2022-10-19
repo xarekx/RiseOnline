@@ -61,8 +61,8 @@
                     </div>
                     
                     <!-- Monster table  -->
-                    <div>
-                        <table class="table-auto text-white border-1 flex-col w-full">
+                    <div class="pl-2 pr-2">
+                        <table class="table-auto text-white  flex-col w-full">
                             <thead class="border-1 text-center">
                                 <tr>
                                     <th class="border-1 w-1/6">Skill Name</th>
@@ -71,9 +71,9 @@
                                     <th class="border-1 w-1/2">Drop List</th>
                                 </tr>
                             </thead>
-                            <tbody >
+                            <tbody class="">
                                 {% for monster in monsters %}
-                                <tr class="border-b h-full">
+                                <tr class="border h-full ">
                                     <td class="flex pl-2">
                                         <span class="flex items-center w-full 2xl:w-auto">
                                             {{monster.name}}
