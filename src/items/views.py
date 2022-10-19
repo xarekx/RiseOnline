@@ -15,3 +15,7 @@ def weapons(request):
     
     return render(request, 'items/weapons.html', { 'left_side_item': left_side_item, 'swords':swords})
 
+def armors(request):
+    left_side_item = LeftSideMenu.objects.all()
+    
+    return render(request, 'items/armors.html', { 'left_side_item': left_side_item})
