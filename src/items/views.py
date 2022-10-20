@@ -12,8 +12,21 @@ def items(request):
 def weapons(request):
     left_side_item = LeftSideMenu.objects.all()
     swords = Items.objects.all().filter(item_type="Sword")
+    axes = Items.objects.all().filter(item_type="Axe")
+    daggers = Items.objects.all().filter(item_type="Dagger").distinct('name')
+    spears = Items.objects.all().filter(item_type="Spear")
+    staffs = Items.objects.all().filter(item_type="Staff")
+    maces = Items.objects.all().filter(item_type="Mace")
+    bows = Items.objects.all().filter(item_type="Bow")
     
-    return render(request, 'items/weapons.html', { 'left_side_item': left_side_item, 'swords':swords})
+    return render(request, 'items/weapons.html', { 'left_side_item': left_side_item, 
+                                                  'swords':swords, 
+                                                  'daggers':daggers, 
+                                                  'axes':axes,
+                                                  'spears':spears,
+                                                  'staffs':staffs,
+                                                  'maces':maces,
+                                                  'bows':bows})
 
 def armors(request):
     left_side_item = LeftSideMenu.objects.all()

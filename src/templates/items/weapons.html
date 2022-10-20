@@ -74,7 +74,7 @@ xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto
                             <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]" ></i>
                         </div>
                         <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center">
-                            <span class="text-black text-2xs 2xl:text-base font-bold">Spear</span>
+                            <span class="text-black text-2xs 2xl:text-base font-bold">Polearm</span>
                         </div>
                     </div>
                     <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer w-12 xl:w-24 2xl:w-32" onclick>
@@ -101,6 +101,14 @@ xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto
                             <span class="text-black text-2xs 2xl:text-base font-bold">Mace</span>
                         </div>
                     </div>
+                    <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer w-12 xl:w-24 2xl:w-32" onclick>
+                        <div class="flex items-center justify-center w-full h-3/4">
+                            <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]" ></i>
+                        </div>
+                        <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center xl:w-24 2xl:w-32">
+                            <span class="text-black text-2xs 2xl:text-base font-bold">Bow</span>
+                        </div>
+                    </div>
                 </div>           
             </div>
         </div>
@@ -116,6 +124,96 @@ xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto
                         <img src="{{sword.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
                     </div>
                     <span class="text-white">{{sword.name}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="text-white text-center pb-2 text-sm">
+            Axes
+        </div>
+        <div class="flex flex-col w-full justify-center ">
+            <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                {% for axe in axes %}
+                <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                    <div class="flex justify-center w-full ">
+                        <img src="{{axe.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                    </div>
+                    <span class="text-white">{{axe.name}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="text-white text-center pb-2 text-sm">
+            Daggers
+        </div>
+        <div class="flex flex-col w-full justify-center ">
+            <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                {% for dagger in daggers %}
+                <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                    <div class="flex justify-center w-full ">
+                        <img src="{{dagger.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                    </div>
+                    <span class="text-white">{{dagger.name}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="text-white text-center pb-2 text-sm">
+            Bows
+        </div>
+        <div class="flex flex-col w-full justify-center ">
+            <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                {% for bow in bows %}
+                <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                    <div class="flex justify-center w-full ">
+                        <img src="{{bow.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                    </div>
+                    <span class="text-white">{{bow.name}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="text-white text-center pb-2 text-sm">
+            Maces
+        </div>
+        <div class="flex flex-col w-full justify-center ">
+            <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                {% for mace in maces %}
+                <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                    <div class="flex justify-center w-full ">
+                        <img src="{{mace.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                    </div>
+                    <span class="text-white">{{mace.name}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="text-white text-center pb-2 text-sm">
+            Staffs
+        </div>
+        <div class="flex flex-col w-full justify-center ">
+            <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                {% for staff in staffs %}
+                <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                    <div class="flex justify-center w-full ">
+                        <img src="{{staff.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                    </div>
+                    <span class="text-white">{{staff.name}}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="text-white text-center pb-2 text-sm">
+            Polearm
+        </div>
+        <div class="flex flex-col w-full justify-center ">
+            <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                {% for spear in spears %}
+                <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                    <div class="flex justify-center w-full ">
+                        <img src="{{spear.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                    </div>
+                    <span class="text-white">{{spear.name}}</span>
                 </div>
                 {% endfor %}
             </div>
