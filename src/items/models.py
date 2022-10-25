@@ -13,10 +13,10 @@ class Items(models.Model):
                           ('Spear','Spear'),
                           ('Staff', 'Staff'),
                           ('Mace','Mace'),
-                          ('Warrior Armor','Warrior armor'),
-                          ('Mage Armor','Mage armor'),
-                          ('Rogue Armor','Rogue armor'),
-                          ('Priest Armor','Priest armor'),
+                          ('Warrior Armor','Warrior Armor'),
+                          ('Mage Armor','Mage Armor'),
+                          ('Rogue Armor','Rogue Armor'),
+                          ('Priest Armor','Priest Armor'),
                           ('Accesories','Accesories'),]
     
     name = models.CharField(_("name"), max_length=64, null=True)

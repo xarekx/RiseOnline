@@ -30,5 +30,6 @@ def weapons(request):
 
 def armors(request):
     left_side_item = LeftSideMenu.objects.all()
+    warrior_armors = Items.objects.all().filter(item_type="Warrior Armor")
     
-    return render(request, 'items/armors.html', { 'left_side_item': left_side_item})
+    return render(request, 'items/armors.html', { 'left_side_item': left_side_item, 'warrior_armors':warrior_armors})
