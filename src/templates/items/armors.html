@@ -115,12 +115,12 @@ xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto
         </div>
         <div class="flex flex-col w-full justify-center ">
             <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
-                {% for sword in swords %}
+                {% for priest_armor in priest_armors %}
                 <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
                     <div class="flex justify-center w-full ">
-                        <img src="{{sword.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                        <img src="{{priest_armor.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
                     </div>
-                    <span class="text-white">{{sword.name}}</span>
+                    <span class="text-white">{{priest_armor.name}}</span>
                 </div>
                 {% endfor %}
             </div>
@@ -130,12 +130,12 @@ xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto
         </div>
         <div class="flex flex-col w-full justify-center ">
             <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
-                {% for sword in swords %}
+                {% for rogue_armor in rogue_armors %}
                 <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
                     <div class="flex justify-center w-full ">
-                        <img src="{{sword.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                        <img src="{{rogue_armor.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
                     </div>
-                    <span class="text-white">{{sword.name}}</span>
+                    <span class="text-white">{{rogue_armor.name}}</span>
                 </div>
                 {% endfor %}
             </div>
@@ -145,12 +145,12 @@ xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto
         </div>
         <div class="flex flex-col w-full justify-center ">
             <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
-                {% for sword in swords %}
+                {% for mage_armor in mage_armors %}
                 <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
                     <div class="flex justify-center w-full ">
-                        <img src="{{sword.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                        <img src="{{mage_armor.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
                     </div>
-                    <span class="text-white">{{sword.name}}</span>
+                    <span class="text-white">{{mage_armor.name}}</span>
                 </div>
                 {% endfor %}
             </div>

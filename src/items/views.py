@@ -31,5 +31,12 @@ def weapons(request):
 def armors(request):
     left_side_item = LeftSideMenu.objects.all()
     warrior_armors = Items.objects.all().filter(item_type="Warrior Armor")
+    priest_armors = Items.objects.all().filter(item_type="Priest Armor")
+    rogue_armors = Items.objects.all().filter(item_type="Rogue Armor")
+    mage_armors = Items.objects.all().filter(item_type="Mage Armor")
     
-    return render(request, 'items/armors.html', { 'left_side_item': left_side_item, 'warrior_armors':warrior_armors})
+    return render(request, 'items/armors.html', { 'left_side_item': left_side_item, 
+                                                 'warrior_armors':warrior_armors,
+                                                 'priest_armors':priest_armors,
+                                                 'rogue_armors':rogue_armors,
+                                                 'mage_armors':mage_armors})
