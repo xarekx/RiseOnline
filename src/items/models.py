@@ -12,7 +12,12 @@ class Items(models.Model):
                           ('Axe','Axe'),
                           ('Spear','Spear'),
                           ('Staff', 'Staff'),
-                          ('Mace','Mace'),]
+                          ('Mace','Mace'),
+                          ('Warrior Armor','Warrior Armor'),
+                          ('Mage Armor','Mage Armor'),
+                          ('Rogue Armor','Rogue Armor'),
+                          ('Priest Armor','Priest Armor'),
+                          ('Accesories','Accesories'),]
     
     name = models.CharField(_("name"), max_length=64, null=True)
     img = models.ImageField(_("img"), upload_to="items/", null=True, blank=True)
