@@ -67,4 +67,15 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+// added selector to navigate screen to specified div
+const buttonsItemMenu = document.querySelectorAll("[item-menu-button]")
+
+buttonsItemMenu.forEach(buttonItemMenu => {
+    buttonItemMenu.addEventListener("click", () => {
+        const itemId = buttonItemMenu.children[1].children[0].innerHTML.toLowerCase()
+        document
+            .getElementById(itemId)
+            .scrollIntoView({ behavior: "smooth" });
+    })
+})
 
