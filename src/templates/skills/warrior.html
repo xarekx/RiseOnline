@@ -188,19 +188,19 @@
                             </thead>
                             <tbody>
                                 {% for mstr_sk in warrior_master %}
-                                <tr class="border-b">
+                                <tr class="border">
                                     <td class="flex">
-                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                        <div class="flex items-center 2xl:h-[50px] 2xl:w-[50px]">
                                             <img src="{{mstr_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1" >
                                         </div>
                                         <span class="flex items-center w-full 2xl:w-auto">
                                             {{mstr_sk.name}}
                                         </span>
                                     </td>
-                                    <td class="border-l border-r text-center">{{mstr_sk.description}}</td>
-                                    <td class="border-r text-center">{{mstr_sk.mana}}</td>
-                                    <td class="border-r text-center">{{mstr_sk.cooldown}}</td>
-                                    <td class="text-center">{{mstr_sk.skill_point}}</td>
+                                    <td class="border-l text-center">{{mstr_sk.description}}</td>
+                                    <td class="border-l text-center">{{mstr_sk.mana}}</td>
+                                    <td class="border-l text-center">{{mstr_sk.cooldown}}</td>
+                                    <td class="border-l text-center">{{mstr_sk.skill_point}}</td>
                                 </tr>
                                 {% endfor %}
                             </tbody>
