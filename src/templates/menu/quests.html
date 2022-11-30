@@ -60,17 +60,19 @@
                     <tr>
                         <th class="border text-center w-max xl:w-48 hover:cursor-pointer hover:text-sky-700">Title</th>
                         <th class="border text-center w-16 ps-2 pe-2 hover:cursor-pointer hover:text-sky-700" data-type="number">Lvl</th>
-                        <th class="border text-center w-16 hover:cursor-pointer hover:text-sky-700">Experience</th>
-                        <th class="border text-center w-16 xl:w-36 hover:cursor-pointer hover:text-sky-700">Start Zone</th>
+                        <th class="border text-center w-max hover:cursor-pointer hover:text-sky-700">Description</th>
+                        <th class="border text-center w-16 pr-2 pl-2 pb-2 hover:cursor-pointer hover:text-sky-700">Rewards</th>
+                        <th class="border text-center w-14 xl:w-36 hover:cursor-pointer hover:text-sky-700">Zone</th>
                     </tr>
                 </thead>
                 <tbody>
                 {% for quest in quests %}
                     <tr>
-                        <td class="border text-center">{{quest.title}}</td>
+                        <td class="border text-center">{{quest.quest_name}}</td>
                         <td class="border text-center">{{quest.required_level}}</td>
-                        <td class="border text-center">{{quest.exp}}</td>
-                        <td class="border text-center">{{quest.start_zone}}</td>
+                        <td class="border">{{quest.description}}</td>
+                        <td class="border text-center">{{quest.reward}}</td>
+                        <td class="border text-center">{{quest.quest_zone}}</td>
                     </tr>
                 {% endfor %}
                 </tbody>

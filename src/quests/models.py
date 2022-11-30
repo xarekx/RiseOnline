@@ -11,4 +11,4 @@ class Quests(models.Model):
     quest_zone = models.ForeignKey(Zones, on_delete=models.CASCADE, default="")
 
     def __str__(self):
-        return self.title
+        return self.quest_name
