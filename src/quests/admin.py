@@ -3,6 +3,6 @@ from quests.models import Quests
 
 @admin.register(Quests)
 class Quests(admin.ModelAdmin):
-    list_display = ['title', 'start_zone']
+    list_display = ['quest_name', 'quest_zone']
 
-    list_filter = ['start_zone']
+    list_filter = ['quest_zone']
