@@ -52,7 +52,8 @@ INSTALLED_APPS: list[str] = [
     'quests.apps.QuestsConfig',
     'zones.apps.ZonesConfig',
     'monsters.apps.MonstersConfig',
-    'items.apps.ItemsConfig'
+    'items.apps.ItemsConfig',
+    'rewards.apps.RewardsConfig'
 ]
 
 MIDDLEWARE = [
