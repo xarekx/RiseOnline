@@ -8,7 +8,7 @@ from quests.models import Quests
 class Rewards(models.Model):
 
     name = models.CharField(_("name"), max_length=64)
-    quest_id = models.ForeignKey(Quests, on_delete=models.CASCADE, default="")
+    quests = models.ForeignKey(Quests, on_delete=models.CASCADE, default=1)
 
     def __str__(self):
         return self.name
