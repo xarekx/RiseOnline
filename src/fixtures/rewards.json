@@ -1,0 +1,1839 @@
+[
+{
+    "model": "rewards.rewards",
+    "pk": 1,
+    "fields": {
+        "name": "Leather Set",
+        "quests": 1,
+        "count": 1,
+        "upgrade_level": 2,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 2,
+    "fields": {
+        "name": "Weapon",
+        "quests": 2,
+        "count": 1,
+        "upgrade_level": 2,
+        "reward_type": "weapon"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 3,
+    "fields": {
+        "name": "Small health potion",
+        "quests": 3,
+        "count": 60,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 4,
+    "fields": {
+        "name": "Small mana potion",
+        "quests": 3,
+        "count": 60,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 5,
+    "fields": {
+        "name": "EXP ",
+        "quests": 4,
+        "count": 50,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 6,
+    "fields": {
+        "name": "Coin",
+        "quests": 4,
+        "count": 1000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 7,
+    "fields": {
+        "name": "Resurrection Cube",
+        "quests": 4,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 8,
+    "fields": {
+        "name": "Common Upgrade Scroll",
+        "quests": 4,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 9,
+    "fields": {
+        "name": "Common Upgrade Scroll",
+        "quests": 5,
+        "count": 2,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 10,
+    "fields": {
+        "name": "Experience Increase Scroll",
+        "quests": 6,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 11,
+    "fields": {
+        "name": "200 HP Increase Scroll",
+        "quests": 6,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 12,
+    "fields": {
+        "name": "75 Physical Defense Scroll",
+        "quests": 6,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 13,
+    "fields": {
+        "name": "Movement Speed Increase Scroll",
+        "quests": 6,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 14,
+    "fields": {
+        "name": "EXP",
+        "quests": 7,
+        "count": 120,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 15,
+    "fields": {
+        "name": "Coin",
+        "quests": 7,
+        "count": 75,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 16,
+    "fields": {
+        "name": "EXP",
+        "quests": 8,
+        "count": 156,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 17,
+    "fields": {
+        "name": "Coin",
+        "quests": 8,
+        "count": 85,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 18,
+    "fields": {
+        "name": "EXP",
+        "quests": 9,
+        "count": 468,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 19,
+    "fields": {
+        "name": "Coin",
+        "quests": 9,
+        "count": 260,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 20,
+    "fields": {
+        "name": "Common Upgrade Scroll",
+        "quests": 9,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 21,
+    "fields": {
+        "name": "EXP",
+        "quests": 10,
+        "count": 780,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 22,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 10,
+        "count": 1,
+        "upgrade_level": 3,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 23,
+    "fields": {
+        "name": "EXP",
+        "quests": 11,
+        "count": 585,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 24,
+    "fields": {
+        "name": "Coin",
+        "quests": 11,
+        "count": 350,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 25,
+    "fields": {
+        "name": "EXP",
+        "quests": 12,
+        "count": 390,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 26,
+    "fields": {
+        "name": "Coin",
+        "quests": 12,
+        "count": 220,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 27,
+    "fields": {
+        "name": "EXP",
+        "quests": 13,
+        "count": 780,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 28,
+    "fields": {
+        "name": "Coin",
+        "quests": 13,
+        "count": 500,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 29,
+    "fields": {
+        "name": "EXP",
+        "quests": 14,
+        "count": 780,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 30,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 14,
+        "count": 1,
+        "upgrade_level": 3,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 31,
+    "fields": {
+        "name": "EXP",
+        "quests": 15,
+        "count": 1560,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 32,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 15,
+        "count": 1,
+        "upgrade_level": 3,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 33,
+    "fields": {
+        "name": "EXP",
+        "quests": 16,
+        "count": 2340,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 34,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 16,
+        "count": 1,
+        "upgrade_level": 3,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 35,
+    "fields": {
+        "name": "EXP",
+        "quests": 17,
+        "count": 2340,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 36,
+    "fields": {
+        "name": "Common Upgrade Scroll",
+        "quests": 17,
+        "count": 3,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 37,
+    "fields": {
+        "name": "EXP",
+        "quests": 18,
+        "count": 2860,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 38,
+    "fields": {
+        "name": "Small health potion",
+        "quests": 18,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 39,
+    "fields": {
+        "name": "Small mana potion",
+        "quests": 18,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 40,
+    "fields": {
+        "name": "EXP",
+        "quests": 19,
+        "count": 2080,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 41,
+    "fields": {
+        "name": "Coin",
+        "quests": 19,
+        "count": 1000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 42,
+    "fields": {
+        "name": "EXP",
+        "quests": 20,
+        "count": 2600,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 43,
+    "fields": {
+        "name": "Coin",
+        "quests": 20,
+        "count": 1800,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 44,
+    "fields": {
+        "name": "EXP",
+        "quests": 21,
+        "count": 5200,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 45,
+    "fields": {
+        "name": "Silah",
+        "quests": 21,
+        "count": 1,
+        "upgrade_level": 6,
+        "reward_type": "weapon"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 46,
+    "fields": {
+        "name": "EXP",
+        "quests": 22,
+        "count": 3380,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 47,
+    "fields": {
+        "name": "Coin",
+        "quests": 22,
+        "count": 2000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 48,
+    "fields": {
+        "name": "EXP",
+        "quests": 23,
+        "count": 5720,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 49,
+    "fields": {
+        "name": "Medium health potion",
+        "quests": 23,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 50,
+    "fields": {
+        "name": "Medium mana potion",
+        "quests": 23,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 51,
+    "fields": {
+        "name": "EXP",
+        "quests": 24,
+        "count": 6240,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 52,
+    "fields": {
+        "name": "Common Rune",
+        "quests": 24,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 53,
+    "fields": {
+        "name": "EXP",
+        "quests": 25,
+        "count": 5200,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 54,
+    "fields": {
+        "name": "Heavy Leather gauntlets",
+        "quests": 25,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 55,
+    "fields": {
+        "name": "EXP",
+        "quests": 26,
+        "count": 7280,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 56,
+    "fields": {
+        "name": "Coin",
+        "quests": 26,
+        "count": 3800,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 57,
+    "fields": {
+        "name": "EXP",
+        "quests": 27,
+        "count": 5200,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 58,
+    "fields": {
+        "name": "Coin",
+        "quests": 27,
+        "count": 3600,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 59,
+    "fields": {
+        "name": "EXP",
+        "quests": 28,
+        "count": 7800,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 60,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 28,
+        "count": 1,
+        "upgrade_level": 4,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 61,
+    "fields": {
+        "name": "EXP",
+        "quests": 29,
+        "count": 6240,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 62,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 29,
+        "count": 1,
+        "upgrade_level": 4,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 63,
+    "fields": {
+        "name": "EXP",
+        "quests": 30,
+        "count": 9360,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 64,
+    "fields": {
+        "name": "Medium health potion",
+        "quests": 30,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 65,
+    "fields": {
+        "name": "Medium mana potion",
+        "quests": 30,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 66,
+    "fields": {
+        "name": "EXP",
+        "quests": 31,
+        "count": 5720,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 67,
+    "fields": {
+        "name": "Coin",
+        "quests": 31,
+        "count": 4400,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 68,
+    "fields": {
+        "name": "EXP",
+        "quests": 32,
+        "count": 8580,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 69,
+    "fields": {
+        "name": "Heavy Leather boots",
+        "quests": 32,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 70,
+    "fields": {
+        "name": "EXP",
+        "quests": 33,
+        "count": 7800,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 71,
+    "fields": {
+        "name": "Heavy Leather helmet",
+        "quests": 33,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 72,
+    "fields": {
+        "name": "EXP",
+        "quests": 34,
+        "count": 10140,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 73,
+    "fields": {
+        "name": "Heavy Leather pants",
+        "quests": 34,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 74,
+    "fields": {
+        "name": "EXP",
+        "quests": 35,
+        "count": 12480,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 75,
+    "fields": {
+        "name": "Heavy Leather chest piece",
+        "quests": 35,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 76,
+    "fields": {
+        "name": "EXP",
+        "quests": 36,
+        "count": 9100,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 77,
+    "fields": {
+        "name": "Bronze Ring",
+        "quests": 36,
+        "count": 1,
+        "upgrade_level": 4,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 78,
+    "fields": {
+        "name": "EXP",
+        "quests": 37,
+        "count": 6240,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 79,
+    "fields": {
+        "name": "Bronze Ring",
+        "quests": 37,
+        "count": 1,
+        "upgrade_level": 4,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 80,
+    "fields": {
+        "name": "EXP",
+        "quests": 38,
+        "count": 14560,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 81,
+    "fields": {
+        "name": "Big health potion",
+        "quests": 38,
+        "count": 60,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 82,
+    "fields": {
+        "name": "Big mana potion",
+        "quests": 38,
+        "count": 60,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 83,
+    "fields": {
+        "name": "EXP",
+        "quests": 39,
+        "count": 8840,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 84,
+    "fields": {
+        "name": "Common Rune",
+        "quests": 39,
+        "count": 1,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 85,
+    "fields": {
+        "name": "EXP",
+        "quests": 40,
+        "count": 9360,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 86,
+    "fields": {
+        "name": "Belt of Town Guard",
+        "quests": 40,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 87,
+    "fields": {
+        "name": "EXP",
+        "quests": 41,
+        "count": 9360,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 88,
+    "fields": {
+        "name": "Coin",
+        "quests": 41,
+        "count": 5200,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 89,
+    "fields": {
+        "name": "EXP",
+        "quests": 42,
+        "count": 13520,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 90,
+    "fields": {
+        "name": "Coin",
+        "quests": 42,
+        "count": 7200,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 91,
+    "fields": {
+        "name": "EXP",
+        "quests": 43,
+        "count": 14300,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 92,
+    "fields": {
+        "name": "Coin",
+        "quests": 43,
+        "count": 7400,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 93,
+    "fields": {
+        "name": "EXP",
+        "quests": 44,
+        "count": 10400,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 94,
+    "fields": {
+        "name": "Common Upgrade Scroll",
+        "quests": 44,
+        "count": 3,
+        "upgrade_level": 0,
+        "reward_type": "scroll"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 95,
+    "fields": {
+        "name": "EXP",
+        "quests": 45,
+        "count": 12480,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 96,
+    "fields": {
+        "name": "Bronze Necklace",
+        "quests": 45,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 97,
+    "fields": {
+        "name": "EXP",
+        "quests": 46,
+        "count": 11960,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 98,
+    "fields": {
+        "name": "EXP",
+        "quests": 47,
+        "count": 15080,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 99,
+    "fields": {
+        "name": "EXP",
+        "quests": 48,
+        "count": 9360,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 100,
+    "fields": {
+        "name": "EXP",
+        "quests": 49,
+        "count": 11440,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 101,
+    "fields": {
+        "name": "Plate gauntlets",
+        "quests": 49,
+        "count": 1,
+        "upgrade_level": 1,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 102,
+    "fields": {
+        "name": "EXP",
+        "quests": 50,
+        "count": 8840,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 103,
+    "fields": {
+        "name": "Coin",
+        "quests": 50,
+        "count": 6600,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 104,
+    "fields": {
+        "name": "EXP",
+        "quests": 51,
+        "count": 12480,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 105,
+    "fields": {
+        "name": "Plate boots",
+        "quests": 51,
+        "count": 1,
+        "upgrade_level": 1,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 106,
+    "fields": {
+        "name": "EXP",
+        "quests": 52,
+        "count": 9360,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 107,
+    "fields": {
+        "name": "Coin",
+        "quests": 52,
+        "count": 6800,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 108,
+    "fields": {
+        "name": "EXP",
+        "quests": 53,
+        "count": 6240,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 109,
+    "fields": {
+        "name": "Coin",
+        "quests": 53,
+        "count": 6400,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 110,
+    "fields": {
+        "name": "EXP",
+        "quests": 54,
+        "count": 14560,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 111,
+    "fields": {
+        "name": "Plate helmet",
+        "quests": 54,
+        "count": 1,
+        "upgrade_level": 1,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 112,
+    "fields": {
+        "name": "EXP",
+        "quests": 55,
+        "count": 10400,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 113,
+    "fields": {
+        "name": "Coin",
+        "quests": 55,
+        "count": 7000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 114,
+    "fields": {
+        "name": "EXP",
+        "quests": 56,
+        "count": 16640,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 115,
+    "fields": {
+        "name": "Plate pants",
+        "quests": 56,
+        "count": 1,
+        "upgrade_level": 1,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 116,
+    "fields": {
+        "name": "EXP",
+        "quests": 57,
+        "count": 11960,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 117,
+    "fields": {
+        "name": "Coin",
+        "quests": 57,
+        "count": 7600,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 118,
+    "fields": {
+        "name": "EXP",
+        "quests": 58,
+        "count": 17680,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 119,
+    "fields": {
+        "name": "Plate chest piece",
+        "quests": 58,
+        "count": 1,
+        "upgrade_level": 1,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 120,
+    "fields": {
+        "name": "EXP",
+        "quests": 59,
+        "count": 9100,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 121,
+    "fields": {
+        "name": "Coin",
+        "quests": 59,
+        "count": 8000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 122,
+    "fields": {
+        "name": "Weapon",
+        "quests": 59,
+        "count": 1,
+        "upgrade_level": 3,
+        "reward_type": "weapon"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 123,
+    "fields": {
+        "name": "EXP",
+        "quests": 60,
+        "count": 21320,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 124,
+    "fields": {
+        "name": "Big health potion",
+        "quests": 60,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 125,
+    "fields": {
+        "name": "Big mana potion",
+        "quests": 60,
+        "count": 80,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 126,
+    "fields": {
+        "name": "EXP",
+        "quests": 61,
+        "count": 17640,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 127,
+    "fields": {
+        "name": "Bronze Ring",
+        "quests": 61,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 128,
+    "fields": {
+        "name": "EXP",
+        "quests": 62,
+        "count": 16380,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 129,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 62,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 130,
+    "fields": {
+        "name": "EXP",
+        "quests": 63,
+        "count": 12740,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 131,
+    "fields": {
+        "name": "Bronze Ring",
+        "quests": 63,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 132,
+    "fields": {
+        "name": "EXP",
+        "quests": 64,
+        "count": 17680,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 133,
+    "fields": {
+        "name": "Bronze Earring",
+        "quests": 64,
+        "count": 1,
+        "upgrade_level": 5,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 134,
+    "fields": {
+        "name": "EXP",
+        "quests": 65,
+        "count": 35360,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 135,
+    "fields": {
+        "name": "EXP",
+        "quests": 66,
+        "count": 18440,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 136,
+    "fields": {
+        "name": "Coin",
+        "quests": 66,
+        "count": 9600,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 137,
+    "fields": {
+        "name": "EXP",
+        "quests": 67,
+        "count": 50440,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 138,
+    "fields": {
+        "name": "Big health potion",
+        "quests": 67,
+        "count": 100,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 139,
+    "fields": {
+        "name": "Big mana potion",
+        "quests": 67,
+        "count": 100,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 140,
+    "fields": {
+        "name": "EXP",
+        "quests": 68,
+        "count": 21320,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 141,
+    "fields": {
+        "name": "Coin",
+        "quests": 68,
+        "count": 13200,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 142,
+    "fields": {
+        "name": "EXP",
+        "quests": 69,
+        "count": 33280,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 143,
+    "fields": {
+        "name": "EXP",
+        "quests": 70,
+        "count": 15860,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 144,
+    "fields": {
+        "name": "Coin",
+        "quests": 70,
+        "count": 9100,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 145,
+    "fields": {
+        "name": "EXP",
+        "quests": 71,
+        "count": 37440,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 146,
+    "fields": {
+        "name": "Bronze Necklace",
+        "quests": 71,
+        "count": 1,
+        "upgrade_level": 6,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 147,
+    "fields": {
+        "name": "EXP",
+        "quests": 72,
+        "count": 29120,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 148,
+    "fields": {
+        "name": "EXP",
+        "quests": 73,
+        "count": 21320,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 149,
+    "fields": {
+        "name": "Coin",
+        "quests": 73,
+        "count": 10500,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 150,
+    "fields": {
+        "name": "EXP",
+        "quests": 74,
+        "count": 17680,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 151,
+    "fields": {
+        "name": "EXP",
+        "quests": 75,
+        "count": 30680,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 152,
+    "fields": {
+        "name": "Coin",
+        "quests": 75,
+        "count": 13000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 153,
+    "fields": {
+        "name": "Great health potion",
+        "quests": 75,
+        "count": 20,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 154,
+    "fields": {
+        "name": "Great mana potion",
+        "quests": 75,
+        "count": 20,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 155,
+    "fields": {
+        "name": "EXP",
+        "quests": 76,
+        "count": 27560,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 156,
+    "fields": {
+        "name": "Coin",
+        "quests": 76,
+        "count": 19400,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 157,
+    "fields": {
+        "name": "EXP",
+        "quests": 77,
+        "count": 39520,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 158,
+    "fields": {
+        "name": "Belt of Town Guard",
+        "quests": 77,
+        "count": 1,
+        "upgrade_level": 6,
+        "reward_type": "armor"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 159,
+    "fields": {
+        "name": "EXP",
+        "quests": 78,
+        "count": 22880,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 160,
+    "fields": {
+        "name": "Coin",
+        "quests": 78,
+        "count": 16000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 161,
+    "fields": {
+        "name": "EXP",
+        "quests": 79,
+        "count": 34320,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 162,
+    "fields": {
+        "name": "Coin",
+        "quests": 79,
+        "count": 23600,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 163,
+    "fields": {
+        "name": "EXP",
+        "quests": 80,
+        "count": 22880,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 164,
+    "fields": {
+        "name": "Coin",
+        "quests": 80,
+        "count": 10000,
+        "upgrade_level": 0,
+        "reward_type": "other"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 165,
+    "fields": {
+        "name": "Great health potion",
+        "quests": 80,
+        "count": 40,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 166,
+    "fields": {
+        "name": "Great mana potion",
+        "quests": 80,
+        "count": 40,
+        "upgrade_level": 0,
+        "reward_type": "potion"
+    }
+},
+{
+    "model": "rewards.rewards",
+    "pk": 167,
+    "fields": {
+        "name": "EXP",
+        "quests": 81,
+        "count": 28600,
+        "upgrade_level": 0,
+        "reward_type": "exp"
+    }
+}
+]

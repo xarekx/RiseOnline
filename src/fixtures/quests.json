@@ -1,1 +1,893 @@
-[]
+[
+{
+    "model": "quests.quests",
+    "pk": 1,
+    "fields": {
+        "quest_name": "Buy an armor (Tutorial Quest)",
+        "required_level": 1,
+        "npc_name": "[Guide] Agatha",
+        "description": "Buy a Warrior Leather Boots (+1) from Armor Merchant NPC.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 2,
+    "fields": {
+        "quest_name": "Buy a weapon (Tutorial Quest)",
+        "required_level": 1,
+        "npc_name": "[Guide] Agatha",
+        "description": "Buy a Training Sword (+1) from [Weapon Merchant] Jonas.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 3,
+    "fields": {
+        "quest_name": "Buy Potions (Tutorial Quest)",
+        "required_level": 1,
+        "npc_name": "[Guide] Agatha",
+        "description": "Buy a Small health potion and a Small mana potion from [Potion Merchant] Sybel.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 4,
+    "fields": {
+        "quest_name": "Buy Supplies (Tutorial Quest)",
+        "required_level": 1,
+        "npc_name": "[Guide] Agatha",
+        "description": "Buy an Arrow, a Stone and an Adrenaline Potion from [Supply Merchant] Tarron.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 5,
+    "fields": {
+        "quest_name": "Upgrade an item (Tutorial Quest)",
+        "required_level": 1,
+        "npc_name": "[Guide] Agatha",
+        "description": "Upgrade a Training Sword to +2.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 6,
+    "fields": {
+        "quest_name": "Obtain Starter Pack",
+        "required_level": 1,
+        "npc_name": "[Quest] Darcia",
+        "description": "Deliver the Deliver the message 1 [Dorion] you got from Darcia to Agatha",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 7,
+    "fields": {
+        "quest_name": "Go For A Hunt",
+        "required_level": 1,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Earth Worms.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 8,
+    "fields": {
+        "quest_name": "Bloodsucking Little Creatures",
+        "required_level": 1,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Sand Worm.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 9,
+    "fields": {
+        "quest_name": "What kind of beast is this?",
+        "required_level": 2,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 7x Young Amphibian.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 10,
+    "fields": {
+        "quest_name": "Fungus Elimination-I",
+        "required_level": 3,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Enraged Funguses.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 11,
+    "fields": {
+        "quest_name": "Rat Catcher-I",
+        "required_level": 3,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Ratticuses.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 12,
+    "fields": {
+        "quest_name": "Rat Catcher-II",
+        "required_level": 3,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Giant Rats.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 13,
+    "fields": {
+        "quest_name": "Stolen Food",
+        "required_level": 3,
+        "npc_name": "[Quest] Ramas",
+        "description": "Collect 3x Cheeses.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 14,
+    "fields": {
+        "quest_name": "Prove That I’m Right",
+        "required_level": 4,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Wild Deers and 5x Antelopes.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 15,
+    "fields": {
+        "quest_name": "Rat Catcher-III",
+        "required_level": 5,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Monster Rats.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 16,
+    "fields": {
+        "quest_name": "Fungus Elimination-II",
+        "required_level": 6,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 4x Funguses.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 17,
+    "fields": {
+        "quest_name": "Concerning Lumberjacks",
+        "required_level": 7,
+        "npc_name": "[Quest] Ramas",
+        "description": "Collect 3x Sticks.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 18,
+    "fields": {
+        "quest_name": "Try Not To Laugh-I",
+        "required_level": 8,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 6x Funny Tails.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 19,
+    "fields": {
+        "quest_name": "Try Not To Laugh-II",
+        "required_level": 8,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 3x Big Tails.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 20,
+    "fields": {
+        "quest_name": "Stomachs For Experiment",
+        "required_level": 8,
+        "npc_name": "[Quest] Ramas",
+        "description": "Collect 5x Stomachs.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 21,
+    "fields": {
+        "quest_name": "Looks Tough But Soft Inside-I",
+        "required_level": 9,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Ganodarks and 5x Ganolights.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 22,
+    "fields": {
+        "quest_name": "Try Not To Laugh-III",
+        "required_level": 9,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 6x White Tails.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 23,
+    "fields": {
+        "quest_name": "Looks Tough But Soft Inside-II",
+        "required_level": 10,
+        "npc_name": "[Quest] Ramas",
+        "description": "Kill 5x Ganoelites and 5x Ganoleaders.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 24,
+    "fields": {
+        "quest_name": "Penetrating the Shell",
+        "required_level": 10,
+        "npc_name": "[Quest] Ramas",
+        "description": "Collect 5x Stinky shells.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 25,
+    "fields": {
+        "quest_name": "Kaleb’s Minions-I",
+        "required_level": 10,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 6x Skull Minions.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 26,
+    "fields": {
+        "quest_name": "Fisherman’s Request",
+        "required_level": 10,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 8x Slimies.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 27,
+    "fields": {
+        "quest_name": "Like A Glue",
+        "required_level": 10,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 3x Slimes.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 28,
+    "fields": {
+        "quest_name": "Strengthen Immunity",
+        "required_level": 11,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 6x Sea Dragons.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 29,
+    "fields": {
+        "quest_name": "Obtaining Liver",
+        "required_level": 11,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 3x Livers.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 30,
+    "fields": {
+        "quest_name": "Sermon’s Punishment",
+        "required_level": 11,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 7x Fishmans.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 31,
+    "fields": {
+        "quest_name": "Fishbone For The Cat",
+        "required_level": 11,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 3x Fishbones.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 32,
+    "fields": {
+        "quest_name": "Kaleb’s Minions-II",
+        "required_level": 11,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 8x Summoned Skull öldürün.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 33,
+    "fields": {
+        "quest_name": "Kaleb’s Minions-III",
+        "required_level": 12,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 6x Fiend Skulls.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 34,
+    "fields": {
+        "quest_name": "Kaleb’s Minions-IV",
+        "required_level": 12,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 5x Dread Skulls.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 35,
+    "fields": {
+        "quest_name": "Obtaining Skull Wings",
+        "required_level": 12,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 10x Skull wings.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 36,
+    "fields": {
+        "quest_name": "Crab or Scorpion?",
+        "required_level": 12,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 6x Crabbions.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 37,
+    "fields": {
+        "quest_name": "Mysterious Witch’s Needs",
+        "required_level": 12,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 3x Crabbion leg pieces.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 38,
+    "fields": {
+        "quest_name": "The Frog Prince",
+        "required_level": 13,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 9x Wild Frogs.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 39,
+    "fields": {
+        "quest_name": "Scaly Skin",
+        "required_level": 13,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 4x Wild frog skins.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 40,
+    "fields": {
+        "quest_name": "Eliminating Giants",
+        "required_level": 13,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 5x Giants.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 41,
+    "fields": {
+        "quest_name": "Giant Teeth Necklace",
+        "required_level": 13,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 3x Tooths.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 42,
+    "fields": {
+        "quest_name": "Horned Bears-I",
+        "required_level": 14,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 5x Brown Bearlaxes.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 43,
+    "fields": {
+        "quest_name": "Horned Bears-II",
+        "required_level": 14,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 5x White Bearlaxes.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 44,
+    "fields": {
+        "quest_name": "Bear Rug",
+        "required_level": 14,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 3x Brown furs and 5x White furs.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 45,
+    "fields": {
+        "quest_name": "Painful Claws-I",
+        "required_level": 14,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 6x Pit Scorpions.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 46,
+    "fields": {
+        "quest_name": "Painful Claws-II",
+        "required_level": 14,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 6x Fire Scorpions.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 47,
+    "fields": {
+        "quest_name": "Painful Claws-III",
+        "required_level": 15,
+        "npc_name": "[Quest] Ena",
+        "description": "Kill 7x Red Scorpions.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 48,
+    "fields": {
+        "quest_name": "Claw For Making Tools",
+        "required_level": 15,
+        "npc_name": "[Quest] Ena",
+        "description": "Collect 5x Scorpion claws.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 49,
+    "fields": {
+        "quest_name": "Clearing The Garden-I",
+        "required_level": 15,
+        "npc_name": "[Gardener] Popina",
+        "description": "Kill 6x Shrooms.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 50,
+    "fields": {
+        "quest_name": "Repelling Recipe",
+        "required_level": 15,
+        "npc_name": "[Gardener] Popina",
+        "description": "Collect 3x Mushroom essences.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 51,
+    "fields": {
+        "quest_name": "Clearing The Garden-II",
+        "required_level": 15,
+        "npc_name": "[Gardener] Popina",
+        "description": "Kill 7x Mushroom Heads.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 52,
+    "fields": {
+        "quest_name": "Examining Mushrooms",
+        "required_level": 15,
+        "npc_name": "[Gardener] Popina",
+        "description": "Collect 3x Mushrooms.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 53,
+    "fields": {
+        "quest_name": "I Have A Plan",
+        "required_level": 15,
+        "npc_name": "[Quest] Elenor",
+        "description": "Collect 3x Needles.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 54,
+    "fields": {
+        "quest_name": "Arachnophobia",
+        "required_level": 16,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 6x Spiders.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 55,
+    "fields": {
+        "quest_name": "Obtaining Spider Webs",
+        "required_level": 16,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 3x Spider webs.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 56,
+    "fields": {
+        "quest_name": "Denying Werewolves",
+        "required_level": 17,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 7x Werewolfs.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 57,
+    "fields": {
+        "quest_name": "Studying Werewolves",
+        "required_level": 17,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 3x Werewolf nails.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 58,
+    "fields": {
+        "quest_name": "Punishing Lycans",
+        "required_level": 17,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 7x Lycans.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 59,
+    "fields": {
+        "quest_name": "Stolen Maces",
+        "required_level": 17,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 5x Mace pieces.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 60,
+    "fields": {
+        "quest_name": "Sweeping Amphibians-I",
+        "required_level": 18,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 8x Amphibians.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 61,
+    "fields": {
+        "quest_name": "Studying Amphibians",
+        "required_level": 18,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 5x Amphibian toenails.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 62,
+    "fields": {
+        "quest_name": "Sweeping Amphibians-II",
+        "required_level": 18,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 4x Elder Amphibians.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 63,
+    "fields": {
+        "quest_name": "Dangerous Wasps",
+        "required_level": 19,
+        "npc_name": "[Quest] Elenor",
+        "description": "Kill 5x Wasps.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 64,
+    "fields": {
+        "quest_name": "Find Out The Difference",
+        "required_level": 19,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 6x Lycanthrophes.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 65,
+    "fields": {
+        "quest_name": "Trolls Threat-I",
+        "required_level": 20,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 12x Trolls.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 66,
+    "fields": {
+        "quest_name": "Collecting Fabrics",
+        "required_level": 20,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 5x Piece of cloths.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 67,
+    "fields": {
+        "quest_name": "Saber-toothed Tigers-I",
+        "required_level": 21,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 13x Smilodons.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 68,
+    "fields": {
+        "quest_name": "Proving Strength",
+        "required_level": 21,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 5x Paws.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 69,
+    "fields": {
+        "quest_name": "Trolls Threat-II",
+        "required_level": 21,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 8x Elder Trolls.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 70,
+    "fields": {
+        "quest_name": "Eliminating Trolls",
+        "required_level": 21,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 3x Troll fingers.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 71,
+    "fields": {
+        "quest_name": "Skeletal Troops",
+        "required_level": 22,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 7x Skeletons.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 72,
+    "fields": {
+        "quest_name": "Trolls Threat-III",
+        "required_level": 22,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 7x Troll Chieftains.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 73,
+    "fields": {
+        "quest_name": "Memories Don’t Bring Back",
+        "required_level": 22,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 2x Bone necklaces.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 74,
+    "fields": {
+        "quest_name": "Examining Dark Magic",
+        "required_level": 22,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 3x Broken swords.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 75,
+    "fields": {
+        "quest_name": "Saber-toothed Tigers-II",
+        "required_level": 23,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 6x Megantereons.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 76,
+    "fields": {
+        "quest_name": "End Of The Rebels",
+        "required_level": 23,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 5x Guardfishes.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 77,
+    "fields": {
+        "quest_name": "Clearing The Graveyard",
+        "required_level": 23,
+        "npc_name": "[Graveyard Keeper] Marco",
+        "description": "Kill 5x Zombie Axemans and 5x Zombie Hammermans.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 78,
+    "fields": {
+        "quest_name": "Blacksmith’s Belongings",
+        "required_level": 23,
+        "npc_name": "[Graveyard Keeper] Marco",
+        "description": "Collect a Zombie Axe and an Iron mace.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 79,
+    "fields": {
+        "quest_name": "Defeating Barbarians",
+        "required_level": 24,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill 7x Barbarians.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 80,
+    "fields": {
+        "quest_name": "Flask For Potions",
+        "required_level": 24,
+        "npc_name": "[Quest] Aiden",
+        "description": "Collect 3x Flask.",
+        "quest_zone": 1
+    }
+},
+{
+    "model": "quests.quests",
+    "pk": 81,
+    "fields": {
+        "quest_name": "Final Proof",
+        "required_level": 25,
+        "npc_name": "[Quest] Aiden",
+        "description": "Kill a Faceless.",
+        "quest_zone": 1
+    }
+}
+]
