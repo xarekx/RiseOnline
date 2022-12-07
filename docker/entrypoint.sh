@@ -19,6 +19,8 @@ echo "loading menu"
 python src/manage.py loaddata src/fixtures/menu
 echo "loading quests"
 python src/manage.py loaddata src/fixtures/quests
+echo "loading rewards"
+python src/manage.py loaddata src/fixtures/rewards
 echo "loading skills"
 python src/manage.py loaddata src/fixtures/skills
 
