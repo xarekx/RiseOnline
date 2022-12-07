@@ -3,5 +3,6 @@ from .models import Rewards
 
 @admin.register(Rewards)
 class Rewards(admin.ModelAdmin):
-    list_display = ['quests']
+    list_display = ['quests', 'name']
+
 
