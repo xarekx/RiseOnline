@@ -58,11 +58,11 @@
             <table id="questTable" class="table-auto text-white m-3">
                 <thead>
                     <tr>
-                        <th class="border text-center w-max xl:w-48 hover:cursor-pointer hover:text-sky-700">Title</th>
-                        <th class="border text-center w-16 ps-2 pe-2 hover:cursor-pointer hover:text-sky-700" data-type="number">Lvl</th>
-                        <th class="border text-center w-max hover:cursor-pointer hover:text-sky-700">Description</th>
-                        <th class="border text-center w-16 pr-2 pl-2 pb-2 hover:cursor-pointer hover:text-sky-700">Rewards</th>
-                        <th class="border text-center w-14 xl:w-36 hover:cursor-pointer hover:text-sky-700">Zone</th>
+                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Title</th>
+                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700" data-type="number">Lvl</th>
+                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Description</th>
+                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Rewards</th>
+                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Zone</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -71,7 +71,21 @@
                         <td class="border text-center">{{quest.quest_name}}</td>
                         <td class="border text-center">{{quest.required_level}}</td>
                         <td class="border">{{quest.description}}</td>
-                        <td class="border text-center">{{quest.reward}}</td>
+                        <td class="border text-center">{% for reward in rewards %}
+                                                            {% if quest.id == reward.quests_id %} 
+                                                                {% if reward.count and reward.reward_type != 'exp' and reward.reward_type != 'other' %}
+                                                                    {{reward.count}}x
+                                                                {% else %}
+                                                                    {{reward.count}}    
+                                                                {% endif %}
+                                                                {{reward.name}}
+                                                                <br/>
+                                                                {% if reward.upgrade_level != 0%}
+                                                                    (+{{reward.upgrade_level}})
+                                                                {% endif %}
+
+                                                            {% endif %}
+                                                        {% endfor %}</td>
                         <td class="border text-center">{{quest.quest_zone}}</td>
                     </tr>
                 {% endfor %}
