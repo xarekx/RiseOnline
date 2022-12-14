@@ -14,6 +14,7 @@ class Rewards(models.Model):
         ("potion", "potion"),
         ("bpoint", "bpoint"),
         ("scroll","scroll"),
+        ("coin","coin"),
         ("other","other")
     )
     
