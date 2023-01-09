@@ -20,34 +20,42 @@
                     2xl:text-base">
 
 <!--        left menu -->
-        <div class="flex h-fit bg-zinc-800  ml-2 2xl:ml-10 text-justify">
-            <div class="flex-col text-white sm:w-20 md:w-20 lg:w-24 2xl:w-24 m-0 text-center">
-                {% for item in left_side_item %}
-                    <div id ="{{item.name}}" class="nav_item" >
-                            {% if item.name == 'News' %}
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/';">{{item.name}}</div>
-                            {% elif item.name == 'Skills' %} 
-                            <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" >{{item.name}}</div>
+    <div class="flex h-fit bg-zinc-800  ml-2 2xl:ml-10 text-justify">
+        <div class="flex-col text-white sm:w-20 md:w-20 lg:w-24 2xl:w-24 m-0 text-center">
+            {% for item in left_side_item %}
+                <div id ="{{item.name}}" class="nav_item" >
+                        {% if item.name == 'News' %}
+                            <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/';" >{{item.name}}</div>
+                        {% elif item.name == 'Skills' %} 
+                            <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem ">{{item.name}}</div>
                                 <div class="pt-0 hidden bg-neutral-800 w-full">
-                                    <ul class="">
+                                    <ul>
                                         <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/warrior';">Warrior</li>
                                         <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/mage';">Mage</li>
                                         <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/priest';">Priest</li>
                                         <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/rogue';">Rogue</li>
                                     </ul>
-                                </div>    
-                            {% else %}
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/{{item.name | lower}}';">{{item.name}}</div>
-                            {% endif %}
-                    </div>
-                {% endfor %}
-                {% if user.is_authenticated %}
-                <div>
-                    <div class="block p-2 hover:text-sky-600 text-center cursor-pointer leftNavItem" onclick="location.href='/admin';">Admin</div> 
+                                </div>
+                        {% elif item.name == 'Items' %}
+                            <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem ">{{item.name}}</div>
+                                <div class="pt-0 hidden bg-neutral-800 w-full">
+                                    <ul>
+                                        <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/items/weapons';">Weapons</li>
+                                        <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/items/armors';">Armors</li>
+                                    </ul>
+                                </div>
+                        {% else %}
+                            <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/{{item.name | lower}}';">{{item.name}}</div>
+                        {% endif %}
                 </div>
-                {% endif %}
+            {% endfor %}
+            {% if user.is_authenticated %}
+            <div>
+                <div class="block p-2 hover:text-sky-600 text-center cursor-pointer leftNavItem" onclick="location.href='/admin';">Admin</div> 
             </div>
+            {% endif %}
         </div>
+    </div>
 
 
 <!--    content div -->
