@@ -70,20 +70,142 @@
                     <div class="flex w-full">
                             <div class="text-2xl mx-auto text-[#dbae28]">{{ priest }}</div>
                     </div>
-
                     <!-- trainne skills -->
-                    <div>
-                        <div class="flex text-white justify-center mb-2 mt-2">
+                    {% for skill_type in count_class_skill_type  %}
+                       <!-- {{skill_type}} -->
+                       <div>
+                        <div class="flex text-[#dbae28] justify-center mb-2 mt-2 text-xl">
+                            <span>
+                                {% if skill_type == 'Asass' %}Assasin 
+                                {% elif skill_type == 'Mstr' %}Master 
+                                {% elif skill_type == 'Arch' %}Archer
+                                {% elif skill_type == 'Train' %}Trainee
+                                {% else %} Scout
+                                {% endif %}</span>
+                        </div>
+                        <table class="table-auto text-white border-1 flex-col w-full">
+                            <thead class="border-1 text-center">
+                                <tr>
+                                    <th class="border w-1/5 2xl:w-1/6">Skill Name</th>
+                                    <th class="border w-1/2">Description</th>
+                                    <th class="border w-1/12">Mana Cost </th>
+                                    <th class="border w-1/12">Cd.</th>
+                                    <th class="border w-1/12">Skill Point</th>
+                                </tr>
+                            </thead>
+                            <tbody >
+                                {% if skill_type == 'Train' %}
+                                    {% for train_sk in rogue_trainee %}
+                                    <tr class="border h-full">
+                                        <td class="flex">
+                                            <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]" >
+                                                <img src="{{train_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                            </div>
+                                            <span class="flex items-center w-full 2xl:w-auto">
+                                                {{train_sk.name}}
+                                            </span>
+                                        </td>
+                                        <td class="border text-center">{{train_sk.description}}</td>
+                                        <td class="border text-center">{{train_sk.mana}}</td>
+                                        <td class="border text-center">{{train_sk.cooldown}}</td>
+                                        <td class="border text-center">{{train_sk.skill_point}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% endif %}
+
+                                {% if skill_type == 'Arch' %}
+                                    {% for arch_sk in rogue_arch %}
+                                    <tr class="border">
+                                        <td class="flex ">
+                                            <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                            <img src="{{arch_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                            </div>
+                                            <span class="flex items-center w-full 2xl:w-auto">
+                                                {{arch_sk.name}}
+                                            </span>
+                                        </td>
+                                        <td class="border text-center">{{arch_sk.description}}</td>
+                                        <td class="border text-center">{{arch_sk.mana}}</td>
+                                        <td class="border text-center">{{arch_sk.cooldown}}</td>
+                                        <td class="border text-center">{{arch_sk.skill_point}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% endif %}
+
+                                {% if skill_type == 'Asass' %}
+                                    {% for assas_sk in rogue_assas %}
+                                    <tr class="border">
+                                        <td class="flex">
+                                            <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                <img src="{{assas_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                            </div>
+                                            <span class="flex items-center w-full 2xl:w-auto">
+                                                {{assas_sk.name}}
+                                            </span>
+                                        </td>
+                                        <td class="border text-center">{{assas_sk.description}}</td>
+                                        <td class="border text-center">{{assas_sk.mana}}</td>
+                                        <td class="border text-center">{{assas_sk.cooldown}}</td>
+                                        <td class="border text-center">{{assas_sk.skill_point}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% endif %}
+
+                                {% if skill_type == 'Def' %}
+                                    {% for scout_sk in rogue_scout %}
+                                    <tr class="border">
+                                        <td class="flex ">
+                                            <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                <img src="{{scout_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                            </div>
+                                            <span class="flex items-center w-full 2xl:w-auto">
+                                                {{scout_sk.name}}
+                                            </span>
+                                        </td>
+                                        <td class="border text-center">{{scout_sk.description}}</td>
+                                        <td class="border text-center">{{scout_sk.mana}}</td>
+                                        <td class="border text-center">{{scout_sk.cooldown}}</td>
+                                        <td class="border text-center">{{scout_sk.skill_point}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% endif %}
+
+                                {% if skill_type == 'Mstr' %}
+                                    {% for mstr_sk in rogue_master %}
+                                    <tr class="border">
+                                        <td class="flex">
+                                            <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                <img src="{{mstr_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1" >
+                                            </div>
+                                            <span class="flex items-center w-full 2xl:w-auto">
+                                                {{mstr_sk.name}}
+                                            </span>
+                                        </td>
+                                        <td class="border text-center">{{mstr_sk.description}}</td>
+                                        <td class="border text-center">{{mstr_sk.mana}}</td>
+                                        <td class="border text-center">{{mstr_sk.cooldown}}</td>
+                                        <td class="border text-center">{{mstr_sk.skill_point}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% endif %}
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    {% endfor %}
+                    
+                    <!-- <div>
+                        <div class="flex text-[#dbae28] justify-center mb-2 mt-2 text-xl">
                             <span>Trainee Skills</span>
                         </div>
                         <table class="table-auto text-white border-1 flex-col w-full">
                             <thead class="border-1 text-center">
                                 <tr>
-                                    <th class="border-1 w-1/5 2xl:w-1/6">Skill Name</th>
-                                    <th class="border-1 w-1/2">Description</th>
-                                    <th class="border-1 w-1/12">Mana Cost </th>
-                                    <th class="border-1 w-1/12">Cd.</th>
-                                    <th class="border-1 w-1/12">Skill Point</th>
+                                    <th class="border w-1/5 2xl:w-1/6">Skill Name</th>
+                                    <th class="border w-1/2">Description</th>
+                                    <th class="border w-1/12">Mana Cost </th>
+                                    <th class="border w-1/12">Cd.</th>
+                                    <th class="border w-1/12">Skill Point</th>
                                 </tr>
                             </thead>
                             <tbody >
@@ -105,21 +227,21 @@
                                 {% endfor %}
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
 
                     <!-- assasin skills -->
-                    <div>
-                        <div class="flex text-white justify-center mb-2 mt-2">
+                    <!-- <div>
+                        <div class="flex text-[#dbae28] justify-center mb-2 mt-2 text-xl">
                             <span>Assasin Skills</span>
                         </div>
                         <table class="table-auto text-white border-1 flex-col w-full ">
                             <thead class="border-1 text-center">
                                 <tr>
-                                    <th class="border-1 w-1/5 2xl:w-1/6">Skill Name</th>
-                                    <th class="border-1 w-1/2">Description</th>
-                                    <th class="border-1 w-1/12">Mana Cost </th>
-                                    <th class="border-1 w-1/12">Cd.</th>
-                                    <th class="border-1 w-1/12">Skill Point</th>
+                                    <th class="border w-1/5 2xl:w-1/6">Skill Name</th>
+                                    <th class="border w-1/2">Description</th>
+                                    <th class="border w-1/12">Mana Cost </th>
+                                    <th class="border w-1/12">Cd.</th>
+                                    <th class="border w-1/12">Skill Point</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -141,21 +263,21 @@
                                 {% endfor %}
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
 
                     <!-- archer skills -->
-                    <div>
-                        <div class="flex text-white justify-center mb-2 mt-2">
+                    <!-- <div>
+                        <div class="flex text-[#dbae28] justify-center mb-2 mt-2 text-xl">
                             <span>Archer Skills</span>
                         </div>
                         <table class="table-auto text-white border-1 flex-col w-full ">
                             <thead class="border-1 text-center">
                                 <tr>
-                                    <th class="border-1 w-1/5 2xl:w-1/6">Skill Name</th>
-                                    <th class="border-1 w-1/2">Description</th>
-                                    <th class="border-1 w-1/12">Mana Cost </th>
-                                    <th class="border-1 w-1/12">Cd.</th>
-                                    <th class="border-1 w-1/12">Skill Point</th>
+                                    <th class="border w-1/5 2xl:w-1/6">Skill Name</th>
+                                    <th class="border w-1/2">Description</th>
+                                    <th class="border w-1/12">Mana Cost </th>
+                                    <th class="border w-1/12">Cd.</th>
+                                    <th class="border w-1/12">Skill Point</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -177,21 +299,21 @@
                                 {% endfor %}
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
 
                     <!-- Scout skills -->
-                    <div>
-                        <div class="flex text-white justify-center mb-2 mt-2">
+                    <!-- <div>
+                        <div class="flex text-[#dbae28] justify-center mb-2 mt-2 text-xl">
                             <span>Scout Skills</span>
                         </div>
                         <table class="table-auto text-white border-1 flex-col w-full ">
                             <thead class="border-1 text-center">
                                 <tr>
-                                    <th class="border-1 w-1/5 2xl:w-1/6">Skill Name</th>
-                                    <th class="border-1 w-1/2">Description</th>
-                                    <th class="border-1 w-1/12">Mana Cost </th>
-                                    <th class="border-1 w-1/12">Cd.</th>
-                                    <th class="border-1 w-1/12">Skill Point</th>
+                                    <th class="border w-1/5 2xl:w-1/6">Skill Name</th>
+                                    <th class="border w-1/2">Description</th>
+                                    <th class="border w-1/12">Mana Cost </th>
+                                    <th class="border w-1/12">Cd.</th>
+                                    <th class="border w-1/12">Skill Point</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -213,21 +335,22 @@
                                 {% endfor %}
                             </tbody>
                         </table>
-                    </div>  
+                    </div>   -->
 
                     <!-- master skills -->
-                    <div>
-                        <div class="flex text-white justify-center mb-2 mt-2">
-                            <span>Master Skills</span>
+                    
+                    <!-- <div>
+                        <div class="flex text-[#dbae28] justify-center mb-2 mt-2 text-xl">
+                            <span>Master Skills {{count_class_skill_type}}</span>
                         </div>
                         <table class="table-auto text-white border-1 flex-col w-full ">
                             <thead class="border-1 text-center">
                                 <tr>
-                                    <th class="border-1 w-1/5 2xl:w-1/6">Skill Name</th>
-                                    <th class="border-1 w-1/2">Description</th>
-                                    <th class="border-1 w-1/12">Mana Cost </th>
-                                    <th class="border-1 w-1/12">Cd.</th>
-                                    <th class="border-1 w-1/12">Skill Point</th>
+                                    <th class="border w-1/5 2xl:w-1/6">Skill Name</th>
+                                    <th class="border w-1/2">Description</th>
+                                    <th class="border w-1/12">Mana Cost </th>
+                                    <th class="border w-1/12">Cd.</th>
+                                    <th class="border w-1/12">Skill Point</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -249,7 +372,7 @@
                                 {% endfor %}
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
