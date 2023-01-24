@@ -24,7 +24,7 @@ def warrior(request):
                                                 'warrior_defense': get_skills('Warrior', 'Def'),
                                                 'warrior_master':get_skills('Warrior', 'Mstr'),
                                                 'warrior_trainee':get_skills('Warrior', 'Train'),
-                                                'count_class_skill_type':count_class_skill_type(request,'Warrior')
+                                                'count_class_skill_type':count_class_skill_type('Warrior')
                                                 })
 
 def priest(request):
@@ -35,7 +35,7 @@ def priest(request):
                                                 'priest_debuff' : get_skills('Priest','Dbf'),
                                                 'priest_master' : get_skills('Priest','Mstr'),
                                                 'priest_trainee' : get_skills('Priest','Train'),
-                                                'count_class_skill_type':count_class_skill_type(request,'Priest')
+                                                'count_class_skill_type':count_class_skill_type('Priest')
                                                 })
     
 
@@ -59,5 +59,5 @@ def mage(request):
                                                 'mage_light' : get_skills('Mage','Light'),
                                                 'mage_master' : get_skills('Mage','Mstr'),
                                                 'mage_trainee' : get_skills('Mage','Train'),
-                                                'count_class_skill_type': count_class_skill_type(request,'Mage')
+                                                'count_class_skill_type': count_class_skill_type('Mage')
                                                 })
