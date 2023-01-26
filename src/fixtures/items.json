@@ -1,32 +1,412 @@
 [
-    {
-        "model": "items.items",
-        "pk": 1,
-        "fields": {
-            "name": "Hand Axe of Minotaur",
-            "img": "items/Minotaur_axe.png",
-            "item_type": "Axe",
-            "dropped_by": 1
-        }
-    },
-    {
-        "model": "items.items",
-        "pk": 2,
-        "fields": {
-            "name": "Hearthseeker",
-            "img": "items/hearthseeker.png",
-            "item_type": "Sword",
-            "dropped_by": 2
-        }
-    },
-    {
-        "model": "items.items",
-        "pk": 3,
-        "fields": {
-            "name": "Arch Sword",
-            "img": "items/arch_sword.png",
-            "item_type": "Sword",
-            "dropped_by": 2
-        }
+{
+    "model": "items.items",
+    "pk": 1,
+    "fields": {
+        "name": "Hand Axe of Minotaur",
+        "img": "items/Minotaur_axe.png",
+        "item_type": "Axe",
+        "dropped_by": 1
     }
+},
+{
+    "model": "items.items",
+    "pk": 2,
+    "fields": {
+        "name": "Hearthseeker",
+        "img": "items/hearthseeker.png",
+        "item_type": "Bow",
+        "dropped_by": 2
+    }
+},
+{
+    "model": "items.items",
+    "pk": 3,
+    "fields": {
+        "name": "Arch Sword",
+        "img": "items/arch_sword.png",
+        "item_type": "Sword",
+        "dropped_by": 2
+    }
+},
+{
+    "model": "items.items",
+    "pk": 4,
+    "fields": {
+        "name": "Facelifter",
+        "img": "items/facelifter.png",
+        "item_type": "Dagger",
+        "dropped_by": 7
+    }
+},
+{
+    "model": "items.items",
+    "pk": 5,
+    "fields": {
+        "name": "Facelifter",
+        "img": "items/facelifter.png",
+        "item_type": "Dagger",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 6,
+    "fields": {
+        "name": "Sunshard",
+        "img": "items/sunshard.png",
+        "item_type": "Dagger",
+        "dropped_by": 7
+    }
+},
+{
+    "model": "items.items",
+    "pk": 7,
+    "fields": {
+        "name": "Sunshard",
+        "img": "items/sunshard.png",
+        "item_type": "Dagger",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 9,
+    "fields": {
+        "name": "Dagger of Balance",
+        "img": "items/dagger_of_balance.png",
+        "item_type": "Dagger",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 10,
+    "fields": {
+        "name": "Dark Mamba",
+        "img": "items/dark_mamba.png",
+        "item_type": "Dagger",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 11,
+    "fields": {
+        "name": "Deathwish",
+        "img": "items/deathwish.png",
+        "item_type": "Dagger",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 12,
+    "fields": {
+        "name": "Golden Snake",
+        "img": "items/golden_snake.png",
+        "item_type": "Dagger",
+        "dropped_by": 7
+    }
+},
+{
+    "model": "items.items",
+    "pk": 13,
+    "fields": {
+        "name": "Golden Snake",
+        "img": "items/golden_snake.png",
+        "item_type": "Dagger",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 14,
+    "fields": {
+        "name": "Hatreds blade",
+        "img": "items/hatreds_blade.png",
+        "item_type": "Dagger",
+        "dropped_by": 3
+    }
+},
+{
+    "model": "items.items",
+    "pk": 15,
+    "fields": {
+        "name": "Kryss",
+        "img": "items/kryss.png",
+        "item_type": "Dagger",
+        "dropped_by": 7
+    }
+},
+{
+    "model": "items.items",
+    "pk": 16,
+    "fields": {
+        "name": "Kryss",
+        "img": "items/kryss.png",
+        "item_type": "Dagger",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 17,
+    "fields": {
+        "name": "Headsplitter",
+        "img": "items/headsplitter.png",
+        "item_type": "Axe",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 18,
+    "fields": {
+        "name": "Axe of Destruction",
+        "img": "items/axe_of_destruction.png",
+        "item_type": "Axe",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 19,
+    "fields": {
+        "name": "Overseer",
+        "img": "items/overseer.png",
+        "item_type": "Axe",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 20,
+    "fields": {
+        "name": "Ruby Axe",
+        "img": "items/ruby_axe.png",
+        "item_type": "Axe",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 21,
+    "fields": {
+        "name": "Spinning Axe",
+        "img": "items/spinning_axe.png",
+        "item_type": "Axe",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 22,
+    "fields": {
+        "name": "Stormbringer",
+        "img": "items/stormbringer.png",
+        "item_type": "Mace",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 23,
+    "fields": {
+        "name": "Annihilator",
+        "img": "items/annihilator.png",
+        "item_type": "Mace",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 24,
+    "fields": {
+        "name": "Druid Staff",
+        "img": "items/druid_staff.png",
+        "item_type": "Staff",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 25,
+    "fields": {
+        "name": "Lunas Fire Rod",
+        "img": "items/lunas_fire_rod.png",
+        "item_type": "Staff",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 26,
+    "fields": {
+        "name": "Lunas Flash Rod",
+        "img": "items/lunas_flash_rod.png",
+        "item_type": "Staff",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 27,
+    "fields": {
+        "name": "Necromancers Staff",
+        "img": "items/necromancers_staff.png",
+        "item_type": "Staff",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 28,
+    "fields": {
+        "name": "Spiked Cane",
+        "img": "items/spiked_cane.png",
+        "item_type": "Staff",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 29,
+    "fields": {
+        "name": "Bluewing",
+        "img": "items/bluewing.png",
+        "item_type": "Bow",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 30,
+    "fields": {
+        "name": "Elven Bow",
+        "img": "items/elven_bow.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 31,
+    "fields": {
+        "name": "Golden Bow",
+        "img": "items/golden_bow.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 32,
+    "fields": {
+        "name": "Swift Shooter",
+        "img": "items/swift_shooter.png",
+        "item_type": "Bow",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 33,
+    "fields": {
+        "name": "Vixen",
+        "img": "items/vixen.png",
+        "item_type": "Bow",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 34,
+    "fields": {
+        "name": "Mage Imperial Chest Armor",
+        "img": "items/mage_imperial_chest_armor.png",
+        "item_type": "Mage Armor",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 35,
+    "fields": {
+        "name": "Rogue Elite Gauntlets",
+        "img": "items/rogue_elite_gauntlets.png",
+        "item_type": "Rogue Armor",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 36,
+    "fields": {
+        "name": "Rogue Elite Greaves",
+        "img": "items/rogue_elite_greaves.png",
+        "item_type": "Rogue Armor",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.items",
+    "pk": 37,
+    "fields": {
+        "name": "Rogue Imperial Chestplate",
+        "img": "items/rogue_imperial_chestplate.png",
+        "item_type": "Rogue Armor",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 38,
+    "fields": {
+        "name": "Rogue Imperial Tasset",
+        "img": "items/rogue_imperial_tasset.png",
+        "item_type": "Rogue Armor",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 39,
+    "fields": {
+        "name": "Priest Leather Vest",
+        "img": "items/priest_leather_vest.png",
+        "item_type": "Priest Armor",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 40,
+    "fields": {
+        "name": "Warrior Elite Tasset",
+        "img": "items/warrior_elite_tasset.png",
+        "item_type": "Warrior Armor",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 41,
+    "fields": {
+        "name": "Warrior Heavy Breastplate",
+        "img": "items/warrior_heavy_breastplate.png",
+        "item_type": "Warrior Armor",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.items",
+    "pk": 42,
+    "fields": {
+        "name": "Warrior Imperial Helmet",
+        "img": "items/warrior_imperial_helmet.png",
+        "item_type": "Warrior Armor",
+        "dropped_by": 8
+    }
+}
 ]
