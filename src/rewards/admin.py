@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Rewards
+from .models import Reward
 
-@admin.register(Rewards)
-class Rewards(admin.ModelAdmin):
+@admin.register(Reward)
+class Reward(admin.ModelAdmin):
     list_display = ['quests', 'name']
 
 
