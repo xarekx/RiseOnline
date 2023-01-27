@@ -1,6 +1,6 @@
 [
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 1,
     "fields": {
         "quest_name": "Buy an armor (Tutorial Quest)",
@@ -11,7 +11,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 2,
     "fields": {
         "quest_name": "Buy a weapon (Tutorial Quest)",
@@ -22,7 +22,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 3,
     "fields": {
         "quest_name": "Buy Potions (Tutorial Quest)",
@@ -33,7 +33,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 4,
     "fields": {
         "quest_name": "Buy Supplies (Tutorial Quest)",
@@ -44,7 +44,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 5,
     "fields": {
         "quest_name": "Upgrade an item (Tutorial Quest)",
@@ -55,7 +55,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 6,
     "fields": {
         "quest_name": "Obtain Starter Pack",
@@ -66,7 +66,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 7,
     "fields": {
         "quest_name": "Go For A Hunt",
@@ -77,7 +77,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 8,
     "fields": {
         "quest_name": "Bloodsucking Little Creatures",
@@ -88,7 +88,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 9,
     "fields": {
         "quest_name": "What kind of beast is this?",
@@ -99,7 +99,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 10,
     "fields": {
         "quest_name": "Fungus Elimination-I",
@@ -110,7 +110,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 11,
     "fields": {
         "quest_name": "Rat Catcher-I",
@@ -121,7 +121,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 12,
     "fields": {
         "quest_name": "Rat Catcher-II",
@@ -132,7 +132,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 13,
     "fields": {
         "quest_name": "Stolen Food",
@@ -143,7 +143,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 14,
     "fields": {
         "quest_name": "Prove That I’m Right",
@@ -154,7 +154,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 15,
     "fields": {
         "quest_name": "Rat Catcher-III",
@@ -165,7 +165,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 16,
     "fields": {
         "quest_name": "Fungus Elimination-II",
@@ -176,7 +176,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 17,
     "fields": {
         "quest_name": "Concerning Lumberjacks",
@@ -187,7 +187,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 18,
     "fields": {
         "quest_name": "Try Not To Laugh-I",
@@ -198,7 +198,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 19,
     "fields": {
         "quest_name": "Try Not To Laugh-II",
@@ -209,7 +209,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 20,
     "fields": {
         "quest_name": "Stomachs For Experiment",
@@ -220,7 +220,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 21,
     "fields": {
         "quest_name": "Looks Tough But Soft Inside-I",
@@ -231,7 +231,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 22,
     "fields": {
         "quest_name": "Try Not To Laugh-III",
@@ -242,7 +242,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 23,
     "fields": {
         "quest_name": "Looks Tough But Soft Inside-II",
@@ -253,7 +253,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 24,
     "fields": {
         "quest_name": "Penetrating the Shell",
@@ -264,7 +264,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 25,
     "fields": {
         "quest_name": "Kaleb’s Minions-I",
@@ -275,7 +275,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 26,
     "fields": {
         "quest_name": "Fisherman’s Request",
@@ -286,7 +286,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 27,
     "fields": {
         "quest_name": "Like A Glue",
@@ -297,7 +297,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 28,
     "fields": {
         "quest_name": "Strengthen Immunity",
@@ -308,7 +308,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 29,
     "fields": {
         "quest_name": "Obtaining Liver",
@@ -319,7 +319,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 30,
     "fields": {
         "quest_name": "Sermon’s Punishment",
@@ -330,7 +330,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 31,
     "fields": {
         "quest_name": "Fishbone For The Cat",
@@ -341,7 +341,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 32,
     "fields": {
         "quest_name": "Kaleb’s Minions-II",
@@ -352,7 +352,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 33,
     "fields": {
         "quest_name": "Kaleb’s Minions-III",
@@ -363,7 +363,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 34,
     "fields": {
         "quest_name": "Kaleb’s Minions-IV",
@@ -374,7 +374,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 35,
     "fields": {
         "quest_name": "Obtaining Skull Wings",
@@ -385,7 +385,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 36,
     "fields": {
         "quest_name": "Crab or Scorpion?",
@@ -396,7 +396,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 37,
     "fields": {
         "quest_name": "Mysterious Witch’s Needs",
@@ -407,7 +407,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 38,
     "fields": {
         "quest_name": "The Frog Prince",
@@ -418,7 +418,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 39,
     "fields": {
         "quest_name": "Scaly Skin",
@@ -429,7 +429,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 40,
     "fields": {
         "quest_name": "Eliminating Giants",
@@ -440,7 +440,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 41,
     "fields": {
         "quest_name": "Giant Teeth Necklace",
@@ -451,7 +451,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 42,
     "fields": {
         "quest_name": "Horned Bears-I",
@@ -462,7 +462,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 43,
     "fields": {
         "quest_name": "Horned Bears-II",
@@ -473,7 +473,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 44,
     "fields": {
         "quest_name": "Bear Rug",
@@ -484,7 +484,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 45,
     "fields": {
         "quest_name": "Painful Claws-I",
@@ -495,7 +495,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 46,
     "fields": {
         "quest_name": "Painful Claws-II",
@@ -506,7 +506,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 47,
     "fields": {
         "quest_name": "Painful Claws-III",
@@ -517,7 +517,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 48,
     "fields": {
         "quest_name": "Claw For Making Tools",
@@ -528,7 +528,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 49,
     "fields": {
         "quest_name": "Clearing The Garden-I",
@@ -539,7 +539,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 50,
     "fields": {
         "quest_name": "Repelling Recipe",
@@ -550,7 +550,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 51,
     "fields": {
         "quest_name": "Clearing The Garden-II",
@@ -561,7 +561,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 52,
     "fields": {
         "quest_name": "Examining Mushrooms",
@@ -572,7 +572,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 53,
     "fields": {
         "quest_name": "I Have A Plan",
@@ -583,7 +583,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 54,
     "fields": {
         "quest_name": "Arachnophobia",
@@ -594,7 +594,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 55,
     "fields": {
         "quest_name": "Obtaining Spider Webs",
@@ -605,7 +605,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 56,
     "fields": {
         "quest_name": "Denying Werewolves",
@@ -616,7 +616,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 57,
     "fields": {
         "quest_name": "Studying Werewolves",
@@ -627,7 +627,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 58,
     "fields": {
         "quest_name": "Punishing Lycans",
@@ -638,7 +638,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 59,
     "fields": {
         "quest_name": "Stolen Maces",
@@ -649,7 +649,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 60,
     "fields": {
         "quest_name": "Sweeping Amphibians-I",
@@ -660,7 +660,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 61,
     "fields": {
         "quest_name": "Studying Amphibians",
@@ -671,7 +671,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 62,
     "fields": {
         "quest_name": "Sweeping Amphibians-II",
@@ -682,7 +682,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 63,
     "fields": {
         "quest_name": "Dangerous Wasps",
@@ -693,7 +693,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 64,
     "fields": {
         "quest_name": "Find Out The Difference",
@@ -704,7 +704,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 65,
     "fields": {
         "quest_name": "Trolls Threat-I",
@@ -715,7 +715,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 66,
     "fields": {
         "quest_name": "Collecting Fabrics",
@@ -726,7 +726,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 67,
     "fields": {
         "quest_name": "Saber-toothed Tigers-I",
@@ -737,7 +737,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 68,
     "fields": {
         "quest_name": "Proving Strength",
@@ -748,7 +748,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 69,
     "fields": {
         "quest_name": "Trolls Threat-II",
@@ -759,7 +759,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 70,
     "fields": {
         "quest_name": "Eliminating Trolls",
@@ -770,7 +770,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 71,
     "fields": {
         "quest_name": "Skeletal Troops",
@@ -781,7 +781,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 72,
     "fields": {
         "quest_name": "Trolls Threat-III",
@@ -792,7 +792,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 73,
     "fields": {
         "quest_name": "Memories Don’t Bring Back",
@@ -803,7 +803,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 74,
     "fields": {
         "quest_name": "Examining Dark Magic",
@@ -814,7 +814,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 75,
     "fields": {
         "quest_name": "Saber-toothed Tigers-II",
@@ -825,7 +825,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 76,
     "fields": {
         "quest_name": "End Of The Rebels",
@@ -836,7 +836,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 77,
     "fields": {
         "quest_name": "Clearing The Graveyard",
@@ -847,7 +847,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 78,
     "fields": {
         "quest_name": "Blacksmith’s Belongings",
@@ -858,7 +858,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 79,
     "fields": {
         "quest_name": "Defeating Barbarians",
@@ -869,7 +869,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 80,
     "fields": {
         "quest_name": "Flask For Potions",
@@ -880,7 +880,7 @@
     }
 },
 {
-    "model": "quests.quests",
+    "model": "quests.quest",
     "pk": 81,
     "fields": {
         "quest_name": "Final Proof",
