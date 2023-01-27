@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from PIL import Image
 
-class Skills(models.Model):
+class Skill(models.Model):
     
     CLASSES = (
         ("Warrior", "Warrior"),
@@ -33,6 +33,12 @@ class Skills(models.Model):
     img = models.ImageField(_("img"), upload_to="media/skills/", null=True, blank=True)
     skill_point = models.SmallIntegerField(_("skill_point"), default=0)
     skill_level = models.SmallIntegerField(_("skill_level"), default=0)
+    
+    class Meta:
+        db_table = "rise_skill"
+        verbose_name = _("skill")
+        verbose_name_plural = _('skills')
+    
     
     def __str__(self):
         return str(self.skill_class)

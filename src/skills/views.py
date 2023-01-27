@@ -1,11 +1,11 @@
 from django.shortcuts import render
-from skills.models import Skills
+from skills.models import Skill
 from menu.models import LeftSideMenu
 from django.template import loader
 from django.http import HttpResponse
 
 # Create your views here.
-skills_all = Skills.objects.all()
+skills_all = Skill.objects.all()
 left_side_item = LeftSideMenu.objects.all()
 
 def count_class_skill_type(class_name):
