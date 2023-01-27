@@ -1,6 +1,6 @@
 [
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 1,
     "fields": {
         "name": "Hand Axe of Minotaur",
@@ -10,7 +10,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 2,
     "fields": {
         "name": "Hearthseeker",
@@ -20,7 +20,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 3,
     "fields": {
         "name": "Arch Sword",
@@ -30,7 +30,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 4,
     "fields": {
         "name": "Facelifter",
@@ -40,7 +40,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 5,
     "fields": {
         "name": "Facelifter",
@@ -50,7 +50,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 6,
     "fields": {
         "name": "Sunshard",
@@ -60,7 +60,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 7,
     "fields": {
         "name": "Sunshard",
@@ -70,7 +70,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 9,
     "fields": {
         "name": "Dagger of Balance",
@@ -80,7 +80,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 10,
     "fields": {
         "name": "Dark Mamba",
@@ -90,7 +90,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 11,
     "fields": {
         "name": "Deathwish",
@@ -100,7 +100,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 12,
     "fields": {
         "name": "Golden Snake",
@@ -110,7 +110,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 13,
     "fields": {
         "name": "Golden Snake",
@@ -120,7 +120,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 14,
     "fields": {
         "name": "Hatreds blade",
@@ -130,7 +130,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 15,
     "fields": {
         "name": "Kryss",
@@ -140,7 +140,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 16,
     "fields": {
         "name": "Kryss",
@@ -150,7 +150,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 17,
     "fields": {
         "name": "Headsplitter",
@@ -160,7 +160,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 18,
     "fields": {
         "name": "Axe of Destruction",
@@ -170,7 +170,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 19,
     "fields": {
         "name": "Overseer",
@@ -180,7 +180,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 20,
     "fields": {
         "name": "Ruby Axe",
@@ -190,7 +190,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 21,
     "fields": {
         "name": "Spinning Axe",
@@ -200,7 +200,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 22,
     "fields": {
         "name": "Stormbringer",
@@ -210,7 +210,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 23,
     "fields": {
         "name": "Annihilator",
@@ -220,7 +220,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 24,
     "fields": {
         "name": "Druid Staff",
@@ -230,7 +230,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 25,
     "fields": {
         "name": "Lunas Fire Rod",
@@ -240,7 +240,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 26,
     "fields": {
         "name": "Lunas Flash Rod",
@@ -250,7 +250,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 27,
     "fields": {
         "name": "Necromancers Staff",
@@ -260,7 +260,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 28,
     "fields": {
         "name": "Spiked Cane",
@@ -270,7 +270,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 29,
     "fields": {
         "name": "Bluewing",
@@ -280,7 +280,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 30,
     "fields": {
         "name": "Elven Bow",
@@ -290,7 +290,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 31,
     "fields": {
         "name": "Golden Bow",
@@ -300,7 +300,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 32,
     "fields": {
         "name": "Swift Shooter",
@@ -310,7 +310,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 33,
     "fields": {
         "name": "Vixen",
@@ -320,7 +320,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 34,
     "fields": {
         "name": "Mage Imperial Chest Armor",
@@ -330,7 +330,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 35,
     "fields": {
         "name": "Rogue Elite Gauntlets",
@@ -340,7 +340,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 36,
     "fields": {
         "name": "Rogue Elite Greaves",
@@ -350,7 +350,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 37,
     "fields": {
         "name": "Rogue Imperial Chestplate",
@@ -360,7 +360,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 38,
     "fields": {
         "name": "Rogue Imperial Tasset",
@@ -370,7 +370,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 39,
     "fields": {
         "name": "Priest Leather Vest",
@@ -380,7 +380,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 40,
     "fields": {
         "name": "Warrior Elite Tasset",
@@ -390,7 +390,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 41,
     "fields": {
         "name": "Warrior Heavy Breastplate",
@@ -400,7 +400,7 @@
     }
 },
 {
-    "model": "items.items",
+    "model": "items.item",
     "pk": 42,
     "fields": {
         "name": "Warrior Imperial Helmet",
