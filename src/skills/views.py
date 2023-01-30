@@ -1,67 +1,63 @@
 from django.shortcuts import render
-from skills.models import Skills
+from skills.models import Skill
 from menu.models import LeftSideMenu
+from django.template import loader
+from django.http import HttpResponse
 
 # Create your views here.
-skills_all = Skills.objects.all()
+skills_all = Skill.objects.all()
 left_side_item = LeftSideMenu.objects.all()
 
+def count_class_skill_type(class_name):
+    
+    class_skill_type = list(skills_all.filter(skill_class=class_name).values_list('skill_tree',flat=True).distinct())
+    return class_skill_type
+
+def get_skills(class_name, skills_tree):
+    skills = skills_all.filter(skill_class = class_name, skill_tree = skills_tree).order_by('skill_point')
+    return skills
+
 def warrior(request):
-    warrior_attack = skills_all.filter(skill_class = "Warrior", skill_tree = 'Attk').order_by('skill_point')
-    warrior_defense = skills_all.filter(skill_class = "Warrior", skill_tree = 'Def').order_by('skill_point')
-    warrior_master = skills_all.filter(skill_class = "Warrior", skill_tree = 'Mstr').order_by('skill_point')
-    warrior_trainee = skills_all.filter(skill_class = "Warrior" ,skill_tree = 'Train').order_by('skill_point')
-     
+   
     return render(request, 'skills/warrior.html', {'left_side_item': left_side_item, 
-                                                # 'warrior': warrior,
-                                                'warrior_attack': warrior_attack, 
-                                                'warrior_defense': warrior_defense,
-                                                'warrior_master':warrior_master,
-                                                'warrior_trainee':warrior_trainee 
+                                                'warrior_attack': get_skills('Warrior', 'Attk'),
+                                                'warrior_defense': get_skills('Warrior', 'Def'),
+                                                'warrior_master':get_skills('Warrior', 'Mstr'),
+                                                'warrior_trainee':get_skills('Warrior', 'Train'),
+                                                'count_class_skill_type':count_class_skill_type('Warrior')
                                                 })
 
 def priest(request):
-    priest_buff = skills_all.filter(skill_class = 'Priest', skill_tree = 'Buff').order_by('skill_point')
-    priest_heal = skills_all.filter(skill_class = 'Priest', skill_tree = 'Heal').order_by('skill_point')
-    priest_debuff = skills_all.filter(skill_class = 'Priest', skill_tree = 'Dbf').order_by('skill_point')
-    priest_master = skills_all.filter(skill_class = 'Priest', skill_tree = 'Mstr').order_by('skill_point')
-    priest_trainee = skills_all.filter(skill_class = 'Priest', skill_tree = 'Train').order_by('skill_point')
      
     return render(request, 'skills/priest.html', {'left_side_item': left_side_item, 
-                                                'priest_buff': priest_buff,
-                                                'priest_heal': priest_heal,
-                                                'priest_debuff' : priest_debuff,
-                                                'priest_master' : priest_master,
-                                                'priest_trainee' : priest_trainee
+                                                'priest_buff': get_skills('Priest','Buff'),
+                                                'priest_heal': get_skills('Priest','Heal'),
+                                                'priest_debuff' : get_skills('Priest','Dbf'),
+                                                'priest_master' : get_skills('Priest','Mstr'),
+                                                'priest_trainee' : get_skills('Priest','Train'),
+                                                'count_class_skill_type':count_class_skill_type('Priest')
                                                 })
+    
+
 
 def rogue(request):
-    
-    rogue_assas = skills_all.filter(skill_class = 'Rogue', skill_tree = 'Asass').order_by('skill_point')
-    rogue_arch = skills_all.filter(skill_class = 'Rogue', skill_tree = 'Arch').order_by('skill_point')
-    rogue_scout = skills_all.filter(skill_class = 'Rogue', skill_tree = 'Def').order_by('skill_point')
-    rogue_master = skills_all.filter(skill_class = 'Rogue', skill_tree = 'Mstr').order_by('skill_point')
-    rogue_trainee = skills_all.filter(skill_class = 'Rogue', skill_tree = 'Train').order_by('skill_point')
-     
+   
     return render(request, 'skills/rogue.html', {'left_side_item': left_side_item, 
-                                                'rogue_assas': rogue_assas,
-                                                'rogue_arch': rogue_arch,
-                                                'rogue_scout' : rogue_scout,
-                                                'rogue_master' : rogue_master,
-                                                'rogue_trainee' : rogue_trainee
+                                                'rogue_assas': get_skills('Rogue', 'Asass'),
+                                                'rogue_arch': get_skills('Rogue', 'Arch'),
+                                                'rogue_scout' : get_skills('Rogue', 'Def'),
+                                                'rogue_master' : get_skills('Rogue', 'Mstr'),
+                                                'rogue_trainee' : get_skills('Rogue', 'Train'),
+                                                'count_class_skill_type': count_class_skill_type('Rogue')
                                                 })
 
 def mage(request):
-    mage_fire = skills_all.filter(skill_class = 'Mage', skill_tree = 'Fire').order_by('skill_point')
-    mage_ice = skills_all.filter(skill_class = 'Mage', skill_tree = 'Ice').order_by('skill_point')
-    mage_light = skills_all.filter(skill_class = 'Mage', skill_tree = 'Light').order_by('skill_point')
-    mage_master = skills_all.filter(skill_class = 'Mage', skill_tree = 'Mstr').order_by('skill_point')
-    mage_trainee = skills_all.filter(skill_class = 'Mage', skill_tree = 'Train').order_by('skill_point')
      
     return render(request, 'skills/mage.html', {'left_side_item': left_side_item, 
-                                                'mage_fire': mage_fire,
-                                                'mage_ice': mage_ice,
-                                                'mage_light' : mage_light,
-                                                'mage_master' : mage_master,
-                                                'mage_trainee' : mage_trainee
+                                                'mage_fire': get_skills('Mage','Fire'),
+                                                'mage_ice': get_skills('Mage','Ice'),
+                                                'mage_light' : get_skills('Mage','Light'),
+                                                'mage_master' : get_skills('Mage','Mstr'),
+                                                'mage_trainee' : get_skills('Mage','Train'),
+                                                'count_class_skill_type': count_class_skill_type('Mage')
                                                 })

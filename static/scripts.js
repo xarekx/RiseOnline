@@ -10,7 +10,7 @@ function changeMenuBackground(url) {
     if ( myUrl.includes("/quests/") ) {
         let menuItem = document.getElementById("Quests");
         menuItem.classList.add("highlightMenu");
-    } else if (myUrl.includes("/skills/") ) {
+    } else if (myUrl.includes("/skills/")) {
         let menuItem = document.getElementById("Skills");
         let myChild = menuItem.children;
         let hiddenItems = myChild[1].children
@@ -38,7 +38,25 @@ function changeMenuBackground(url) {
         menuItem.classList.add("highlightMenu");
     } else if (myUrl.includes("/items/") ) {
         let menuItem = document.getElementById("Items");
+        console.log(menuItem);
+        let myChild = menuItem.children;
+        let hiddenItems = myChild[1].children
         menuItem.classList.add("highlightMenu");
+        menuItem.classList.toggle("active");
+        
+        for(let i=0; i<myChild.length; i++) {
+            if (myChild[i].tagName =="DIV") {
+                myChild[i].style.display = "block";
+            }
+        }
+
+        if(myUrl.includes("/weapons")) {
+            hiddenItems.item(0).children.item(0).classList.add("highlightMenu");
+        }   else if (myUrl.includes("/armors")) {
+            hiddenItems.item(0).children.item(1).classList.add("highlightMenu");
+        }
+
+
     } else if (myUrl.includes("/monsters/") ) {
         let menuItem = document.getElementById("Monsters");
         menuItem.classList.add("highlightMenu");

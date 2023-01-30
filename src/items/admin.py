@@ -1,6 +1,6 @@
 from django.contrib import admin
-from items.models import Items
+from items.models import Item
 
-@admin.register(Items)
+@admin.register(Item)
 class Monsters(admin.ModelAdmin):
     list_display =  ['name',"dropped_by"]

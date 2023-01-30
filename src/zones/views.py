@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from menu.models import LeftSideMenu
-from zones.models import Zones
+from zones.models import Zone
 
 left_side_item = LeftSideMenu.objects.all()
 
@@ -8,7 +8,7 @@ left_side_item = LeftSideMenu.objects.all()
 def zones(request):
     
     
-    all_zones = Zones.objects.all();
+    all_zones = Zone.objects.all();
 
     return render(request, 'menu/zones.html',
                   {'left_side_item': left_side_item, 
@@ -16,7 +16,7 @@ def zones(request):
     
 def dorion(request):
     
-    dorion = Zones.objects.all().filter(name="Dorion");
+    dorion = Zone.objects.all().filter(name="Dorion");
     
     return render(request, 'zones/dorion.html',
                   {'left_side_item': left_side_item, 
@@ -24,7 +24,7 @@ def dorion(request):
     
 def protean(request):
     
-    protean = Zones.objects.all().filter(name="Protean Kingdom");
+    protean = Zone.objects.all().filter(name="Protean Kingdom");
     
     return render(request, 'zones/protean.html',
                   {'left_side_item': left_side_item, 
@@ -32,7 +32,7 @@ def protean(request):
     
 def lunaskar(request):
     
-    lunaskar = Zones.objects.all().filter(name="Lunaskar Kingdom");
+    lunaskar = Zone.objects.all().filter(name="Lunaskar Kingdom");
     
     return render(request, 'zones/lunaskar.html',
                   {'left_side_item': left_side_item, 
@@ -40,7 +40,7 @@ def lunaskar(request):
     
 def haggar(request):
     
-    haggar = Zones.objects.all().filter(name="Haggar Castle");
+    haggar = Zone.objects.all().filter(name="Haggar Castle");
     
     return render(request, 'zones/haggar.html',
                   {'left_side_item': left_side_item, 
@@ -48,7 +48,7 @@ def haggar(request):
     
 def haddar(request):
     
-    haddar = Zones.objects.all().filter(name="Haddar Castle");
+    haddar = Zone.objects.all().filter(name="Haddar Castle");
     
     return render(request, 'zones/haddar.html',
                   {'left_side_item': left_side_item, 
@@ -56,7 +56,7 @@ def haddar(request):
     
 def death_valley(request):
     
-    death_valley = Zones.objects.all().filter(name="Death Valley");
+    death_valley = Zone.objects.all().filter(name="Death Valley");
     
     return render(request, 'zones/death_valley.html',
                   {'left_side_item': left_side_item, 
@@ -65,7 +65,7 @@ def death_valley(request):
     
 def narun_tower(request):
     
-    narun_tower = Zones.objects.all().filter(name="Narun Tower");
+    narun_tower = Zone.objects.all().filter(name="Narun Tower");
     
     return render(request, 'zones/narun_tower.html',
                   {'left_side_item': left_side_item, 

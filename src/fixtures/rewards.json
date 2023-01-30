@@ -1,6 +1,6 @@
 [
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 1,
     "fields": {
         "name": "Leather Set",
@@ -11,7 +11,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 2,
     "fields": {
         "name": "Weapon",
@@ -22,7 +22,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 3,
     "fields": {
         "name": "Small health potion",
@@ -33,7 +33,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 4,
     "fields": {
         "name": "Small mana potion",
@@ -44,7 +44,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 5,
     "fields": {
         "name": "EXP ",
@@ -55,7 +55,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 6,
     "fields": {
         "name": "Coin",
@@ -66,7 +66,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 7,
     "fields": {
         "name": "Resurrection Cube",
@@ -77,7 +77,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 8,
     "fields": {
         "name": "Common Upgrade Scroll",
@@ -88,7 +88,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 9,
     "fields": {
         "name": "Common Upgrade Scroll",
@@ -99,7 +99,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 10,
     "fields": {
         "name": "Experience Increase Scroll",
@@ -110,7 +110,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 11,
     "fields": {
         "name": "200 HP Increase Scroll",
@@ -121,7 +121,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 12,
     "fields": {
         "name": "75 Physical Defense Scroll",
@@ -132,7 +132,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 13,
     "fields": {
         "name": "Movement Speed Increase Scroll",
@@ -143,7 +143,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 14,
     "fields": {
         "name": "EXP",
@@ -154,7 +154,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 15,
     "fields": {
         "name": "Coin",
@@ -165,7 +165,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 16,
     "fields": {
         "name": "EXP",
@@ -176,7 +176,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 17,
     "fields": {
         "name": "Coin",
@@ -187,7 +187,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 18,
     "fields": {
         "name": "EXP",
@@ -198,7 +198,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 19,
     "fields": {
         "name": "Coin",
@@ -209,7 +209,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 20,
     "fields": {
         "name": "Common Upgrade Scroll",
@@ -220,7 +220,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 21,
     "fields": {
         "name": "EXP",
@@ -231,7 +231,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 22,
     "fields": {
         "name": "Bronze Earring",
@@ -242,7 +242,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 23,
     "fields": {
         "name": "EXP",
@@ -253,7 +253,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 24,
     "fields": {
         "name": "Coin",
@@ -264,7 +264,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 25,
     "fields": {
         "name": "EXP",
@@ -275,7 +275,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 26,
     "fields": {
         "name": "Coin",
@@ -286,7 +286,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 27,
     "fields": {
         "name": "EXP",
@@ -297,7 +297,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 28,
     "fields": {
         "name": "Coin",
@@ -308,7 +308,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 29,
     "fields": {
         "name": "EXP",
@@ -319,7 +319,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 30,
     "fields": {
         "name": "Bronze Earring",
@@ -330,7 +330,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 31,
     "fields": {
         "name": "EXP",
@@ -341,7 +341,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 32,
     "fields": {
         "name": "Bronze Earring",
@@ -352,7 +352,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 33,
     "fields": {
         "name": "EXP",
@@ -363,7 +363,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 34,
     "fields": {
         "name": "Bronze Earring",
@@ -374,7 +374,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 35,
     "fields": {
         "name": "EXP",
@@ -385,7 +385,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 36,
     "fields": {
         "name": "Common Upgrade Scroll",
@@ -396,7 +396,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 37,
     "fields": {
         "name": "EXP",
@@ -407,7 +407,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 38,
     "fields": {
         "name": "Small health potion",
@@ -418,7 +418,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 39,
     "fields": {
         "name": "Small mana potion",
@@ -429,7 +429,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 40,
     "fields": {
         "name": "EXP",
@@ -440,7 +440,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 41,
     "fields": {
         "name": "Coin",
@@ -451,7 +451,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 42,
     "fields": {
         "name": "EXP",
@@ -462,7 +462,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 43,
     "fields": {
         "name": "Coin",
@@ -473,7 +473,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 44,
     "fields": {
         "name": "EXP",
@@ -484,7 +484,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 45,
     "fields": {
         "name": "Silah",
@@ -495,7 +495,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 46,
     "fields": {
         "name": "EXP",
@@ -506,7 +506,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 47,
     "fields": {
         "name": "Coin",
@@ -517,7 +517,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 48,
     "fields": {
         "name": "EXP",
@@ -528,7 +528,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 49,
     "fields": {
         "name": "Medium health potion",
@@ -539,7 +539,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 50,
     "fields": {
         "name": "Medium mana potion",
@@ -550,7 +550,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 51,
     "fields": {
         "name": "EXP",
@@ -561,7 +561,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 52,
     "fields": {
         "name": "Common Rune",
@@ -572,7 +572,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 53,
     "fields": {
         "name": "EXP",
@@ -583,7 +583,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 54,
     "fields": {
         "name": "Heavy Leather gauntlets",
@@ -594,7 +594,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 55,
     "fields": {
         "name": "EXP",
@@ -605,7 +605,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 56,
     "fields": {
         "name": "Coin",
@@ -616,7 +616,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 57,
     "fields": {
         "name": "EXP",
@@ -627,7 +627,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 58,
     "fields": {
         "name": "Coin",
@@ -638,7 +638,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 59,
     "fields": {
         "name": "EXP",
@@ -649,7 +649,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 60,
     "fields": {
         "name": "Bronze Earring",
@@ -660,7 +660,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 61,
     "fields": {
         "name": "EXP",
@@ -671,7 +671,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 62,
     "fields": {
         "name": "Bronze Earring",
@@ -682,7 +682,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 63,
     "fields": {
         "name": "EXP",
@@ -693,7 +693,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 64,
     "fields": {
         "name": "Medium health potion",
@@ -704,7 +704,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 65,
     "fields": {
         "name": "Medium mana potion",
@@ -715,7 +715,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 66,
     "fields": {
         "name": "EXP",
@@ -726,7 +726,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 67,
     "fields": {
         "name": "Coin",
@@ -737,7 +737,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 68,
     "fields": {
         "name": "EXP",
@@ -748,7 +748,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 69,
     "fields": {
         "name": "Heavy Leather boots",
@@ -759,7 +759,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 70,
     "fields": {
         "name": "EXP",
@@ -770,7 +770,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 71,
     "fields": {
         "name": "Heavy Leather helmet",
@@ -781,7 +781,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 72,
     "fields": {
         "name": "EXP",
@@ -792,7 +792,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 73,
     "fields": {
         "name": "Heavy Leather pants",
@@ -803,7 +803,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 74,
     "fields": {
         "name": "EXP",
@@ -814,7 +814,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 75,
     "fields": {
         "name": "Heavy Leather chest piece",
@@ -825,7 +825,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 76,
     "fields": {
         "name": "EXP",
@@ -836,7 +836,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 77,
     "fields": {
         "name": "Bronze Ring",
@@ -847,7 +847,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 78,
     "fields": {
         "name": "EXP",
@@ -858,7 +858,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 79,
     "fields": {
         "name": "Bronze Ring",
@@ -869,7 +869,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 80,
     "fields": {
         "name": "EXP",
@@ -880,7 +880,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 81,
     "fields": {
         "name": "Big health potion",
@@ -891,7 +891,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 82,
     "fields": {
         "name": "Big mana potion",
@@ -902,7 +902,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 83,
     "fields": {
         "name": "EXP",
@@ -913,7 +913,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 84,
     "fields": {
         "name": "Common Rune",
@@ -924,7 +924,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 85,
     "fields": {
         "name": "EXP",
@@ -935,7 +935,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 86,
     "fields": {
         "name": "Belt of Town Guard",
@@ -946,7 +946,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 87,
     "fields": {
         "name": "EXP",
@@ -957,7 +957,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 88,
     "fields": {
         "name": "Coin",
@@ -968,7 +968,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 89,
     "fields": {
         "name": "EXP",
@@ -979,7 +979,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 90,
     "fields": {
         "name": "Coin",
@@ -990,7 +990,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 91,
     "fields": {
         "name": "EXP",
@@ -1001,7 +1001,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 92,
     "fields": {
         "name": "Coin",
@@ -1012,7 +1012,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 93,
     "fields": {
         "name": "EXP",
@@ -1023,7 +1023,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 94,
     "fields": {
         "name": "Common Upgrade Scroll",
@@ -1034,7 +1034,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 95,
     "fields": {
         "name": "EXP",
@@ -1045,7 +1045,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 96,
     "fields": {
         "name": "Bronze Necklace",
@@ -1056,7 +1056,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 97,
     "fields": {
         "name": "EXP",
@@ -1067,7 +1067,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 98,
     "fields": {
         "name": "EXP",
@@ -1078,7 +1078,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 99,
     "fields": {
         "name": "EXP",
@@ -1089,7 +1089,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 100,
     "fields": {
         "name": "EXP",
@@ -1100,7 +1100,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 101,
     "fields": {
         "name": "Plate gauntlets",
@@ -1111,7 +1111,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 102,
     "fields": {
         "name": "EXP",
@@ -1122,7 +1122,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 103,
     "fields": {
         "name": "Coin",
@@ -1133,7 +1133,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 104,
     "fields": {
         "name": "EXP",
@@ -1144,7 +1144,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 105,
     "fields": {
         "name": "Plate boots",
@@ -1155,7 +1155,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 106,
     "fields": {
         "name": "EXP",
@@ -1166,7 +1166,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 107,
     "fields": {
         "name": "Coin",
@@ -1177,7 +1177,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 108,
     "fields": {
         "name": "EXP",
@@ -1188,7 +1188,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 109,
     "fields": {
         "name": "Coin",
@@ -1199,7 +1199,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 110,
     "fields": {
         "name": "EXP",
@@ -1210,7 +1210,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 111,
     "fields": {
         "name": "Plate helmet",
@@ -1221,7 +1221,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 112,
     "fields": {
         "name": "EXP",
@@ -1232,7 +1232,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 113,
     "fields": {
         "name": "Coin",
@@ -1243,7 +1243,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 114,
     "fields": {
         "name": "EXP",
@@ -1254,7 +1254,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 115,
     "fields": {
         "name": "Plate pants",
@@ -1265,7 +1265,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 116,
     "fields": {
         "name": "EXP",
@@ -1276,7 +1276,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 117,
     "fields": {
         "name": "Coin",
@@ -1287,7 +1287,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 118,
     "fields": {
         "name": "EXP",
@@ -1298,7 +1298,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 119,
     "fields": {
         "name": "Plate chest piece",
@@ -1309,7 +1309,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 120,
     "fields": {
         "name": "EXP",
@@ -1320,7 +1320,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 121,
     "fields": {
         "name": "Coin",
@@ -1331,7 +1331,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 122,
     "fields": {
         "name": "Weapon",
@@ -1342,7 +1342,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 123,
     "fields": {
         "name": "EXP",
@@ -1353,7 +1353,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 124,
     "fields": {
         "name": "Big health potion",
@@ -1364,7 +1364,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 125,
     "fields": {
         "name": "Big mana potion",
@@ -1375,7 +1375,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 126,
     "fields": {
         "name": "EXP",
@@ -1386,7 +1386,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 127,
     "fields": {
         "name": "Bronze Ring",
@@ -1397,7 +1397,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 128,
     "fields": {
         "name": "EXP",
@@ -1408,7 +1408,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 129,
     "fields": {
         "name": "Bronze Earring",
@@ -1419,7 +1419,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 130,
     "fields": {
         "name": "EXP",
@@ -1430,7 +1430,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 131,
     "fields": {
         "name": "Bronze Ring",
@@ -1441,7 +1441,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 132,
     "fields": {
         "name": "EXP",
@@ -1452,7 +1452,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 133,
     "fields": {
         "name": "Bronze Earring",
@@ -1463,7 +1463,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 134,
     "fields": {
         "name": "EXP",
@@ -1474,7 +1474,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 135,
     "fields": {
         "name": "EXP",
@@ -1485,7 +1485,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 136,
     "fields": {
         "name": "Coin",
@@ -1496,7 +1496,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 137,
     "fields": {
         "name": "EXP",
@@ -1507,7 +1507,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 138,
     "fields": {
         "name": "Big health potion",
@@ -1518,7 +1518,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 139,
     "fields": {
         "name": "Big mana potion",
@@ -1529,7 +1529,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 140,
     "fields": {
         "name": "EXP",
@@ -1540,7 +1540,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 141,
     "fields": {
         "name": "Coin",
@@ -1551,7 +1551,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 142,
     "fields": {
         "name": "EXP",
@@ -1562,7 +1562,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 143,
     "fields": {
         "name": "EXP",
@@ -1573,7 +1573,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 144,
     "fields": {
         "name": "Coin",
@@ -1584,7 +1584,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 145,
     "fields": {
         "name": "EXP",
@@ -1595,7 +1595,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 146,
     "fields": {
         "name": "Bronze Necklace",
@@ -1606,7 +1606,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 147,
     "fields": {
         "name": "EXP",
@@ -1617,7 +1617,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 148,
     "fields": {
         "name": "EXP",
@@ -1628,7 +1628,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 149,
     "fields": {
         "name": "Coin",
@@ -1639,7 +1639,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 150,
     "fields": {
         "name": "EXP",
@@ -1650,7 +1650,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 151,
     "fields": {
         "name": "EXP",
@@ -1661,7 +1661,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 152,
     "fields": {
         "name": "Coin",
@@ -1672,7 +1672,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 153,
     "fields": {
         "name": "Great health potion",
@@ -1683,7 +1683,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 154,
     "fields": {
         "name": "Great mana potion",
@@ -1694,7 +1694,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 155,
     "fields": {
         "name": "EXP",
@@ -1705,7 +1705,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 156,
     "fields": {
         "name": "Coin",
@@ -1716,7 +1716,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 157,
     "fields": {
         "name": "EXP",
@@ -1727,7 +1727,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 158,
     "fields": {
         "name": "Belt of Town Guard",
@@ -1738,7 +1738,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 159,
     "fields": {
         "name": "EXP",
@@ -1749,7 +1749,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 160,
     "fields": {
         "name": "Coin",
@@ -1760,7 +1760,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 161,
     "fields": {
         "name": "EXP",
@@ -1771,7 +1771,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 162,
     "fields": {
         "name": "Coin",
@@ -1782,7 +1782,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 163,
     "fields": {
         "name": "EXP",
@@ -1793,7 +1793,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 164,
     "fields": {
         "name": "Coin",
@@ -1804,7 +1804,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 165,
     "fields": {
         "name": "Great health potion",
@@ -1815,7 +1815,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 166,
     "fields": {
         "name": "Great mana potion",
@@ -1826,7 +1826,7 @@
     }
 },
 {
-    "model": "rewards.rewards",
+    "model": "rewards.reward",
     "pk": 167,
     "fields": {
         "name": "EXP",

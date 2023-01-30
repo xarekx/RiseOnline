@@ -1,8 +1,8 @@
 from django.contrib import admin
-from skills.models import Skills
+from skills.models import Skill
 
-@admin.register(Skills)
-class Skills(admin.ModelAdmin):
+@admin.register(Skill)
+class Skill(admin.ModelAdmin):
     list_display = ['name', 'skill_class','skill_tree']
 
     list_filter = ['skill_class']

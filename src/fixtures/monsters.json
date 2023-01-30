@@ -1,6 +1,6 @@
 [
     {
-        "model": "monsters.monsters",
+        "model": "monsters.monster",
         "pk": 1,
         "fields": {
             "name": "Dread Cyclops",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "monsters.monsters",
+        "model": "monsters.monster",
         "pk": 2,
         "fields": {
             "name": "Runic Golem",

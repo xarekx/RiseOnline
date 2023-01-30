@@ -1,6 +1,6 @@
 [
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 1,
         "fields": {
             "name": "Dorion",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 2,
         "fields": {
             "name": "Protean Kingdom",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 3,
         "fields": {
             "name": "Lunaskar Kingdom",
@@ -27,7 +27,7 @@
         }
     },
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 4,
         "fields": {
             "name": "Haggar Castle",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 5,
         "fields": {
             "name": "Haddar Castle",
@@ -45,7 +45,7 @@
         }
     },
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 6,
         "fields": {
             "name": "Death Valley",
@@ -54,7 +54,7 @@
         }
     },
     {
-        "model": "zones.zones",
+        "model": "zones.zone",
         "pk": 7,
         "fields": {
             "name": "Narun Tower",

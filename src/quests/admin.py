@@ -1,8 +1,8 @@
 from django.contrib import admin
-from quests.models import Quests
+from quests.models import Quest
 
-@admin.register(Quests)
-class Quests(admin.ModelAdmin):
+@admin.register(Quest)
+class Quest(admin.ModelAdmin):
     list_display = ['quest_name', 'quest_zone']
 
     list_filter = ['quest_zone']
