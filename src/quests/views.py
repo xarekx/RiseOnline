@@ -11,10 +11,10 @@ def quests(request):
     left_side_item = LeftSideMenu.objects.all()
     rewards = Reward.objects.all()
     # pagination on the quest template
-    paginator = Paginator(quest_list,25)
-    page_number = request.GET.get('page')
-    page_obj = paginator.get_page(page_number)
+    # paginator = Paginator(quest_list,25)
+    # page_number = request.GET.get('page')
+    # page_obj = paginator.get_page(page_number)
     
     return render(request, 'menu/quests.html', {'left_side_item': left_side_item
-                                                , 'quests': page_obj,'rewards':rewards})
+                                                , 'quests': quest_list, 'rewards':rewards})
     
