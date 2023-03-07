@@ -1,32 +1,12 @@
 [
-    {
-        "model": "articles.article",
-        "pk": 1,
-        "fields": {
-            "title": "Patch Notes 2.0.0",
-            "article": "Solo Dungeon \"Land of Despair\" has been activated.\r\nDifficulty - entry level\r\nEasy   > > +55 levels\r\nHard   > +60 levels\r\nHell    > +65 levels\r\nDeath > +70 levels",
-            "created_date": "2022-06-13",
-            "created_by": 1
-        }
-    },
-    {
-        "model": "articles.article",
-        "pk": 2,
-        "fields": {
-            "title": "Patch Notes 2.0.1",
-            "article": "What is Lorem Ipsum?\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "created_date": "2022-06-13",
-            "created_by": 1
-        }
-    },
-    {
-        "model": "articles.article",
-        "pk": 3,
-        "fields": {
-            "title": "Patch notes 2.0.2",
-            "article": "Where does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
-            "created_date": "2022-06-13",
-            "created_by": 1
-        }
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "title": "Patch notes 4.3.1",
+        "article": "<b><h3>Skill Adjustments</h3></b><br>\r\n\r\n* The \"casting failed\" problem in Priest class abilities has been resolved.<br>\r\n* Fixed a bug where the \"Bloodlust\" skill would animate on boss group creatures.<br>\r\n* The hit rate of \"Kaleb's Silence\" has been updated to 70%.<br>\r\n* The hit rate of the \"Smoke Bomb\" skill has been updated to 50%.<br>\r\n\r\n<br>\r\n<b><h3>General Regulations</h3></b><br>\r\n\r\n* Season battle points have been reset.<br>\r\n* XP Boost items obtained with event rewards have been made non-tradable/tradable, and the requirement to use them within 3 days has been added.<br>\r\n* The mouse cursor clicking problem that occurs when UI Optimization is turned on and the problems in the general chat window have been fixed.<br>\r\n* Penalties will no longer be applied when the \"Mount Race\" event is abandoned.<br>\r\n* Updated the matchmaking system of the \"Mount Race\" event to be independent of battle points.<br>\r\n* Work has been done on the problem of falling down from bridges on the Death Valley map.<br>\r\n* Visual improvement on shield glow effects.<br>\r\n* Fixed an issue where the item \"Heallreaver\" would not appear in the Auction House.<br>\r\n* The rogue class mission armor named \"Rogue Heavy Plate Cuirass\" has been added to the \"Cleaning Up The Shore\" mission.<br>\r\n* The error that you cannot use \"Gender Change Scroll\" and \"Faction Change Scroll\" while additional bag is active has been fixed.<br>\r\n* Updated the \"Thunderbreath\" creature's health. (637772 HP -> 937772 HP)<br>\r\n* The game has been adjusted so that an announcement will be made in case of obtaining \"Epic\" and \"Unique\" quality jewelry.<br>\r\n* \"Heroism Scroll\" has been added to the store, which adds 10 points to all your stat points for a certain period of time.<br><br>\r\n\r\n<b><h3>Other Changes</h3></b><br>\r\n\r\n* Updated the \"Macro Captcha\" system",
+        "created_date": "2023-03-07",
+        "created_by": 1
     }
+}
 ]

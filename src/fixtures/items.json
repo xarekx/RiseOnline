@@ -174,7 +174,7 @@
     "pk": 19,
     "fields": {
         "name": "Overseer",
-        "img": "items/overseer.png",
+        "img": "items/overseer_NU1qqCm.png",
         "item_type": "Axe",
         "dropped_by": 40
     }
@@ -186,36 +186,6 @@
         "name": "Ruby Axe",
         "img": "items/ruby_axe.png",
         "item_type": "Axe",
-        "dropped_by": 8
-    }
-},
-{
-    "model": "items.item",
-    "pk": 21,
-    "fields": {
-        "name": "Spinning Axe",
-        "img": "items/spinning_axe.png",
-        "item_type": "Axe",
-        "dropped_by": 8
-    }
-},
-{
-    "model": "items.item",
-    "pk": 22,
-    "fields": {
-        "name": "Stormbringer",
-        "img": "items/stormbringer.png",
-        "item_type": "Mace",
-        "dropped_by": 40
-    }
-},
-{
-    "model": "items.item",
-    "pk": 23,
-    "fields": {
-        "name": "Annihilator",
-        "img": "items/annihilator.png",
-        "item_type": "Mace",
         "dropped_by": 8
     }
 },
@@ -407,6 +377,216 @@
         "img": "items/warrior_imperial_helmet.png",
         "item_type": "Warrior Armor",
         "dropped_by": 8
+    }
+},
+{
+    "model": "items.item",
+    "pk": 43,
+    "fields": {
+        "name": "Spinning Axe",
+        "img": "items/spinning_axe.png",
+        "item_type": "Axe",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.item",
+    "pk": 44,
+    "fields": {
+        "name": "Stormbringer",
+        "img": "items/stormbringer.png",
+        "item_type": "Mace",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 45,
+    "fields": {
+        "name": "Annihilator",
+        "img": "items/annihilator.png",
+        "item_type": "Mace",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.item",
+    "pk": 46,
+    "fields": {
+        "name": "Avenger",
+        "img": "items/avenger.png",
+        "item_type": "Axe",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 47,
+    "fields": {
+        "name": "Axe of Miracle",
+        "img": "items/axe_of_miracle.png",
+        "item_type": "Axe",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 48,
+    "fields": {
+        "name": "Doombringer",
+        "img": "items/doombringer.png",
+        "item_type": "Axe",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.item",
+    "pk": 49,
+    "fields": {
+        "name": "Dragon Slayer",
+        "img": "items/dragon_slayer.png",
+        "item_type": "Axe",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 50,
+    "fields": {
+        "name": "Eternal Axe",
+        "img": "items/eternal_axe.png",
+        "item_type": "Axe",
+        "dropped_by": 24
+    }
+},
+{
+    "model": "items.item",
+    "pk": 51,
+    "fields": {
+        "name": "Pole Axe",
+        "img": "items/pole_axe.png",
+        "item_type": "Axe",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.item",
+    "pk": 52,
+    "fields": {
+        "name": "Warbow",
+        "img": "items/warbow.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 53,
+    "fields": {
+        "name": "Viper",
+        "img": "items/viper.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 54,
+    "fields": {
+        "name": "Reflex Bow",
+        "img": "items/reflex_bow.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 55,
+    "fields": {
+        "name": "Penetrator",
+        "img": "items/penetrator.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 56,
+    "fields": {
+        "name": "Mystic Bow",
+        "img": "items/mystic_bow.png",
+        "item_type": "Bow",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 57,
+    "fields": {
+        "name": "Cannibal Blade",
+        "img": "items/cannibal_blade.png",
+        "item_type": "Sword",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 58,
+    "fields": {
+        "name": "Cursed Blade",
+        "img": "items/cursed_blade.png",
+        "item_type": "Sword",
+        "dropped_by": 8
+    }
+},
+{
+    "model": "items.item",
+    "pk": 59,
+    "fields": {
+        "name": "Gunar's Sabre",
+        "img": "items/gunnars_sabre.png",
+        "item_type": "Sword",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 60,
+    "fields": {
+        "name": "Imperator",
+        "img": "items/imperator.png",
+        "item_type": "Sword",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 61,
+    "fields": {
+        "name": "Jeremias' Claymore",
+        "img": "items/jeremias_claymore.png",
+        "item_type": "Sword",
+        "dropped_by": 1
+    }
+},
+{
+    "model": "items.item",
+    "pk": 62,
+    "fields": {
+        "name": "Sword of Terror",
+        "img": "items/sword_of_terror.png",
+        "item_type": "Sword",
+        "dropped_by": 40
+    }
+},
+{
+    "model": "items.item",
+    "pk": 63,
+    "fields": {
+        "name": "Tabarise",
+        "img": "items/tabarise.png",
+        "item_type": "Sword",
+        "dropped_by": 36
     }
 }
 ]
