@@ -53,7 +53,8 @@ INSTALLED_APPS: list[str] = [
     'zones.apps.ZonesConfig',
     'monsters.apps.MonstersConfig',
     'items.apps.ItemsConfig',
-    'rewards.apps.RewardsConfig'
+    'rewards.apps.RewardsConfig',
+    'contacts.apps.ContactsConfig'
 ]
 
 MIDDLEWARE = [
