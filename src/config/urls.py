@@ -32,4 +32,5 @@ urlpatterns = [
     path('zones/', include('zones.urls'), name="zones"),
     path('monsters/', include('monsters.urls'), name="monsters"),
     path('items/', include('items.urls'), name="items"),
+    path('contacts/', include('contacts.urls'), name="contacts"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
