@@ -2,7 +2,7 @@ from django.shortcuts import render
 from menu.models import LeftSideMenu
 from zones.models import Zone
 
-left_side_item = LeftSideMenu.objects.all()
+left_side_item = LeftSideMenu.objects.all().order_by("priority")
 
 # Create your views here.
 def zones(request):

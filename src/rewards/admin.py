@@ -3,6 +3,6 @@ from .models import Reward
 
 @admin.register(Reward)
 class Reward(admin.ModelAdmin):
-    list_display = ['quests', 'name']
+    list_display = ['name', 'count', 'reward_type', 'upgrade_level']
 
-
+    list_filter = ['quests']

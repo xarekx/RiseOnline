@@ -11,7 +11,7 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 
 def index(request):
     articles = Article.objects.all()
-    left_side_item = LeftSideMenu.objects.all()
+    left_side_item = LeftSideMenu.objects.all().order_by("priority")
 
     return render(request, 'index.html', {'left_side_item': left_side_item, 'articles': articles, })
 

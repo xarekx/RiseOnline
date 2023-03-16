@@ -2,18 +2,24 @@
 {% block title %} Rise Online Quest {% endblock %}
 {% block body %}
 <script src="../static/scripts.js"></script>
-    <div class="flex min-h-screen">
+    <div class="flex min-h-screen w-full">
     <!-- content div -->
-        <div class="flex flex-col h-fit bg-[#191D21] w-fit">
+        <div class="flex flex-col h-fit bg-[#191D21] w-full">
             <span class="text-[#dbae28] text-2xl text-center mt-2 "><strong>Quest Table</strong></span>
             <table id="questTable" class="table-auto text-white m-3">
                 <thead>
                     <tr>
-                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Title</th>
-                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700" data-type="number">Lvl</th>
-                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Description</th>
-                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Rewards</th>
-                        <th class="border text-center pl-4 pr-4 hover:cursor-pointer hover:text-sky-700">Zone</th>
+                        <th class="border text-center p-3 hover:cursor-pointer hover:text-sky-700">Title
+                            <i class="fas fa-sort" id="sortTitle"></i>
+                        </th>
+                        <th class="border text-center p-3 hover:cursor-pointer hover:text-sky-700" data-type="number">Level
+                            <i class="fas fa-sort p-1" id="sortLevel"></i>
+                        </th>
+                        <th class="border text-center p-3">Description</th>
+                        <th class="border text-center p-3">Rewards</th>
+                        <th class="border text-center p-3 hover:cursor-pointer hover:text-sky-700">Zone
+                            <i class="fas fa-sort" id="sortZone"></i>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -41,16 +47,37 @@
                             <td class="border text-center">{{quest.quest_zone}}</td>
                         </tr>
                     {% endfor %}
-                </tbody>
+                </tbody> 
             </table>
+            <!-- <div class="flex text-white pl-3 pb-2">
+                <span class="current justify-start w-full">
+                    Page 
+                    {% if quests.has_previous %}
+                        <a href="?page=1" class="hover:text-gray-400">&laquo; first</a>
+                        <a href="?page={{quests.previous_page_number}}" class="hover:text-gray-400">{{ quests.previous_page_number }},</a>
+                     {% endif %}
+
+                    <span class="text-gray-600">{{ quests.number }}</span>{% if quests.has_next %},{% endif%}
+
+                    {% if quests.has_next %}        
+                        <a href="?page={{quests.next_page_number}}" class="hover:text-gray-400">{{ quests.next_page_number }}</a>
+                        {% if quests.next_page_number != quests.paginator.num_pages %}  
+                            {{quests.paginator.ELLIPSIS}}
+                            <a href="?page={{quests.paginator.num_pages}}" class="hover:text-gray-400">{{ quests.paginator.num_pages }}</a>
+                        {% endif %}
+                    {% endif %}
+                </span>
+            </div>  -->
         </div>
     </div>
 
 
+<script type="text/javascript"> 
 
-<script type="text/javascript">
     const table = document.getElementById('questTable');
-
+    const sortLevel = document.getElementById('sortLevel');
+    const sortZone = document.getElementById('sortZone');
+    const sortTitle = document.getElementById('sortTitle');
     // Query the headers
 
     const headers = table.querySelectorAll('th');
@@ -58,11 +85,13 @@
     // Loop over the headers
 
     [].forEach.call(headers, function (header, index) {
-        header.addEventListener('click', function () {
-        // This function will sort the column
-
-        sortColumn(index);
-        });
+        
+        if(header.innerHTML != 'Rewards' || header.innerHTML != 'Description') {
+            header.addEventListener('click', function () {
+            // This function will sort the column
+            sortColumn(index);
+            });
+        }
     });
 
     const tableBody = table.querySelector('tbody');
@@ -73,9 +102,51 @@
         // Get the current direction
         const direction = directions[index] || 'asc';
 
+        
+
         // A factor based on the direction
         const multiplier = (direction === 'asc') ? 1 : -1;
 
+        
+        if(index != 0) {
+            sortTitle.className = ''
+            sortTitle.innerHTML = '<i class="fa-solid fa-sort"></i>';
+        } else {
+            if(direction === 'asc') {
+                sortTitle.className = ''
+                sortTitle.innerHTML = '<i class="fa-solid fa-sort-up"></i>'
+            } else if (direction === 'desc') {
+                sortTitle.className = ''
+                sortTitle.innerHTML = '<i class="fa-solid fa-sort-down"></i>';
+            }
+        }
+
+        if(index != 1) {
+            sortLevel.className = ''
+            sortLevel.innerHTML = '<i class="fa-solid fa-sort p-1"></i>';
+        } else {
+            if(direction == 'asc') {
+                sortLevel.className = ''
+                sortLevel.innerHTML = '<i class="fa-solid fa-sort-up p-1"></i>';
+            } else if (direction === 'desc') {
+                sortLevel.className = ''
+                sortLevel.innerHTML = '<i class="fa-solid fa-sort-down p-1"></i>';
+            }
+        }
+
+        if(index != 4) {
+            sortZone.className = ''
+            sortZone.innerHTML = '<i class="fa-solid fa-sort"></i>';
+        } else {
+            if(direction == 'asc') {
+                sortZone.className = ''
+                sortZone.innerHTML = '<i class="fa-solid fa-sort-up"></i>';
+            } else if (direction === 'desc') {
+                sortZone.className = ''
+                sortZone.innerHTML = '<i class="fa-solid fa-sort-down"></i>';
+            }
+        }
+    
         // Clone the rows
         const newRows = Array.from(rows);
 
