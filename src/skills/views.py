@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 skills_all = Skill.objects.all()
-left_side_item = LeftSideMenu.objects.all()
+left_side_item = LeftSideMenu.objects.all().order_by("priority")
 
 def count_class_skill_type(class_name):
     

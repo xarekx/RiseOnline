@@ -60,6 +60,9 @@ function changeMenuBackground(url) {
     } else if (myUrl.includes("/monsters/") ) {
         let menuItem = document.getElementById("Monsters");
         menuItem.classList.add("highlightMenu");
+    }  else if (myUrl.includes("/contacts/") ) {
+        let menuItem = document.getElementById("Contacts");
+        menuItem.classList.add("highlightMenu");
     } else {
         let menuItem = document.getElementById("News");
         menuItem.classList.add("highlightMenu");

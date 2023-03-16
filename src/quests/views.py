@@ -8,7 +8,7 @@ from menu.models import LeftSideMenu
 # Create your views here.
 def quests(request):
     quest_list = Quest.objects.all().order_by('required_level')
-    left_side_item = LeftSideMenu.objects.all()
+    left_side_item = LeftSideMenu.objects.all().order_by("priority")
     rewards = Reward.objects.all()
     # pagination on the quest template
     # paginator = Paginator(quest_list,25)

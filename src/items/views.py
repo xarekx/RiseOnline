@@ -5,7 +5,7 @@ from items.models import Item
 # Create your views here.
 
 def weapons(request):
-    left_side_item = LeftSideMenu.objects.all()
+    left_side_item = LeftSideMenu.objects.all().order_by("priority")
     swords = Item.objects.all().filter(item_type="Sword")
     axes = Item.objects.all().filter(item_type="Axe")
     daggers = Item.objects.all().filter(item_type="Dagger").distinct('name')

@@ -5,7 +5,7 @@ from menu.models import LeftSideMenu
 
 # Create your views here.
 def monsters(request):
-    left_side_item = LeftSideMenu.objects.all()
+    left_side_item = LeftSideMenu.objects.all().order_by("priority")
     monsters = Monster.objects.all()
     items = Item.objects.values()
     
