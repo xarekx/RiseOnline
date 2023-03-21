@@ -889,5 +889,2216 @@
         "description": "Kill a Faceless.",
         "quest_zone": 1
     }
+},
+{
+    "model": "quests.quest",
+    "pk": 82,
+    "fields": {
+        "quest_name": "Heavenly Garden",
+        "required_level": 25,
+        "npc_name": "[Quest] Alexia",
+        "description": "Deliver the Deliver the message [For the Kingdom 1] to [Quest] Elia.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 83,
+    "fields": {
+        "quest_name": "Hide and Seek",
+        "required_level": 25,
+        "npc_name": "[Quest] Merith",
+        "description": "Deliver the Deliver the message [For the Kingdom 2] to [Quest] Jassin.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 84,
+    "fields": {
+        "quest_name": "For The Peace Of The Kingdom!",
+        "required_level": 25,
+        "npc_name": "[Quest] Captain Leonar",
+        "description": "Deliver the Deliver the message [For the Kingdom 3] to [Quest] Aleister.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 85,
+    "fields": {
+        "quest_name": "Sweeping Trolls",
+        "required_level": 25,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 10x Trolls.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 86,
+    "fields": {
+        "quest_name": "Obtaining Fabrics",
+        "required_level": 26,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 8x Raw fabrics.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 87,
+    "fields": {
+        "quest_name": "Show Your Strength",
+        "required_level": 26,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 11x Elder Trolls.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 88,
+    "fields": {
+        "quest_name": "Croco Threat",
+        "required_level": 27,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 12x Crocos.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 89,
+    "fields": {
+        "quest_name": "Trolls The Wicked",
+        "required_level": 27,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 13x Troll Chieftains.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 90,
+    "fields": {
+        "quest_name": "Breaking The Chain",
+        "required_level": 28,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 5x Gold Chains.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 91,
+    "fields": {
+        "quest_name": "Lisa’s Trails",
+        "required_level": 29,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 13x Poisonous Scorpions.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 92,
+    "fields": {
+        "quest_name": "Zulgha’s Trails",
+        "required_level": 29,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 13x Poisonous Scorpions.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 93,
+    "fields": {
+        "quest_name": "Preparing Antidote",
+        "required_level": 29,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 5x Poisonous Scorpion tails.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 94,
+    "fields": {
+        "quest_name": "Saber-toothed Cats",
+        "required_level": 30,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 15x Megantereons.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 95,
+    "fields": {
+        "quest_name": "Voices In The Night",
+        "required_level": 30,
+        "npc_name": "[Quest] Vartan",
+        "description": "Kill 10x Zombie Axeman and 10x Zombie Hammermens.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 96,
+    "fields": {
+        "quest_name": "Eye of the Zombie",
+        "required_level": 31,
+        "npc_name": "[Quest] Vartan",
+        "description": "Collect 4x Zombie Eyes.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 97,
+    "fields": {
+        "quest_name": "Blooded Goblet",
+        "required_level": 31,
+        "npc_name": "[Quest] Vartan",
+        "description": "Collect 3x Goblets.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 98,
+    "fields": {
+        "quest_name": "Need More Cure",
+        "required_level": 31,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 6x Red Tails.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 99,
+    "fields": {
+        "quest_name": "Never Ending",
+        "required_level": 31,
+        "npc_name": "[Quest] Vartan",
+        "description": "Kill 10x Bloody Zombies.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 100,
+    "fields": {
+        "quest_name": "Cleaning Up The Road",
+        "required_level": 31,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 13x Red Scorpions.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 101,
+    "fields": {
+        "quest_name": "Insatiable Ogres-III",
+        "required_level": 31,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 14x Stenchbeasts.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 102,
+    "fields": {
+        "quest_name": "Pigs Gone Mad",
+        "required_level": 32,
+        "npc_name": "[Quest] Nakhaz",
+        "description": "Kill 14x Mad Pigs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 103,
+    "fields": {
+        "quest_name": "We’re Having A Feast!",
+        "required_level": 32,
+        "npc_name": "[Quest] Nakhaz",
+        "description": "Collect 4x Pork ribs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 104,
+    "fields": {
+        "quest_name": "Frightening Screams",
+        "required_level": 32,
+        "npc_name": "[Quest] Vartan",
+        "description": "Kill 12x Ghouls.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 105,
+    "fields": {
+        "quest_name": "Insatiable Ogres-II",
+        "required_level": 34,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 13x Awful Beasts.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 106,
+    "fields": {
+        "quest_name": "Insatiable Ogres-I",
+        "required_level": 34,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 12x Enraged Beasts.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 107,
+    "fields": {
+        "quest_name": "Dinner Time",
+        "required_level": 34,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 10x Fleshes.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 108,
+    "fields": {
+        "quest_name": "Shining Gold",
+        "required_level": 35,
+        "npc_name": "[Quest] Chaka",
+        "description": "Collect 5x Gold bags.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 109,
+    "fields": {
+        "quest_name": "Goblin Rogue",
+        "required_level": 35,
+        "npc_name": "[Quest] Chaka",
+        "description": "Kill 10x Furious Goblins.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 110,
+    "fields": {
+        "quest_name": "Magical Necklace",
+        "required_level": 35,
+        "npc_name": "[Quest] Chaka",
+        "description": "Collect 3x Talismans.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 111,
+    "fields": {
+        "quest_name": "Greedy Goblins",
+        "required_level": 35,
+        "npc_name": "[Quest] Chaka",
+        "description": "Kill 10x Goblins.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 112,
+    "fields": {
+        "quest_name": "Cleaning Up The Shore",
+        "required_level": 36,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 15x Angry Crabs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 113,
+    "fields": {
+        "quest_name": "Ingredient For The Meal",
+        "required_level": 36,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 4x Red claws.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 114,
+    "fields": {
+        "quest_name": "Goblin Warchief",
+        "required_level": 36,
+        "npc_name": "[Quest] Chaka",
+        "description": "Kill 10x Goblin Warriors.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 115,
+    "fields": {
+        "quest_name": "Small But Effective",
+        "required_level": 36,
+        "npc_name": "[Quest] Chaka",
+        "description": "Collect 5x Square Shields.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 116,
+    "fields": {
+        "quest_name": "Deadly Bees",
+        "required_level": 37,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 17x Giant Hornets.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 117,
+    "fields": {
+        "quest_name": "Hornet Essence",
+        "required_level": 37,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 5x Bug Essences.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 118,
+    "fields": {
+        "quest_name": "Shamanic Power",
+        "required_level": 37,
+        "npc_name": "[Quest] Chaka",
+        "description": "Kill 10x Shaman Goblins.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 119,
+    "fields": {
+        "quest_name": "Recipe In The Pot",
+        "required_level": 37,
+        "npc_name": "[Quest] Chaka",
+        "description": "Collect 3x Pots.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 120,
+    "fields": {
+        "quest_name": "Vicious Beasts",
+        "required_level": 38,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 16x Beasts.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 121,
+    "fields": {
+        "quest_name": "Obtaining Beast Heads",
+        "required_level": 38,
+        "npc_name": "[Quest] Atah",
+        "description": "Collect 3x Beast heads.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 122,
+    "fields": {
+        "quest_name": "Two Headed Dogs",
+        "required_level": 39,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 18x Orthuses.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 123,
+    "fields": {
+        "quest_name": "Collecting Collars",
+        "required_level": 39,
+        "npc_name": "[Quest] Atah",
+        "description": "Collect 4x Collars.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 124,
+    "fields": {
+        "quest_name": "Eye For Eye",
+        "required_level": 40,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 17x Beholders.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 125,
+    "fields": {
+        "quest_name": "Evil Eye",
+        "required_level": 40,
+        "npc_name": "[Quest] Atah",
+        "description": "Collect 3x Beholder eyes.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 126,
+    "fields": {
+        "quest_name": "Frozen Guardian Of Matta",
+        "required_level": 41,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 18x Matta’s Ice Guards.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 127,
+    "fields": {
+        "quest_name": "Obtaining Water Elements",
+        "required_level": 41,
+        "npc_name": "[Quest] Atah",
+        "description": "Collect 5x Water Essences.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 128,
+    "fields": {
+        "quest_name": "Elemental Guardian Of Matta",
+        "required_level": 42,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 19x Elemental Casters.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 129,
+    "fields": {
+        "quest_name": "Obtaining Earth Elements",
+        "required_level": 42,
+        "npc_name": "[Quest] Atah",
+        "description": "Collect 4x Earth Essences.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 130,
+    "fields": {
+        "quest_name": "Flame Guardian Of Matta",
+        "required_level": 43,
+        "npc_name": "[Quest] Atah",
+        "description": "Kill 20x Matta’s Fire Guards.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 131,
+    "fields": {
+        "quest_name": "Obtaining Fire Elements",
+        "required_level": 43,
+        "npc_name": "[Quest] Atah",
+        "description": "Collect 5x Fire Essences.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 132,
+    "fields": {
+        "quest_name": "Barbarians Of Exile I",
+        "required_level": 44,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 10x Barbarians.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 133,
+    "fields": {
+        "quest_name": "Flasks For Potions II",
+        "required_level": 44,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 3x Flasks.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 134,
+    "fields": {
+        "quest_name": "Barbarians Of Exile II",
+        "required_level": 44,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 10x Barbarian Orcs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 135,
+    "fields": {
+        "quest_name": "Flasks For Potions III",
+        "required_level": 44,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 3x Big Flasks.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 136,
+    "fields": {
+        "quest_name": "Don’t Get Poisoned",
+        "required_level": 45,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 16x Poisonous Skeletons.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 137,
+    "fields": {
+        "quest_name": "More Antidote",
+        "required_level": 45,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 4x Poisonous bones.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 138,
+    "fields": {
+        "quest_name": "Frozen Threat I",
+        "required_level": 45,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 20x Frost Soldiers.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 139,
+    "fields": {
+        "quest_name": "Frozen Threat II",
+        "required_level": 46,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 20x Frost Warriors.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 140,
+    "fields": {
+        "quest_name": "Frozen Threat III",
+        "required_level": 46,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 20x Frost Knights.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 141,
+    "fields": {
+        "quest_name": "Frozen Threat IV",
+        "required_level": 47,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 20x Frost Guards.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 142,
+    "fields": {
+        "quest_name": "Collecting Frost Amulets",
+        "required_level": 47,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 10x Frost amulets.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 143,
+    "fields": {
+        "quest_name": "Durable Shield",
+        "required_level": 47,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 5x Frost shields.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 144,
+    "fields": {
+        "quest_name": "Keepers Of The Forest",
+        "required_level": 48,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 16x Treants.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 145,
+    "fields": {
+        "quest_name": "Restoring The Nature",
+        "required_level": 48,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 6x Wood pieces.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 146,
+    "fields": {
+        "quest_name": "Cleansing The Forest",
+        "required_level": 48,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 18x Fiery Skeletons.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 147,
+    "fields": {
+        "quest_name": "A Ring With Power",
+        "required_level": 48,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 3x Flame rings.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 148,
+    "fields": {
+        "quest_name": "Trees Are On Fire",
+        "required_level": 49,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 16x Burning Treants.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 149,
+    "fields": {
+        "quest_name": "Investigating Ancient Treants",
+        "required_level": 49,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 3x Burned woods.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 150,
+    "fields": {
+        "quest_name": "They’re Getting Stronger",
+        "required_level": 49,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 20x Hunter Orcs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 151,
+    "fields": {
+        "quest_name": "We Are Surrounded",
+        "required_level": 49,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 20x Stalkers.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 152,
+    "fields": {
+        "quest_name": "One-Eyed Giants",
+        "required_level": 50,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 17x Cyclopses.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 153,
+    "fields": {
+        "quest_name": "Blacksmith’s Request",
+        "required_level": 50,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 4x Huge maces.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 154,
+    "fields": {
+        "quest_name": "Stoned",
+        "required_level": 50,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 22x Gorgons.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 155,
+    "fields": {
+        "quest_name": "Assisting To Eliminate Orcs",
+        "required_level": 50,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 20x Raider Orcs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 156,
+    "fields": {
+        "quest_name": "Battle Brawlers",
+        "required_level": 50,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 20x Orc Warriors.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 157,
+    "fields": {
+        "quest_name": "Captain Awaits",
+        "required_level": 50,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 20x Veteran Orcs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 158,
+    "fields": {
+        "quest_name": "Collecting Orc Tokens",
+        "required_level": 51,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 10x Orc tokens.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 159,
+    "fields": {
+        "quest_name": "We’re Under Attack",
+        "required_level": 51,
+        "npc_name": "[Quest] Khal",
+        "description": "Kill 20x Orc Chieftains.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 160,
+    "fields": {
+        "quest_name": "Georgeous Hair",
+        "required_level": 51,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Collect 4x Hairs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 161,
+    "fields": {
+        "quest_name": "Deadly Saboteurs",
+        "required_level": 52,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 20x Saboteurs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 162,
+    "fields": {
+        "quest_name": "Creepy Cyclops",
+        "required_level": 52,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 18x Dread Cyclopses.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 163,
+    "fields": {
+        "quest_name": "Old Lads I",
+        "required_level": 52,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 24x Oracles.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 164,
+    "fields": {
+        "quest_name": "Mythic Sash",
+        "required_level": 53,
+        "npc_name": "[Quest] Grasha",
+        "description": "Collect 6x Purple sashes.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 165,
+    "fields": {
+        "quest_name": "Venomous Snakes",
+        "required_level": 53,
+        "npc_name": "[Quest] Ulreg",
+        "description": "Kill 22x Snake Queens.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 166,
+    "fields": {
+        "quest_name": "Prove You’re Worth",
+        "required_level": 53,
+        "npc_name": "[Quest] Grasha",
+        "description": "Collect 5x Manticore tooths.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 167,
+    "fields": {
+        "quest_name": "Into The Beast’s Lair",
+        "required_level": 54,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 21x Manticores.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 168,
+    "fields": {
+        "quest_name": "Clanguards Among Us",
+        "required_level": 54,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 24x Clanguards.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 169,
+    "fields": {
+        "quest_name": "Peace At Last",
+        "required_level": 55,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 20x Skullsplitters.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 170,
+    "fields": {
+        "quest_name": "Trading For Goods",
+        "required_level": 55,
+        "npc_name": "[Quest] Grasha",
+        "description": "Collect 8x Skulls.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 171,
+    "fields": {
+        "quest_name": "Rock Solid Golems I",
+        "required_level": 55,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 22x Poisonous Rocks.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 172,
+    "fields": {
+        "quest_name": "Obtaining Poisonous Rock Pieces",
+        "required_level": 55,
+        "npc_name": "[Quest] Grasha",
+        "description": "Collect 5x Poisonous rock pieces.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 173,
+    "fields": {
+        "quest_name": "The Bad Centaurs",
+        "required_level": 56,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 15x Charming Centaurs.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 174,
+    "fields": {
+        "quest_name": "Examining Fine Bows",
+        "required_level": 56,
+        "npc_name": "[Quest] Grasha",
+        "description": "Collect 4x Centaur Bows.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 175,
+    "fields": {
+        "quest_name": "Rock Solid Golems II",
+        "required_level": 57,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 22x Flame Rocks.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 176,
+    "fields": {
+        "quest_name": "Obtaining Flame Rock Pieces",
+        "required_level": 57,
+        "npc_name": "[Quest] Grasha",
+        "description": "5x Flame rock pieces.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 177,
+    "fields": {
+        "quest_name": "Harpy Hunt I",
+        "required_level": 58,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 22x Harpies.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 178,
+    "fields": {
+        "quest_name": "Harpy Hunt II",
+        "required_level": 58,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 23x Scavenging Harpies.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 179,
+    "fields": {
+        "quest_name": "Harpy Hunt III",
+        "required_level": 59,
+        "npc_name": "[Quest] Grasha",
+        "description": "Kill 24x Ravenous Harpies.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 180,
+    "fields": {
+        "quest_name": "Unlucky Me",
+        "required_level": 59,
+        "npc_name": "[Quest] Grasha",
+        "description": "Collect 10x Harpy foots.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 181,
+    "fields": {
+        "quest_name": "Old Lads II",
+        "required_level": 59,
+        "npc_name": "[Quest] Nambra",
+        "description": "Kill 24x Soothsayers.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 182,
+    "fields": {
+        "quest_name": "True Mythic Sash",
+        "required_level": 59,
+        "npc_name": "[Quest] Nambra",
+        "description": "Collect 6x Soothsayers Red sashes.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 183,
+    "fields": {
+        "quest_name": "Queen Of The Harpies",
+        "required_level": 60,
+        "npc_name": "[Quest] Zurock",
+        "description": "Kill 25x Harpy Queens.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 184,
+    "fields": {
+        "quest_name": "Obtaining Blue Feathers",
+        "required_level": 60,
+        "npc_name": "[Quest] Zurock",
+        "description": "Collect 6x Blue Feathers.",
+        "quest_zone": 3
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 185,
+    "fields": {
+        "quest_name": "Sweeping Trolls",
+        "required_level": 25,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 10x Trolls.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 186,
+    "fields": {
+        "quest_name": "Obtaining Fabrics",
+        "required_level": 26,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 8x Raw fabrics.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 187,
+    "fields": {
+        "quest_name": "Show Your Strength",
+        "required_level": 26,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 11x Elder Trolls.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 188,
+    "fields": {
+        "quest_name": "Croco Threat",
+        "required_level": 27,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 12x Crocos.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 189,
+    "fields": {
+        "quest_name": "Trolls The Wicked",
+        "required_level": 27,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 13x Troll Chieftains.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 190,
+    "fields": {
+        "quest_name": "Breaking The Chain",
+        "required_level": 28,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 5x Gold Chains.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 191,
+    "fields": {
+        "quest_name": "Preparing Antidote",
+        "required_level": 29,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 5x Poisonous Scorpion tails.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 192,
+    "fields": {
+        "quest_name": "Saber-toothed Cats",
+        "required_level": 30,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 15x Megantereons.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 193,
+    "fields": {
+        "quest_name": "Voices In The Night",
+        "required_level": 30,
+        "npc_name": "[Quest] Darmus",
+        "description": "Kill 10x Zombie Axeman and 10x Zombie Hammermens.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 194,
+    "fields": {
+        "quest_name": "Eye of the Zombie",
+        "required_level": 31,
+        "npc_name": "[Quest] Darmus",
+        "description": "Collect 4x Zombie Eyes.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 195,
+    "fields": {
+        "quest_name": "Blooded Goblet",
+        "required_level": 31,
+        "npc_name": "[Quest] Darmus",
+        "description": "Collect 3x Goblets.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 196,
+    "fields": {
+        "quest_name": "Need More Cure",
+        "required_level": 31,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 6x Red Tails.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 197,
+    "fields": {
+        "quest_name": "Never Ending",
+        "required_level": 31,
+        "npc_name": "[Quest] Darmus",
+        "description": "Kill 10x Bloody Zombies.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 198,
+    "fields": {
+        "quest_name": "Cleaning Up The Road",
+        "required_level": 31,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 13x Red Scorpions.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 199,
+    "fields": {
+        "quest_name": "Insatiable Ogres-III",
+        "required_level": 31,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 14x Stenchbeasts.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 200,
+    "fields": {
+        "quest_name": "Pigs Gone Mad",
+        "required_level": 32,
+        "npc_name": "[Quest] Lexia",
+        "description": "Kill 14x Mad Pigs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 201,
+    "fields": {
+        "quest_name": "We’re Having A Feast!",
+        "required_level": 32,
+        "npc_name": "[Quest] Lexia",
+        "description": "Collect 4x Pork ribs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 202,
+    "fields": {
+        "quest_name": "Frightening Screams",
+        "required_level": 32,
+        "npc_name": "[Quest] Darmus",
+        "description": "Kill 12x Ghouls.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 203,
+    "fields": {
+        "quest_name": "Insatiable Ogres-II",
+        "required_level": 34,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 13x Awful Beasts.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 204,
+    "fields": {
+        "quest_name": "Insatiable Ogres-I",
+        "required_level": 34,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 12x Enraged Beasts.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 205,
+    "fields": {
+        "quest_name": "Dinner Time",
+        "required_level": 34,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 10x Fleshes.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 206,
+    "fields": {
+        "quest_name": "Shining Gold",
+        "required_level": 35,
+        "npc_name": "[Quest] Duarte",
+        "description": "Collect 5x Gold bags.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 207,
+    "fields": {
+        "quest_name": "Goblin Rogue",
+        "required_level": 35,
+        "npc_name": "[Quest] Duarte",
+        "description": "Kill 10x Furious Goblins.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 208,
+    "fields": {
+        "quest_name": "Magical Necklace",
+        "required_level": 35,
+        "npc_name": "[Quest] Duarte",
+        "description": "Collect 3x Talismans.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 209,
+    "fields": {
+        "quest_name": "Greedy Goblins",
+        "required_level": 35,
+        "npc_name": "[Quest] Duarte",
+        "description": "Kill 10x Goblins.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 210,
+    "fields": {
+        "quest_name": "Cleaning Up The Shore",
+        "required_level": 36,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 15x Angry Crabs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 211,
+    "fields": {
+        "quest_name": "Ingredient For The Meal",
+        "required_level": 36,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 4x Red claws.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 212,
+    "fields": {
+        "quest_name": "Goblin Warchief",
+        "required_level": 36,
+        "npc_name": "[Quest] Duarte",
+        "description": "Kill 10x Goblin Warriors.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 213,
+    "fields": {
+        "quest_name": "Small But Effective",
+        "required_level": 36,
+        "npc_name": "[Quest] Duarte",
+        "description": "Collect 5x Square Shields.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 214,
+    "fields": {
+        "quest_name": "Deadly Bees",
+        "required_level": 37,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 17x Giant Hornets.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 215,
+    "fields": {
+        "quest_name": "Hornet Essence",
+        "required_level": 37,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 5x Bug Essences.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 216,
+    "fields": {
+        "quest_name": "Shamanic Power",
+        "required_level": 37,
+        "npc_name": "[Quest] Duarte",
+        "description": "Kill 10x Shaman Goblins.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 217,
+    "fields": {
+        "quest_name": "Recipe In The Pot",
+        "required_level": 37,
+        "npc_name": "[Quest] Duarte",
+        "description": "Collect 3x Pots.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 218,
+    "fields": {
+        "quest_name": "Vicious Beasts",
+        "required_level": 38,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 16x Beasts.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 219,
+    "fields": {
+        "quest_name": "Obtaining Beast Heads",
+        "required_level": 38,
+        "npc_name": "[Quest] Alec",
+        "description": "Collect 3x Beast heads.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 220,
+    "fields": {
+        "quest_name": "Two Headed Dogs",
+        "required_level": 39,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 18x Orthuses.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 221,
+    "fields": {
+        "quest_name": "Collecting Collars",
+        "required_level": 39,
+        "npc_name": "[Quest] Alec",
+        "description": "Collect 4x Collars.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 222,
+    "fields": {
+        "quest_name": "Eye For Eye",
+        "required_level": 40,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 17x Beholders.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 223,
+    "fields": {
+        "quest_name": "Evil Eye",
+        "required_level": 40,
+        "npc_name": "[Quest] Alec",
+        "description": "Collect 3x Beholder eyes.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 224,
+    "fields": {
+        "quest_name": "Frozen Guardian Of Matta",
+        "required_level": 41,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 18x Matta’s Ice Guards.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 225,
+    "fields": {
+        "quest_name": "Obtaining Water Elements",
+        "required_level": 41,
+        "npc_name": "[Quest] Alec",
+        "description": "Collect 5x Water Essences.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 226,
+    "fields": {
+        "quest_name": "Elemental Guardian Of Matta",
+        "required_level": 42,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 19x Elemental Casters.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 227,
+    "fields": {
+        "quest_name": "Obtaining Earth Elements",
+        "required_level": 42,
+        "npc_name": "[Quest] Alec",
+        "description": "Collect 4x Earth Essences.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 228,
+    "fields": {
+        "quest_name": "Flame Guardian Of Matta",
+        "required_level": 43,
+        "npc_name": "[Quest] Alec",
+        "description": "Kill 20x Matta’s Fire Guards.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 229,
+    "fields": {
+        "quest_name": "Obtaining Fire Elements",
+        "required_level": 43,
+        "npc_name": "[Quest] Alec",
+        "description": "Collect 5x Fire Essences.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 230,
+    "fields": {
+        "quest_name": "Barbarians Of Exile I",
+        "required_level": 44,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 10x Barbarians.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 231,
+    "fields": {
+        "quest_name": "Flasks For Potions II",
+        "required_level": 44,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 3x Flasks.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 232,
+    "fields": {
+        "quest_name": "Barbarians Of Exile II",
+        "required_level": 44,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 10x Barbarian Orcs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 233,
+    "fields": {
+        "quest_name": "Flasks For Potions III",
+        "required_level": 44,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 3x Big Flasks.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 234,
+    "fields": {
+        "quest_name": "Don’t Get Poisoned",
+        "required_level": 45,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 16x Poisonous Skeletons.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 235,
+    "fields": {
+        "quest_name": "More Antidote",
+        "required_level": 45,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 4x Poisonous bones.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 236,
+    "fields": {
+        "quest_name": "Frozen Threat I",
+        "required_level": 45,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 20x Frost Soldiers.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 237,
+    "fields": {
+        "quest_name": "Frozen Threat II",
+        "required_level": 46,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 20x Frost Warriors.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 238,
+    "fields": {
+        "quest_name": "Frozen Threat III",
+        "required_level": 46,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 20x Frost Knights.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 239,
+    "fields": {
+        "quest_name": "Frozen Threat IV",
+        "required_level": 47,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 20x Frost Guards.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 240,
+    "fields": {
+        "quest_name": "Collecting Frost Amulets",
+        "required_level": 47,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 10x Frost amulets.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 241,
+    "fields": {
+        "quest_name": "Durable Shield",
+        "required_level": 47,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 5x Frost shields.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 242,
+    "fields": {
+        "quest_name": "Keepers Of The Forest",
+        "required_level": 48,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 16x Treants.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 243,
+    "fields": {
+        "quest_name": "Restoring The Nature",
+        "required_level": 48,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 6x Wood pieces.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 244,
+    "fields": {
+        "quest_name": "Cleansing The Forest",
+        "required_level": 48,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 18x Fiery Skeletons.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 245,
+    "fields": {
+        "quest_name": "A Ring With Power",
+        "required_level": 48,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 3x Flame rings.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 246,
+    "fields": {
+        "quest_name": "Trees Are On Fire",
+        "required_level": 49,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 16x Burning Treants.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 247,
+    "fields": {
+        "quest_name": "Investigating Ancient Treants",
+        "required_level": 49,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 3x Burned woods.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 248,
+    "fields": {
+        "quest_name": "They’re Getting Stronger",
+        "required_level": 49,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 20x Hunter Orcs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 249,
+    "fields": {
+        "quest_name": "We Are Surrounded",
+        "required_level": 49,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 20x Stalkers.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 250,
+    "fields": {
+        "quest_name": "One-Eyed Giants",
+        "required_level": 50,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 17x Cyclopses.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 251,
+    "fields": {
+        "quest_name": "Blacksmith’s Request",
+        "required_level": 50,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 4x Huge maces.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 252,
+    "fields": {
+        "quest_name": "Stoned",
+        "required_level": 50,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 22x Gorgons.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 253,
+    "fields": {
+        "quest_name": "Assisting To Eliminate Orcs",
+        "required_level": 50,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 20x Raider Orcs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 254,
+    "fields": {
+        "quest_name": "Battle Brawlers",
+        "required_level": 50,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 20x Orc Warriors.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 255,
+    "fields": {
+        "quest_name": "Captain Awaits",
+        "required_level": 50,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 20x Veteran Orcs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 256,
+    "fields": {
+        "quest_name": "Collecting Orc Tokens",
+        "required_level": 51,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 10x Orc tokens.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 257,
+    "fields": {
+        "quest_name": "We’re Under Attack",
+        "required_level": 51,
+        "npc_name": "[Quest] Adamar",
+        "description": "Kill 20x Orc Chieftains.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 258,
+    "fields": {
+        "quest_name": "Georgeous Hair",
+        "required_level": 51,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Collect 4x Hairs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 259,
+    "fields": {
+        "quest_name": "Deadly Saboteurs",
+        "required_level": 52,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 20x Saboteurs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 260,
+    "fields": {
+        "quest_name": "Creepy Cyclops",
+        "required_level": 52,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 18x Dread Cyclopses.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 261,
+    "fields": {
+        "quest_name": "Old Lads I",
+        "required_level": 52,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 24x Oracles.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 262,
+    "fields": {
+        "quest_name": "Mythic Sash",
+        "required_level": 53,
+        "npc_name": "[Quest] Shael",
+        "description": "Collect 6x Purple sashes.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 263,
+    "fields": {
+        "quest_name": "Venomous Snakes",
+        "required_level": 53,
+        "npc_name": "[Quest] Iceheart Harok",
+        "description": "Kill 22x Snake Queens.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 264,
+    "fields": {
+        "quest_name": "Prove You’re Worth",
+        "required_level": 53,
+        "npc_name": "[Quest] Shael",
+        "description": "Collect 5x Manticore tooths.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 265,
+    "fields": {
+        "quest_name": "Into The Beast’s Lair",
+        "required_level": 54,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 21x Manticores.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 266,
+    "fields": {
+        "quest_name": "Clanguards Among Us",
+        "required_level": 54,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 24x Clanguards.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 267,
+    "fields": {
+        "quest_name": "Peace At Last",
+        "required_level": 55,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 20x Skullsplitters.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 268,
+    "fields": {
+        "quest_name": "Trading For Goods",
+        "required_level": 55,
+        "npc_name": "[Quest] Shael",
+        "description": "Collect 8x Skulls.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 269,
+    "fields": {
+        "quest_name": "Rock Solid Golems I",
+        "required_level": 55,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 22x Poisonous Rocks.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 270,
+    "fields": {
+        "quest_name": "Obtaining Poisonous Rock Pieces",
+        "required_level": 55,
+        "npc_name": "[Quest] Shael",
+        "description": "Collect 5x Poisonous rock pieces.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 271,
+    "fields": {
+        "quest_name": "The Bad Centaurs",
+        "required_level": 56,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 15x Charming Centaurs.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 272,
+    "fields": {
+        "quest_name": "Examining Fine Bows",
+        "required_level": 56,
+        "npc_name": "[Quest] Shael",
+        "description": "Collect 4x Centaur Bows.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 273,
+    "fields": {
+        "quest_name": "Rock Solid Golems II",
+        "required_level": 57,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 22x Flame Rocks.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 274,
+    "fields": {
+        "quest_name": "Obtaining Flame Rock Pieces",
+        "required_level": 57,
+        "npc_name": "[Quest] Shael",
+        "description": "5x Flame rock pieces.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 275,
+    "fields": {
+        "quest_name": "Harpy Hunt I",
+        "required_level": 58,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 22x Harpies.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 276,
+    "fields": {
+        "quest_name": "Harpy Hunt II",
+        "required_level": 58,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 23x Scavenging Harpies.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 277,
+    "fields": {
+        "quest_name": "Harpy Hunt III",
+        "required_level": 59,
+        "npc_name": "[Quest] Shael",
+        "description": "Kill 24x Ravenous Harpies.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 278,
+    "fields": {
+        "quest_name": "Unlucky Me",
+        "required_level": 59,
+        "npc_name": "[Quest] Shael",
+        "description": "Collect 10x Harpy foots.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 279,
+    "fields": {
+        "quest_name": "Old Lads II",
+        "required_level": 59,
+        "npc_name": "[Quest] Arcaena",
+        "description": "Kill 24x Soothsayers.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 280,
+    "fields": {
+        "quest_name": "True Mythic Sash",
+        "required_level": 59,
+        "npc_name": "[Quest] Arcaena",
+        "description": "Collect 6x Soothsayers Red sashes.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 281,
+    "fields": {
+        "quest_name": "Queen Of The Harpies",
+        "required_level": 60,
+        "npc_name": "[Quest] Ozra",
+        "description": "Kill 25x Harpy Queens.",
+        "quest_zone": 2
+    }
+},
+{
+    "model": "quests.quest",
+    "pk": 282,
+    "fields": {
+        "quest_name": "Obtaining Blue Feathers",
+        "required_level": 60,
+        "npc_name": "[Quest] Ozra",
+        "description": "Collect 6x Blue Feathers.",
+        "quest_zone": 2
+    }
 }
 ]

@@ -34,7 +34,7 @@ RUN apt-get update \
 FROM base as build
 
 ENV POETRY_VERSION=1.1.13
-RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
+RUN curl -sSL https://install.python-poetry.org | python3 
 
 WORKDIR $PYSETUP_PATH
 COPY ./poetry.lock ./pyproject.toml  ./
