@@ -145,8 +145,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = ['static']
+if DEBUG: 
+    STATIC_URL = '/static/'
+    STATICFILES_DIRS = ['static']
+else:
+    STATIC_URL = '/staticfiles/'
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'index'
@@ -166,3 +171,5 @@ TAILWIND_CSS_PATH = 'css/dist/styles.css'
 # TAILWIND_CSS_PATH = 'tailwind_css/styles.css'
 # NPM_BIN_PATH = "/usr/bin/npm"
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+
+CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS_ENV")
