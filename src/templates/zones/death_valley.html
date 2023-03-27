@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static tailwind_tags %}
 {% block title %}Rise Online Death Valley{% endblock %}
 
 {% block body %}
@@ -17,8 +18,8 @@
             2xl:p-4 2xl:grid 2xl:grid-cols-2
             md:content-center md:justify-center 
             text-white p-2 gap-2">
-                <img src="../static/death_valley_protean_base.png" class="w-full"> 
-                <img src="../static/death_valley_protean_base1.png" class="w-full">
+                <img src="{% static 'death_valley_protean_base.png' %}" class="w-full"> 
+                <img src="{% static 'death_valley_protean_base1.png' %}" class="w-full">
             </div>
             <span>On the upper screens you can see how the protean base looks like. 
                 Is place where human race is starting and where will be respawn after death. Every base have towers to defend people and be the safe zone.
@@ -30,8 +31,8 @@
             2xl:p-4 2xl:grid 2xl:grid-cols-2
             md:content-center md:justify-center 
             text-white p-2 gap-2">
-                <img src="../static/death_valley_lunaskar_base.png" class="w-full"> 
-                <img src="../static/death_valley_lunaskar_base1.png" class="w-full">
+                <img src="{% static 'death_valley_lunaskar_base.png' %}" class="w-full"> 
+                <img src="{% static 'death_valley_lunaskar_base1.png' %}" class="w-full">
             </div>
             <span>On the upper screens you can see how the lunaskar base looks like. 
                 Is place where orc race is starting and where will be respawn after death.
