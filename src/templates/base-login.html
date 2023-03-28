@@ -11,7 +11,7 @@
     {% tailwind_css %}
     <title>{% block title %} {% endblock %}</title>
 </head>
-<body class="flex flex-col bg-[url('/static/background_photo.jpg')] h-full">    
+<body class="flex flex-col h-full" style="background-image:url({% static 'background_photo.jpg' %});">    
     <div class="flex bg-zinc-800">
         <div class="w-full">
             <div class="flex py-1 justify-between
