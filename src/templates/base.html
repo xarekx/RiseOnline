@@ -14,7 +14,7 @@
    
     <title>{% block title %} {% endblock %}</title>
 </head>
-<body class="flex flex-col gap-10 bg-[url('/static/background_photo.jpg')] h-screen">
+<body class="flex flex-col gap-10 h-screen" style="background-image:url({% static 'background_photo.jpg' %});">
     
     
     <div class="flex bg-zinc-800">
@@ -127,7 +127,7 @@
                             {% endif %}
                     </div>
                 {% endfor %}
-                {% if user.is_authenticated %}
+                {% if user.is_superuser %}
                 <div>
                     <div class="block p-2 hover:text-sky-600 text-center cursor-pointer leftNavItem" onclick="location.href='/admin';">Admin</div> 
                 </div>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
 
-                <div class="grid grid-flow-col text-white grid-cols-3 w-1/2">
+                <div class="grid grid-flow-col text-white grid-cols-3 w-2/3">
 
                     <!--        first column-->
 
