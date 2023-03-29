@@ -6,11 +6,11 @@
     <div class="flex min-h-screen w-full">
     <!-- content div -->
         <div class="flex flex-col h-fit bg-[#191D21] w-full">
-            <span class="text-[#dbae28] text-2xl text-center mt-2 "><strong>Quest Table</strong></span>
-            <table id="questTable" class="table-auto text-white m-3">
+            <span class="text-[#dbae28] text-lg md:text-2xl text-center mt-2 "><strong>Quest Table</strong></span>
+            <table class="table-auto text-white m-1 md:m-3 ">
                 <thead>
                     <tr>
-                        <th class="border text-center p-3 hover:cursor-pointer hover:text-sky-700">
+                        <th class="border text-center p-1 md:p-3 hover:cursor-pointer hover:text-sky-700 w-3/12!">
                             {% if direction == 'asc' and order_by == 'quest_name' %} 
                                 <a href="?order_by=quest_name&direction=desc">Title<i class="fa-solid fa-sort-up p-1"></i></a>
                             {% elif direction == 'desc' and order_by == 'quest_name' %}
@@ -19,7 +19,7 @@
                                 <a href="?order_by=quest_name&direction=asc">Title<i class="fa-solid fa-sort p-1"></i></a>
                             {% endif %}
                         </th>
-                        <th class="border text-center p-3 hover:cursor-pointer hover:text-sky-700" data-type="number">
+                        <th class="border text-center p-1 md:p-3 hover:cursor-pointer hover:text-sky-700 w-1/12!" data-type="number">
                             {% if direction == 'asc' and order_by == 'required_level' %} 
                                 <a href="?order_by=required_level&direction=desc">Level<i class="fa-solid fa-sort-up p-1"></i></a>
                             {% elif direction == 'desc' and order_by == 'required_level' %}
@@ -28,9 +28,9 @@
                                 <a href="?order_by=required_level&direction=asc">Level<i class="fa-solid fa-sort p-1"></i></a>
                             {% endif %}
                         </th>
-                        <th class="border text-center p-3">Description</th>
-                        <th class="border text-center p-3">Rewards</th>
-                        <th class="border text-center p-3 hover:cursor-pointer hover:text-sky-700">
+                        <th class="border text-center p-1 md:p-3 w-4/12">Description</th>
+                        <th class="border text-center p-1 md:p-3 w-3/12">Rewards</th>
+                        <th class="border text-center p-1 md:p-3 hover:cursor-pointer hover:text-sky-700 w-1/12">
                             {% if direction == 'asc' and order_by == 'quest_zone' %} 
                                 <a href="?order_by=quest_zone&direction=desc">Zone<i class="fa-solid fa-sort-up p-1"></i></a>
                             {% elif direction == 'desc' and order_by == 'quest_zone' %}
@@ -69,7 +69,7 @@
                     {% endfor %}
                 </tbody> 
             </table>
-            <div class="flex text-white pl-3 pb-2">
+            <div class="flex text-white pl-1 md:pl-3 pb-2">
                 <span class="current justify-start w-full">
                     Page 
                     {% if quests.has_previous %}
