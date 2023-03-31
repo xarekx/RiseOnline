@@ -315,3 +315,11 @@ modules.xml
 #node_modules
 .node_modules/*
 node_modules/
+
+
+#CaddyFile
+./CaddyFile
+caddy
+
+# articles files
+src/templates/articles/*
