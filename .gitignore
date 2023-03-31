@@ -320,3 +320,6 @@ node_modules/
 #CaddyFile
 ./CaddyFile
 caddy
+
+# articles files
+src/templates/articles/*
