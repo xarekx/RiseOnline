@@ -3,25 +3,28 @@
 
 {% block body %}
         <!-- content div -->
-        <div class="flex flex-col w-full">
+        <div class="flex flex-col w-full ">
 
             <!-- title div-->
             {% for article in articles %}
-            <div class="bg-[#191D21] text-[#dbae28] pl-4 pr-4 py-2 sm:px-6 md:pl-6">
-                {{article.title}}
-            </div>
-
-            <!--  article div-->
-            <div class="relative bg-[#191D21] text-white pl-3 pr-3 pt-2 border-t-[0.5px] border-white md:pl-8 lg:pr-10">
-                {{article.article | safe }}
-                <div class="flex justify-end ">
-                    <a href="articles/{{article.replace_space_and_dot_in_title}}" 
-                    class="border p-1.5 mt-2 mr-6 text-[#dbae28] hover:bg-[#907010] hover:text-[#ffffff]">
-                        Read more
-                    </a> 
+            <div class="m-5 rounded-md">
+                <div class="bg-[#191D21] text-white pl-4 pr-4 py-2 sm:px-6 md:pl-6 shadow-inner border-[1px]">
+                <!-- <div class="text-[#dbae28] bg-gray-500"> -->
+                    <b>{{article.title}}</b>
                 </div>
-                <div class="flex justify-end">
-                    <div class="m-3 text-sm">{{article.created_date }}</div>
+
+                <!--  article div-->
+                <div class="relative bg-[#262b30] text-white pl-3 pr-3 pt-2 md:pl-8 lg:pr-10 rounded-b-sm">
+                    {{article.article | safe }}
+                    <div class="flex justify-end">
+                        <a href="articles/{{article.replace_space_and_dot_in_title}}" 
+                        class="border p-1 md:p-1.5 mt-2 mr-3 text-[#dbae28] hover:bg-[#907010] hover:text-[#ffffff]">
+                            Read more
+                        </a> 
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="mr-3 mt-1 mb-1 md:mt-3 md:mb-3 text-2xs md:text-xs">Uploaded: {{article.created_date | date:'Y-m-d'  }}</div>
+                    </div>
                 </div>
             </div>
             {% endfor %}

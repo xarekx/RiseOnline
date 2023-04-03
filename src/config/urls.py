@@ -33,4 +33,5 @@ urlpatterns = [
     path('monsters/', include('monsters.urls'), name="monsters"),
     path('items/', include('items.urls'), name="items"),
     path('contacts/', include('contacts.urls'), name="contacts"),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    path('articles/', include('articles.urls'), name="articles")
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
