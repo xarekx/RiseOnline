@@ -15,7 +15,6 @@ function changeMenuBackground(url) {
         let myChild = menuItem.children;
         let hiddenItems = myChild[1].children
         menuItem.classList.add("highlightMenu");
-        menuItem.classList.toggle("active");
         
         for(let i=0; i<myChild.length; i++) {
             if (myChild[i].tagName =="DIV") {
@@ -25,12 +24,20 @@ function changeMenuBackground(url) {
 
         if(myUrl.includes("/warrior")) {
             hiddenItems.item(0).children.item(0).classList.add("highlightMenu");
+            myChild[0].classList.toggle("active");
+            myChild[1].classList.remove("menuContent")
         } else if (myUrl.includes("/priest")) {
             hiddenItems.item(0).children.item(2).classList.add("highlightMenu");
+            myChild[0].classList.toggle("active");
+            myChild[1].classList.remove("menuContent")
         } else if (myUrl.includes("/mage")) {
             hiddenItems.item(0).children.item(1).classList.add("highlightMenu");
+            myChild[0].classList.toggle("active");
+            myChild[1].classList.remove("menuContent")
         } else {
             hiddenItems.item(0).children.item(3).classList.add("highlightMenu");
+            myChild[0].classList.toggle("active");
+            myChild[1].classList.remove("menuContent")
         }    
         
     } else if (myUrl.includes("/zones/") ) {
@@ -52,8 +59,12 @@ function changeMenuBackground(url) {
 
         if(myUrl.includes("/weapons")) {
             hiddenItems.item(0).children.item(0).classList.add("highlightMenu");
+            myChild[0].classList.toggle("active");
+            myChild[1].classList.remove("menuContent")
         }   else if (myUrl.includes("/armors")) {
             hiddenItems.item(0).children.item(1).classList.add("highlightMenu");
+            myChild[0].classList.toggle("active");
+            myChild[1].classList.remove("menuContent")
         }
 
 

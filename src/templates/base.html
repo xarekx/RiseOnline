@@ -82,15 +82,8 @@
           </ul>
         </div>
     </section>
-
-    <!-- <main class ="flex space-x-2 text-2xs text-justify
-                sm:text-xs sm:space-x-8 sm:mx-8 
-                md:text-xs md:space-x-12 md:mx-8 
-                lg:text-sm lg:space-x-16 lg:mx-12 
-                xl:text-[16px] xl:space-x-24 xl:mx-16 
-                2xl:text-base "> -->
-
-                <main class ="flex space-x-2 text-2xs
+                
+    <main class ="flex space-x-2 text-2xs
                 sm:text-2xs sm:space-x-8 sm:mx-8 sm:mb-auto
                 md:text-xs md:space-x-12 md:mx-8 md:mb-auto
                 lg:text-sm lg:space-x-16 lg:mx-12 lg:mb-auto 
@@ -105,8 +98,8 @@
                             {% if item.name == 'News' %}
                                 <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/'; getUrl()" >{{item.name}}</div>
                             {% elif item.name == 'Skills' %} 
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem ">{{item.name}}</div>
-                                    <div class="pt-0 hidden bg-neutral-800 w-full">
+                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem">{{item.name}}</div>
+                                    <div class="pt-0 bg-neutral-800 w-full menuContent">
                                         <ul>
                                             <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/warrior';">Warrior</li>
                                             <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/mage';">Mage</li>
@@ -116,7 +109,7 @@
                                     </div>
                             {% elif item.name == 'Items' %}
                                 <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem ">{{item.name}}</div>
-                                    <div class="pt-0 hidden bg-neutral-800 w-full">
+                                    <div class="pt-0 bg-neutral-800 w-full menuContent">
                                         <ul>
                                             <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/items/weapons';">Weapons</li>
                                             <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/items/armors';">Armors</li>
@@ -254,11 +247,16 @@
         leftNav[i].addEventListener("click", function() { 
             this.classList.toggle("active");
             let content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                    content.style.display = "none";
-            } else {
+            if (this.classList.contains("active")) {
                 content.style.display = "block";
-            } 
+                content.style.maxHeight = content.scrollHeight + "px";
+                if (content.classList.contains("menuContent") != true) {
+                    content.classList.add("menuContent");
+                }
+            } else {
+                content.style.display = 'none';
+                content.style.maxHeight = content.scrollHeight + "px";
+            }  
         })
     }
 </script>
