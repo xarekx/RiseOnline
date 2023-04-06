@@ -1,5 +1,40 @@
 window.onload = getUrl;
 
+function hideContent(content) {
+    content.style.overflow = 'hidden';
+    content.style.maxHeight = '0px';
+    content.style.transition  = '0px 0.8s ease-out';
+}
+
+function showContent(content) {
+    content.style.maxHeight = content.scrollHeight + "px";
+}
+
+function removeArrow(id) {
+    let arrow = document.getElementById(id);
+    if(arrow.children.item(0).className == "fa-solid fa-sort-up fa-rotate-90") {
+        arrow.children.item(0).className = "fa-solid fa-sort-down";
+    } else {
+        arrow.children.item(0).className = "fa-solid fa-sort-up fa-rotate-90";
+    }
+}
+
+
+let leftNav = document.getElementsByClassName("leftNavItem");
+
+
+// Listener for the click on left menu 
+for(let i=0; i<leftNav.length; i++) {
+    leftNav[i].addEventListener("click", function() { 
+        this.classList.toggle("active");
+        if(this.classList.contains("active")) {
+            showContent(this.nextElementSibling);
+        } else {
+            hideContent(this.nextElementSibling);
+        }
+    })
+}
+
 function getUrl() {
     myUrl = window.location.href;
     changeMenuBackground(myUrl);
@@ -9,35 +44,29 @@ function changeMenuBackground(url) {
     let myUrl = url;
     if ( myUrl.includes("/quests/") ) {
         let menuItem = document.getElementById("Quests");
-        menuItem.classList.add("highlightMenu");
+        menuItem.children[0].classList.add("highlightMenu");
     } else if (myUrl.includes("/skills/")) {
         let menuItem = document.getElementById("Skills");
         let myChild = menuItem.children;
         let hiddenItems = myChild[1].children
-        menuItem.classList.add("highlightMenu");
+        myChild[0].classList.toggle("active");
+        myChild[0].children.item(0).className = 'fa-solid fa-sort-down';
+        
         
         for(let i=0; i<myChild.length; i++) {
             if (myChild[i].tagName =="DIV") {
-                myChild[i].style.display = "block";
+                showContent(myChild[i]);
             }
         }
 
         if(myUrl.includes("/warrior")) {
-            hiddenItems.item(0).children.item(0).classList.add("highlightMenu");
-            myChild[0].classList.toggle("active");
-            myChild[1].classList.remove("menuContent")
+            hiddenItems.item(0).classList.add("highlightMenu");
         } else if (myUrl.includes("/priest")) {
-            hiddenItems.item(0).children.item(2).classList.add("highlightMenu");
-            myChild[0].classList.toggle("active");
-            myChild[1].classList.remove("menuContent")
+            hiddenItems.item(2).classList.add("highlightMenu");
         } else if (myUrl.includes("/mage")) {
-            hiddenItems.item(0).children.item(1).classList.add("highlightMenu");
-            myChild[0].classList.toggle("active");
-            myChild[1].classList.remove("menuContent")
+            hiddenItems.item(1).classList.add("highlightMenu");
         } else {
-            hiddenItems.item(0).children.item(3).classList.add("highlightMenu");
-            myChild[0].classList.toggle("active");
-            myChild[1].classList.remove("menuContent")
+            hiddenItems.item(3).classList.add("highlightMenu");
         }    
         
     } else if (myUrl.includes("/zones/") ) {
@@ -45,26 +74,21 @@ function changeMenuBackground(url) {
         menuItem.classList.add("highlightMenu");
     } else if (myUrl.includes("/items/") ) {
         let menuItem = document.getElementById("Items");
-        console.log(menuItem);
         let myChild = menuItem.children;
         let hiddenItems = myChild[1].children
-        menuItem.classList.add("highlightMenu");
-        menuItem.classList.toggle("active");
+        myChild[0].classList.toggle("active");
+        myChild[0].children.item(0).className = 'fa-solid fa-sort-down';
         
         for(let i=0; i<myChild.length; i++) {
             if (myChild[i].tagName =="DIV") {
-                myChild[i].style.display = "block";
+                showContent(myChild[i]);
             }
         }
 
         if(myUrl.includes("/weapons")) {
-            hiddenItems.item(0).children.item(0).classList.add("highlightMenu");
-            myChild[0].classList.toggle("active");
-            myChild[1].classList.remove("menuContent")
+            hiddenItems.item(0).classList.add("highlightMenu");
         }   else if (myUrl.includes("/armors")) {
-            hiddenItems.item(0).children.item(1).classList.add("highlightMenu");
-            myChild[0].classList.toggle("active");
-            myChild[1].classList.remove("menuContent")
+            hiddenItems.item(1).classList.add("highlightMenu");
         }
 
 

@@ -3,27 +3,26 @@
 
 {% block body %}
         <!-- content div -->
-        <div class="flex flex-col w-full ">
+        <div class="flex flex-col w-full space-y-5">
 
             <!-- title div-->
             {% for article in articles %}
-            <div class="m-5 rounded-md">
-                <div class="bg-[#191D21] text-white pl-4 pr-4 py-2 sm:px-6 md:pl-6 shadow-inner border-[1px]">
-                <!-- <div class="text-[#dbae28] bg-gray-500"> -->
+            <div class="rounded-md">
+                <div class="bg-[#191D21] text-white pl-2 pr-2 py-1 shadow-inner border-[1px] md:pl-4 md:pr-3 xl:pl-6 xl:pr-6">
                     <b>{{article.title}}</b>
                 </div>
 
                 <!--  article div-->
-                <div class="relative bg-[#262b30] text-white pl-3 pr-3 pt-2 md:pl-8 lg:pr-10 rounded-b-sm">
+                <div class="relative bg-[#262b30] text-white rounded-b-sm text-2xs pl-2 pr-2 pt-1 sm:pt-2.5 md:text-xs md:pl-4 md:pr-3 xl:pl-6 xl:pt-3 xl:pr-3 2xl:text-base">
                     {{article.article | safe }}
                     <div class="flex justify-end">
                         <a href="articles/{{article.replace_space_and_dot_in_title}}" 
-                        class="border p-1 md:p-1.5 mt-2 mr-3 text-[#dbae28] hover:bg-[#907010] hover:text-[#ffffff]">
+                        class="border p-0.5 mt-1 mr-5 sm:mr-4 sm:pr-1 sm:pl-1 md:p-1 md:mr-3 xl:mr-9 text-[#dbae28] hover:bg-[#907010] hover:text-[#ffffff]">
                             Read more
                         </a> 
                     </div>
-                    <div class="flex justify-end">
-                        <div class="mr-3 mt-1 mb-1 md:mt-3 md:mb-3 text-2xs md:text-xs">Uploaded: {{article.created_date | date:'Y-m-d'  }}</div>
+                    <div class="flex justify-end text-[7px] mt-1 md:mr-3 xl:text-[10px] xl:pb-2 xl:mt-2 2xl:mr-8">
+                        <div>Created: {{article.created_date | date:'Y-m-d'}}</div>
                     </div>
                 </div>
             </div>

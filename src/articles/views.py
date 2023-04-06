@@ -11,8 +11,7 @@ def index(request):
     articles = Article.objects.all().order_by("-created_date")
     left_side_item = LeftSideMenu.objects.all().order_by("priority")
 
-    return render(request, 'index.html', {'left_side_item': left_side_item, 
-                                          'articles': articles, })
+    return render(request, 'index.html', {'left_side_item': left_side_item, 'articles': articles, })
 
 
 class SignUpView(CreateView):

@@ -20,52 +20,39 @@
     <div class="flex bg-zinc-800">
         <div class="w-full">
             <div class="flex py-1 justify-between
-            2xl:py-4 2xl:justify-start 2xl:space-x-10">
-                <div class="flex justify-start lg:w-0 lg:flex-1 ">
-                    <a href="{% url 'index' %}" >
-                        <img class="h-4 mb-2 mt-2.5 ml-2
-                        sm:ml-3 sm:h-5
-                        md:h-6 md:ml-4
-                        lg:ml-4 lg:mt-2  lg:h-7 
-                        xl:ml-4 xl:h-8 xl:mb-2 xl:mt-2 " src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
+            2xl:py-2 2xl:justify-start 2xl:space-x-10">
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="{% url 'index' %}">
+                        <img class="h-5 mb-2 mt-2.5 ml-2
+                        sm:mx-4
+                        lg:mt-2 lg:h-7
+                        xl:h-8" src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
                     </a>
                 </div>
-                <ul class="flex text-xs justify-center items-center">
+                <ul class="flex text-xs md:text-base 2xl:text-lg sm:mx-4 lg:mx-8 xl:mx-10 2xl:mx-12">
                     {% if user.is_authenticated %}
-                        <span class="text-white text-2xs
-                        sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base">Login: {{user.username}}</span>
-                        <span class=" text-black align-center hover:text-sky-700 text-2xs pl-2 pr-2
-                        sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base 2xl:pl-4 2xl:pr-4"><button class="bg-[#f8f9fa] hover:bg-slate-300 border-solid pl-1 pr-1 
-                        sm:text-2xs
-                        md:pb-1 md:pt-1 md:text-xs
-                        lg:pb-1
-                        xl:pb-1 
-                        2xl:pb-1  rounded-sm" type="button" onclick="location.href='/logout';">Logout</button></span>
+                        <span class="text-white">
+                            Login: {{user.username}}
+                        </span>
+                        <span class="text-black align-center hover:text-white pl-2 pr-2">
+                            <button class="bg-[#f8f9fa] hover:bg-slate-300 border-solid pl-1 pr-1" type="button" onclick="location.href='/logout';">
+                                Logout
+                            </button>
+                        </span>
                     {% else %}
-                        <a class="text-sky-600 py-2.5 px-2  hover:text-sky-700 text-2xs sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base" href=" {% url 'login' %}">Sign In</a>
-                        <a class="text-sky-600 py-2.5 px-2 hover:text-sky-700 text-2xs sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base" href="{% url 'signup' %}">Sign Up</a>
+                        <a class="text-[#dbae28] py-2.5 px-2 hover:text-white" href="{% url 'login' %}">
+                            Sign In
+                        </a>
+                        <a class="text-[#dbae28] py-2.5 px-2 hover:text-white" href="{% url 'signup' %}">
+                            Sign Up
+                        </a>
                     {% endif %}
                 </ul>
             </div>
         </div>
     </div>
-    <section class="flex justify-center" aria-label="Newest Photos" >
+    
+    <section class="flex justify-center" aria-label="Newest Photos">
         <div class="relative w-1/2 h-vh-2 md:h-vh-3 lg:h-vh-4 2xl:h-vh-5" data-carousel>
           <button class="carousel-button prev text-base left-1 md:left-2 md:text-[1.5rem] xl:text-[2.5rem] " data-carousel-button="prev"><i class="fa-solid fa-arrow-left"></i></button>
           <button class="carousel-button next text-base right-1 md:right-2 md:text-[1.5rem] xl:text-[2.5rem]" data-carousel-button="next"><i class="fa-solid fa-arrow-right"></i></button>
@@ -83,46 +70,62 @@
         </div>
     </section>
                 
-    <main class ="flex space-x-2 text-2xs
-                sm:text-2xs sm:space-x-8 sm:mx-8 sm:mb-auto
-                md:text-xs md:space-x-12 md:mx-8 md:mb-auto
-                lg:text-sm lg:space-x-16 lg:mx-12 lg:mb-auto 
-                xl:text-lg xl:space-x-24 xl:mx-16 xl:mb-auto 
-                2xl:text-base">
+    <main class="flex space-x-2 mx-2 text-xs
+                sm:space-x-6 sm:mx-4 
+                md:text-base
+                lg:space-x-10 lg:mx-8  
+                xl:space-x-12 xl:mx-10 
+                2xl:text-lg 2xl:space-x-16 2xl:mx-12">
 
 <!--        left menu -->
-        <div class="flex h-fit bg-zinc-800  ml-2 2xl:ml-10 text-justify">
-            <div class="flex-col text-white sm:w-20 md:w-20 lg:w-24 2xl:w-24 m-0 text-center">
+        <div class="flex flex-col h-fit bg-zinc-800 text-white text-left w-2/12">
+            <div class="menuWrapper">
                 {% for item in left_side_item %}
-                    <div id ="{{item.name}}" class="nav_item" >
+                    <div id="{{item.name}}" class="nav_item cursor-pointer ml-1 mr-1 mt-1.5 mb-1.5 sm:ml-2 sm:mr-2 text-[#dbae28]">
                             {% if item.name == 'News' %}
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/'; getUrl()" >{{item.name}}</div>
-                            {% elif item.name == 'Skills' %} 
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem">{{item.name}}</div>
-                                    <div class="pt-0 bg-neutral-800 w-full menuContent">
-                                        <ul>
-                                            <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/warrior';">Warrior</li>
-                                            <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/mage';">Mage</li>
-                                            <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/priest';">Priest</li>
-                                            <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/skills/rogue';">Rogue</li>
-                                        </ul>
-                                    </div>
+
+                                <div class="leftNavItem  hover:text-white p-1 xl:pl-3 xl:pr-3" onclick="location.href='/'; getUrl()">
+                                    {{item.name}}
+                                </div>
+
+                            {% elif item.name == 'Skills' %}
+                                
+                                <div class="leftNavItem hover:text-white p-1 xl:pl-3 xl:pr-3" id="skill_list" onclick="removeArrow(this.id)">
+                                    {{item.name}} 
+                                    <i class="fa-solid fa-sort-up fa-rotate-90"></i>
+                                </div>
+                                
+                                <div class="flex flex-col menuContent w-full text-center">
+                                    <a href="{% url 'warrior' %}" class="text-2xs md:text-xs 2xl:text-base md:pt-1 md:pb-1 hover:text-white">Warrior</a>
+                                    <a href="{% url 'mage' %}"  class="text-2xs md:text-xs 2xl:text-base md:pt-1 md:pb-1 hover:text-white">Mage</a>
+                                    <a href="{% url 'priest' %}" class="text-2xs md:text-xs 2xl:text-base md:pt-1 md:pb-1 hover:text-white">Priest</a>
+                                    <a href="{% url 'rogue' %}" class="text-2xs md:text-xs 2xl:text-base md:pt-1 md:pb-1 hover:text-white">Rogue</a>
+                                </div>
+
                             {% elif item.name == 'Items' %}
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem ">{{item.name}}</div>
-                                    <div class="pt-0 bg-neutral-800 w-full menuContent">
-                                        <ul>
-                                            <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/items/weapons';">Weapons</li>
-                                            <li class="hover:cursor-pointer pt-2 text-2xs 2xl:text-xs pb-1 hover:text-sky-500" onclick="location.href='/items/armors';">Armors</li>
-                                        </ul>
-                                    </div>
+
+                                <div class="leftNavItem hover:text-white p-1 xl:pl-3 xl:pr-3" id="items_list" onclick="removeArrow(this.id)">
+                                    {{item.name}}
+                                    <i class="fa-solid fa-sort-up fa-rotate-90"></i>
+                                </div>
+
+                                <div class="flex flex-col menuContent text-center">
+                                    <a href="{% url 'weapons' %}" class="text-2xs md:text-xs 2xl:text-base md:pt-1 md:pb-1 hover:text-white">Weapons</a>
+                                    <a href="{% url 'armors' %}" class="text-2xs md:text-xs 2xl:text-base md:pt-1 md:pb-1 hover:text-white">Armors</a>
+                                </div>
+
                             {% else %}
-                                <div class="block p-2 hover:text-sky-600 cursor-pointer leftNavItem" onclick="location.href='/{{item.name | lower}}';">{{item.name}}</div>
+
+                                <div class="leftNavItem hover:text-white p-1 xl:pl-3 xl:pr-3">
+                                    <a href="/{{item.name | lower }}">{{item.name}}</a>
+                                </div>
+
                             {% endif %}
                     </div>
                 {% endfor %}
                 {% if user.is_superuser %}
                 <div>
-                    <div class="block p-2 hover:text-sky-600 text-center cursor-pointer leftNavItem" onclick="location.href='/admin';">Admin</div> 
+                    <div class="leftNavItem hover:text-sky-600 text-center" onclick="location.href='/admin';">Admin</div> 
                 </div>
                 {% endif %}
             </div>
@@ -130,24 +133,14 @@
         
     {% block body %}
     {% endblock %}
-    <div class="flex-col me-2">
+    <div class="flex flex-col w-2/12 space-y-8">
 
         <!--  first add-->
-        <div class="flex w-16 h-24 bg-zinc-800 text-white 
-                        sm:w-20 sm:h-28 
-                        md:w-24 md:h-36
-                        lg:h-48 lg:w-28
-                        xl:h-48 xl:w-32
-                        2xl:h-48 2xl:w-36">First add
+        <div class="flex w-full bg-zinc-800 text-white h-28 md:h-40 lg:h-52 xl:h-60 2xl:h-72">First add
         </div>
 
         <!-- second add -->
-        <div class="flex w-16 bg-zinc-800 my-2 h-24 text-white 
-                        sm:w-20 sm:h-28
-                        md:w-24 md:h-36
-                        lg:h-48 lg:w-28
-                        xl:h-48 xl:w-32
-                        2xl:h-48 2xl:w-36">Second add
+        <div class="flex w-full text-white bg-zinc-800 h-28 md:h-40 lg:h-52 xl:h-60 2xl:h-72">Second add
         </div>
     </div>
 </main>
@@ -158,9 +151,9 @@
                         lg:text-sm
                         2xl:text-lg">
                 
-            <div class="flex justify-around h-full w-full ">
+            <div class="flex justify-around h-full w-full">
                 <div class="flex flex-col items-center justify-center w-1/6">
-                    <div class="flex flex-row ">
+                    <div class="flex flex-row">
                         <i class="fa-solid fa-dice-d6 text-white text-sm md:text-base 2xl:text-[1.5rem] m-2"></i>
                         <i class="fa-solid fa-gamepad text-white text-sm md:text-base 2xl:text-[1.5rem] m-2 "></i>
                     </div>
@@ -170,64 +163,100 @@
                     </div>
                 </div>
 
-                <div class="grid grid-flow-col text-white grid-cols-3 w-2/3">
+                <div class="grid grid-flow-col text-[#dbae28] grid-cols-3 w-2/3">
 
                     <!--        first column-->
 
-                            <div class="">
+                            <div>
                                 <h2 class="text-[12px] mt-2 mb-2 md:text-[16px] lg:text-[18px] 2xl:text-[24px]">Navigation</h2>
                                 <ul class="mb-2 text-2xs">
                                     <!-- <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 "> -->
                                         <!-- <i class="fa-solid fa-newspaper text-white mr-2 active"></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">News</a> -->
                                     <!-- </li> -->
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
-                                        <i class="fa-solid fa-scroll text-white mr-1.5"></i><a href="{% url 'quests' %}" class="hover:text-gray-300 cursor-pointer">Quests</a>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-solid fa-scroll text-white mr-1.5"></i>
+                                        <a href="{% url 'quests' %}" class="hover:text-white cursor-pointer">
+                                            Quests
+                                        </a>
                                     </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
-                                        <i class="fa-solid fa-wand-sparkles text-white mr-2"></i><a href="{% url 'weapons'%}" class="hover:text-gray-300 cursor-pointer">Weapons</a>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-solid fa-wand-sparkles text-white mr-2"></i>
+                                        <a href="{% url 'weapons'%}" class="hover:text-white cursor-pointer">
+                                            Weapons
+                                        </a>
                                     </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
-                                        <i class="fa-solid fa-ring text-white mr-2"></i><a href="{% url 'armors'%}" class="hover:text-gray-300 cursor-pointer">Armors</a>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-solid fa-ring text-white mr-2"></i>
+                                        <a href="{% url 'armors'%}" class="hover:text-white cursor-pointer">
+                                            Armors
+                                        </a>
                                     </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
-                                        <i class="fa-solid fa-dungeon text-white mr-2"></i><a href="{% url 'zones' %}" class="hover:text-gray-300 cursor-pointer">Zones</a>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-solid fa-dungeon text-white mr-2"></i>
+                                        <a href="{% url 'zones' %}" class="hover:text-white cursor-pointer">
+                                            Zones
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                     <!-- second column -->
                 
-                            <div class="">
+                            <div>
                                 <h2 class="text-[12px] mt-2 mb-2 md:text-[16px] lg:text-[18px] 2xl:text-[24px]">Logged</h2>
                                 <ul class="mb-2 text-2xs">
-                                    <li class="sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400  m-0 p-0">
-                                        <i class="fa-solid fa-calculator text-white mr-3"></i><a href="{% url 'login'%}" class="hover:text-gray-300 cursor-pointer">Drop Calc</a>
+                                    <li class="sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] m-0 p-0">
+                                        <i class="fa-solid fa-calculator text-white mr-3"></i>
+                                        <a href="{% url 'login'%}" class="hover:text-white cursor-pointer">
+                                            Drop Calc
+                                        </a>
                                     </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
-                                        <i class="fa-solid fa-share text-white mr-2.5"></i><a href="{% url 'login'%}" class="hover:text-gray-300 cursor-pointer">Share Drop</a>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-solid fa-share text-white mr-2.5"></i>
+                                        <a href="{% url 'login'%}" class="hover:text-white cursor-pointer">
+                                            Share Drop
+                                        </a>
                                     </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
-                                        <i class="fa-solid fa-user-group text-white mr-2 "></i><a href="{% url 'login'%}" class="hover:text-gray-300 cursor-pointer">Create Party</a>
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-solid fa-user-group text-white mr-2 "></i>
+                                        <a href="{% url 'login'%}" class="hover:text-white cursor-pointer">
+                                            Create Party
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                 
                     <!-- third column -->
                         
-                            <div class="">
+                            <div>
                 
                                 <p class="text-[12px] mt-2 mb-2 md:text-[16px] lg:text-[18px] 2xl:text-[24px]">Contact</p>
                                 <ul class="mb-2 text-2xs">
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
-                                        <!-- <i class="fa-solid fa-user-graduate text-white mr-2" ></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">About me</a> -->
+                                    <!-- <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                         <i class="fa-solid fa-user-graduate text-white mr-2" ></i>
+                                            <a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">
+                                                About me
+                                            </a> 
+                                    </li> 
+
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                         <i class="fa-brands fa-facebook text-white mr-2"></i>
+                                            <a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">
+                                                Facebook
+                                            </a> 
+                                    </li> -->
+
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px]">
+                                        <i class="fa-brands fa-linkedin text-white mr-2 "></i>
+                                        <a href="https://pl.linkedin.com/in/arkadiusz-tarnowski-142a20182" class="hover:text-white cursor-pointer">
+                                            Linkedin
+                                        </a>
                                     </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
-                                        <!-- <i class="fa-brands fa-facebook text-white mr-2"></i><a href="{% url 'index' %}" class="hover:text-gray-300 cursor-pointer">Facebook</a> -->
-                                    </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400">
-                                        <i class="fa-brands fa-linkedin text-white mr-2 "></i><a href="https://pl.linkedin.com/in/arkadiusz-tarnowski-142a20182" class="hover:text-gray-300 cursor-pointer">Linkedin</a>
-                                    </li>
-                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px] text-gray-400 ">
-                                        <i class="fa-brands fa-github text-white mr-2"></i><a href="https://github.com/xarekx" class="hover:text-gray-300 cursor-pointer">Github</a>
+
+                                    <li class=" sm:text-[9px] md:text-[10px] lg:text-[12px] 2xl:text-[14px">
+                                        <i class="fa-brands fa-github text-white mr-2"></i>
+                                        <a href="https://github.com/xarekx" class="hover:text-white cursor-pointer">
+                                            Github
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -239,26 +268,6 @@
         <!-- <span class="flex text-white justify-end mr-3 mt-0.5">Created by Arkadiusz Tarnowski</span> -->
     </footer>
     <script src="{% static 'scripts.js' %}"></script>
-<script type="text/javascript">
-    let leftNav = document.getElementsByClassName("leftNavItem");
-    let i; 
-    
-    for(i=0; i<leftNav.length; i++) {
-        leftNav[i].addEventListener("click", function() { 
-            this.classList.toggle("active");
-            let content = this.nextElementSibling;
-            if (this.classList.contains("active")) {
-                content.style.display = "block";
-                content.style.maxHeight = content.scrollHeight + "px";
-                if (content.classList.contains("menuContent") != true) {
-                    content.classList.add("menuContent");
-                }
-            } else {
-                content.style.display = 'none';
-                content.style.maxHeight = content.scrollHeight + "px";
-            }  
-        })
-    }
-</script>
+<script type="text/javascript"></script>
 </body>
 </html>

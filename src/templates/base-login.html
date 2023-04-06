@@ -12,49 +12,36 @@
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body class="flex flex-col h-full" style="background-image:url({% static 'background_photo.jpg' %});">    
+    
     <div class="flex bg-zinc-800">
         <div class="w-full">
             <div class="flex py-1 justify-between
-            2xl:py-4 2xl:justify-start 2xl:space-x-10">
-                <div class="flex justify-start lg:w-0 lg:flex-1 ">
-                    <a href="{% url 'index' %}" >
-                        <img class="h-4 mb-2 mt-2.5 ml-2
-                        sm:ml-3 sm:h-5
-                        md:h-6 md:ml-4
-                        lg:ml-4 lg:mt-2  lg:h-7 
-                        xl:ml-4 xl:h-8 xl:mb-2 xl:mt-2 " src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
+            2xl:py-2 2xl:justify-start 2xl:space-x-10">
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="{% url 'index' %}">
+                        <img class="h-5 mb-2 mt-2.5 ml-2
+                        sm:mx-4
+                        lg:mt-2 lg:h-7
+                        xl:h-8" src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
                     </a>
                 </div>
-                <ul class="flex text-xs justify-center items-center">
+                <ul class="flex text-xs md:text-base 2xl:text-lg sm:mx-4 lg:mx-8 xl:mx-10 2xl:mx-12">
                     {% if user.is_authenticated %}
-                        <span class="text-white text-2xs
-                        sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base">Login: {{user.username}}</span>
-                        <span class=" text-black align-center hover:text-sky-700 text-2xs pl-2 pr-2
-                        sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base 2xl:pl-4 2xl:pr-4"><button class="bg-[#f8f9fa] hover:bg-slate-300 border-solid pl-1 pr-1 
-                        sm:text-2xs
-                        md:pb-1 md:pt-1 md:text-xs
-                        lg:pb-1
-                        xl:pb-1 
-                        2xl:pb-1  rounded-sm"  onclick="window.location.href='logout'">Logout</button></span>
+                        <span class="text-white">
+                            Login: {{user.username}}
+                        </span>
+                        <span class="text-black align-center hover:text-white pl-2 pr-2">
+                            <button class="bg-[#f8f9fa] hover:bg-slate-300 border-solid pl-1 pr-1" type="button" onclick="location.href='/logout';">
+                                Logout
+                            </button>
+                        </span>
                     {% else %}
-                        <a class="text-sky-600 py-2.5 px-2  hover:text-sky-700 text-2xs sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base" href=" {% url 'login' %}">Sign In</a>
-                        <a class="text-sky-600 py-2.5 px-2 hover:text-sky-700 text-2xs sm:text-xs
-                        md:text-xs
-                        lg:text-sm
-                        xl:text-[16px]
-                        2xl:text-base" href="{% url 'signup' %}">Sign Up</a>
+                        <a class="text-[#dbae28] py-2.5 px-2  hover:text-white" href="{% url 'login' %}">
+                            Sign In
+                        </a>
+                        <a class="text-[#dbae28] py-2.5 px-2 hover:text-white" href="{% url 'signup' %}">
+                            Sign Up
+                        </a>
                     {% endif %}
                 </ul>
             </div>
