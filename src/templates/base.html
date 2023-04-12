@@ -84,8 +84,8 @@
                     <div id="{{item.name}}" class="nav_item cursor-pointer ml-1 mr-1 mt-1.5 mb-1.5 sm:ml-2 sm:mr-2 text-[#dbae28]">
                             {% if item.name == 'News' %}
 
-                                <div class="leftNavItem  hover:text-white p-1 xl:pl-3 xl:pr-3" onclick="location.href='/'; getUrl()">
-                                    {{item.name}}
+                                <div class="leftNavItem hover:text-white p-1 xl:pl-3 xl:pr-3">
+                                    <a href="/" class="block w-full h-full">{{item.name}}</a>
                                 </div>
 
                             {% elif item.name == 'Skills' %}
@@ -116,8 +116,8 @@
 
                             {% else %}
 
-                                <div class="leftNavItem hover:text-white p-1 xl:pl-3 xl:pr-3">
-                                    <a href="/{{item.name | lower }}">{{item.name}}</a>
+                                <div class="block leftNavItem hover:text-white p-1 xl:pl-3 xl:pr-3">
+                                    <a href="/{{item.name | lower }}" class="block w-full h-full">{{item.name}}</a>
                                 </div>
 
                             {% endif %}
