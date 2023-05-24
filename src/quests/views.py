@@ -14,20 +14,13 @@ def quests(request):
     
     order_by = request.GET.get('order_by')
     direction = request.GET.get('direction')
-    ordering = 'required_level'
-    
-    if direction == 'desc':
-        ordering = '-{}'.format(ordering)
-        
-    if order_by is None or order_by == 'required_level':
+
+    if order_by is None :
         ordering = 'required_level'
-        direction = 'asc'
-    elif order_by  == 'quest_zone':
-        ordering = 'quest_zone'  
-    elif order_by  == 'quest_name':
-        ordering = 'quest_name' 
-    
-    
+    else:
+        ordering = order_by
+        if direction == 'desc':
+            ordering = '-{}'.format(order_by)       
         
     quest_list = Quest.objects.all().order_by(ordering)
     
