@@ -3,22 +3,26 @@
 
 {% block body %}
 <!-- content div -->
-    <div class="flex flex-col h-fit bg-[#191D21] w-full pb-2">
-        <span class="text-[#dbae28] text-2xl text-center mt-2">
-            <strong>Zones</strong>
-        </span>
-        <div class="zoneCard flex text-white flex-wrap justify-center">
-            {% for zone in all_zones %}
-                <div class="flex flex-col text-center mt-4 ml-4 mr-4 mb-2 hover:scale-110 hover:cursor-pointer hover:ease-in hover:duration-200" 
-                id="{{zone.name | lower}}" onclick="navigateToZone(this.id)">
-                    <div class="pb-2">
-                        <strong>{{ zone.name }}</strong>
+        <div class="flex flex-col bg-[#191D21] h-fit w-full">
+            <div class="flex w-full justify-center pb-8">
+                <span class="text-[#dbae28] text-2xl text-center mt-2">
+                    <strong>Zones</strong>
+                </span>
+            </div>
+            <div class="zoneCard flex text-white flex-wrap justify-center">
+                {% for zone in all_zones %}
+                    <div class="flex flex-col text-center mt-4 ml-4 mr-4 mb-2 hover:scale-110 hover:cursor-pointer hover:ease-in hover:duration-200" 
+                    id="{{zone.name | lower}}" onclick="navigateToZone(this.id)">
+                        <div class="pb-2">
+                            <strong>{{ zone.name }}</strong>
+                        </div>
+                        <img src="{{zone.img.url}}">
                     </div>
-                    <img src="{{zone.img.url}}">
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
         </div>
     </div>
+    
 <script>
 function navigateToZone(ids) {
     const zone = document.getElementById(ids);

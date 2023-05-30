@@ -3,40 +3,42 @@
 {% block title %}Rise Online Death Valley{% endblock %}
 
 {% block body %}
-    <!-- content div -->
-    <div class="flex flex-col h-fit bg-zinc-800 w-fit">
-        <span class="w-full text-white text-center pt-2 text-xl">
-            <strong>Death Valley</strong>
-        </span>
-        <!-- Zone description -->
-        <span id="description" class="text-white m-2 text-center">Death Valley is the place where you will spend most of your game Time. 
-            It is zone where you will be fighting with enemy fraction. Here we have got same monsters as in other zones but they are a little bit stronger.
-            Monsters are stronger so you can get better drop and the drop chance is higher.</span>
-        <!-- Protean  -->
-        <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
-            <div class="flex flex-wrap justify-center justify-items-center
-            2xl:p-4 2xl:grid 2xl:grid-cols-2
-            md:content-center md:justify-center 
-            text-white p-2 gap-2">
-                <img src="{% static 'death_valley_protean_base.png' %}" class="w-full"> 
-                <img src="{% static 'death_valley_protean_base1.png' %}" class="w-full">
+        <!-- content div -->
+        <div class="flex flex-col bg-[#191D21] h-fit w-full text-white">
+            <div class="flex w-full justify-center pb-8">
+                <span class="w-full text-white text-center pt-2 text-xl">
+                    <strong>Death Valley</strong>
+                </span>
             </div>
-            <span>On the upper screens you can see how the protean base looks like. 
-                Is place where human race is starting and where will be respawn after death. Every base have towers to defend people and be the safe zone.
-            </span>  
-        </div>
-        <!-- Lunaskar -->
-        <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
-            <div class="flex flex-wrap justify-center justify-items-center
-            2xl:p-4 2xl:grid 2xl:grid-cols-2
-            md:content-center md:justify-center 
-            text-white p-2 gap-2">
-                <img src="{% static 'death_valley_lunaskar_base.png' %}" class="w-full"> 
-                <img src="{% static 'death_valley_lunaskar_base1.png' %}" class="w-full">
+            <span id="description" class="text-white m-2 text-center">Death Valley is the place where you will spend most of your game Time. 
+                It is zone where you will be fighting with enemy fraction. Here we have got same monsters as in other zones but they are a little bit stronger.
+                Monsters are stronger so you can get better drop and the drop chance is higher.</span>
+            <!-- Protean  -->
+            <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
+                <div class="flex flex-wrap justify-center justify-items-center
+                2xl:p-4 2xl:grid 2xl:grid-cols-2
+                md:content-center md:justify-center 
+                text-white p-2 gap-2">
+                    <img src="{% static 'death_valley_protean_base.png' %}" class="w-full"> 
+                    <img src="{% static 'death_valley_protean_base1.png' %}" class="w-full">
+                </div>
+                <span>On the upper screens you can see how the protean base looks like. 
+                    Is place where human race is starting and where will be respawn after death. Every base have towers to defend people and be the safe zone.
+                </span>  
             </div>
-            <span>On the upper screens you can see how the lunaskar base looks like. 
-                Is place where orc race is starting and where will be respawn after death.
-            </span>  
+            <!-- Lunaskar -->
+            <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
+                <div class="flex flex-wrap justify-center justify-items-center
+                2xl:p-4 2xl:grid 2xl:grid-cols-2
+                md:content-center md:justify-center 
+                text-white p-2 gap-2">
+                    <img src="{% static 'death_valley_lunaskar_base.png' %}" class="w-full"> 
+                    <img src="{% static 'death_valley_lunaskar_base1.png' %}" class="w-full">
+                </div>
+                <span>On the upper screens you can see how the lunaskar base looks like. 
+                    Is place where orc race is starting and where will be respawn after death.
+                </span>  
+            </div>
         </div>
     </div>
 {% endblock %}
