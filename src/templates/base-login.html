@@ -25,7 +25,7 @@
                         xl:h-8" src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
                     </a>
                 </div>
-                <ul class="flex text-xs md:text-base 2xl:text-lg sm:mx-4 lg:mx-8 xl:mx-10 2xl:mx-12">
+                <ul class="flex text-sm xl:text-base justify-center items-center space-x-4">
                     {% if user.is_authenticated %}
                         <span class="text-white">
                             Login: {{user.username}}
@@ -36,10 +36,10 @@
                             </button>
                         </span>
                     {% else %}
-                        <a class="text-[#dbae28] py-2.5 px-2  hover:text-white" href="{% url 'login' %}">
+                        <a class="text-[#dbae28] hover:text-white" href="{% url 'login' %}">
                             Sign In
                         </a>
-                        <a class="text-[#dbae28] py-2.5 px-2 hover:text-white" href="{% url 'signup' %}">
+                        <a class="text-[#dbae28] hover:text-white" href="{% url 'signup' %}">
                             Sign Up
                         </a>
                     {% endif %}

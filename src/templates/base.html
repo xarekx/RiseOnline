@@ -29,21 +29,21 @@
                         xl:h-8" src="https://www.riseonlineworld.com/theme/default/assets/img/logo.png" alt="here should be logo">
                     </a>
                 </div>
-                <ul class="flex text-xs md:text-base 2xl:text-lg sm:mx-4 lg:mx-8 xl:mx-10 2xl:mx-12">
+                <ul class="flex text-sm xl:text-base justify-center items-center space-x-4">
                     {% if user.is_authenticated %}
-                        <span class="text-white">
-                            Login: {{user.username}}
+                        <span class="text-[#dbae28]">
+                            <b>Login: {{user.username}}</b>
                         </span>
-                        <span class="text-black align-center hover:text-white pl-2 pr-2">
-                            <button class="bg-[#f8f9fa] hover:bg-slate-300 border-solid pl-1 pr-1" type="button" onclick="location.href='/logout';">
+                        <span class="text-black align-center hover:text-white">
+                            <button class="text-[#dbae28] hover:text-[#ffffff] mr-2 pl-0.5 pr-0.5 md:mr-8 xl:mr-10 2xl:mr-12" type="button" onclick="location.href='/logout';">
                                 Logout
                             </button>
                         </span>
                     {% else %}
-                        <a class="text-[#dbae28] py-2.5 px-2 hover:text-white" href="{% url 'login' %}">
+                        <a class="text-[#dbae28] hover:text-white" href="{% url 'login' %}">
                             Sign In
                         </a>
-                        <a class="text-[#dbae28] py-2.5 px-2 hover:text-white" href="{% url 'signup' %}">
+                        <a class="text-[#dbae28] hover:text-white" href="{% url 'signup' %}">
                             Sign Up
                         </a>
                     {% endif %}
@@ -124,8 +124,8 @@
                     </div>
                 {% endfor %}
                 {% if user.is_superuser %}
-                <div>
-                    <div class="leftNavItem hover:text-sky-600 text-center" onclick="location.href='/admin';">Admin</div> 
+                <div class="nav_item cursor-pointer ml-1 mr-1 mt-1.5 mb-1.5 sm:ml-2 sm:mr-2 text-[#dbae28] hover:text-white p-1 xl:pl-3 xl:pr-3">
+                    <div class="block w-full h-full" onclick="location.href='/admin';">Admin</div> 
                 </div>
                 {% endif %}
             </div>
