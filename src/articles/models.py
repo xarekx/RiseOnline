@@ -38,15 +38,14 @@ class Article(models.Model):
 {% block title %} Rise Online World ''' + str(self.title) + ''' {% endblock %}
 
 {% block body %}
-        <div class="flex flex-col w-full">
-            <div class="bg-[#191D21] text-[#dbae28] pl-4 pr-4 py-2 sm:px-6 md:pl-6">
+            <div class="bg-[#191D21] text-white pl-2 pr-2 py-1 shadow-inner border-[1px] md:pl-4 md:pr-3 xl:pl-6 xl:pr-6">
                 ''' + str(self.title) + ''' 
             </div>
-            <div class="relative bg-[#191D21] text-white pl-3 pr-3 pt-2 border-t-[0.5px] border-white md:pl-8 lg:pr-10">
+            <div class="relative bg-[#262b30] text-white rounded-b-sm text-2xs pl-2 pr-2 pt-1 sm:pt-2.5 md:text-xs md:pl-4 md:pr-3 xl:pl-6 xl:pt-3 xl:pr-3 2xl:text-base">
                 ''' + str(self.full_article) + '''
             <div class="flex pt-10 xl:pt-16">
                     <div class="absolute bottom-3 right-6 
-                    xl:bottom-5 text-2xs md:text-base" > ''' + str(self.created_by) + ' ' + str(self.created_date) + ''' </div>
+                    xl:bottom-5 text-2xs md:text-base"> ''' + str(self.created_by) + ' ' + str(self.created_date) + ''' </div>
                 </div>
             </div>
         </div>
