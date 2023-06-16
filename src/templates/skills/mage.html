@@ -2,7 +2,7 @@
 {% block title %} Mage skills {% endblock %}
 
 {% block body %}
-    <div class="flex h-fit justify-between w-full">
+    <!-- <div class="flex h-fit justify-between w-full"> -->
         <!-- content div -->
         <div class="flex flex-col h-fit bg-[#191D21] w-full">
             <div class="flex flex-col w-full h-full pl-3 pr-3 2xl:pl-5 2xl:pr-5">
@@ -33,96 +33,181 @@
                                 <tbody >
                                     {% if skill_type == 'Train' %}
                                         {% for train_sk in mage_trainee %}
-                                        <tr class="border h-full">
-                                            <td class="flex">
-                                                <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]" >
-                                                    <img src="{{train_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
-                                                </div>
-                                                <span class="flex items-center w-full 2xl:w-auto">
-                                                    {{train_sk.name}}
-                                                </span>
-                                            </td>
-                                            <td class="border text-center">{{train_sk.description}}</td>
-                                            <td class="border text-center">{{train_sk.mana}}</td>
-                                            <td class="border text-center">{{train_sk.cooldown}}</td>
-                                            <td class="border text-center">{{train_sk.skill_point}}</td>
-                                        </tr>
+                                            {% if forloop.counter0|divisibleby:2  %}
+                                                <tr class="border h-full bg-[#262b30]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]" >
+                                                            <img src="{{train_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{train_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{train_sk.description}}</td>
+                                                    <td class="border text-center">{{train_sk.mana}}</td>
+                                                    <td class="border text-center">{{train_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{train_sk.skill_point}}</td>
+                                                </tr>
+                                            {% else %}
+                                                <tr class="border h-full bg-[#21262b]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]" >
+                                                            <img src="{{train_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{train_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{train_sk.description}}</td>
+                                                    <td class="border text-center">{{train_sk.mana}}</td>
+                                                    <td class="border text-center">{{train_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{train_sk.skill_point}}</td>
+                                                </tr>
+                                            {% endif %}
                                         {% endfor %}
                                     {% endif %}
 
                                     {% if skill_type == 'Fire' %}
                                         {% for fire_sk in mage_fire %}
-                                        <tr class="border">
-                                            <td class="flex ">
-                                                <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
-                                                <img src="{{fire_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
-                                                </div>
-                                                <span class="flex items-center w-full 2xl:w-auto">
-                                                    {{fire_sk.name}}
-                                                </span>
-                                            </td>
-                                            <td class="border text-center">{{fire_sk.description}}</td>
-                                            <td class="border text-center">{{fire_sk.mana}}</td>
-                                            <td class="border text-center">{{fire_sk.cooldown}}</td>
-                                            <td class="border text-center">{{fire_sk.skill_point}}</td>
-                                        </tr>
+                                            {% if forloop.counter0|divisibleby:2  %}
+                                                <tr class="border bg-[#262b30]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                        <img src="{{fire_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{fire_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{fire_sk.description}}</td>
+                                                    <td class="border text-center">{{fire_sk.mana}}</td>
+                                                    <td class="border text-center">{{fire_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{fire_sk.skill_point}}</td>
+                                                </tr>
+                                            {% else %}
+                                                <tr class="border bg-[#21262b]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                        <img src="{{fire_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{fire_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{fire_sk.description}}</td>
+                                                    <td class="border text-center">{{fire_sk.mana}}</td>
+                                                    <td class="border text-center">{{fire_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{fire_sk.skill_point}}</td>
+                                                </tr>
+                                            {% endif %}
                                         {% endfor %}
                                     {% endif %}
 
                                     {% if skill_type == 'Ice' %}
                                         {% for ice_sk in mage_ice %}
-                                        <tr class="border">
-                                            <td class="flex">
-                                                <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
-                                                    <img src="{{ice_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
-                                                </div>
-                                                <span class="flex items-center w-full 2xl:w-auto">
-                                                    {{ice_sk.name}}
-                                                </span>
-                                            </td>
-                                            <td class="border text-center">{{ice_sk.description}}</td>
-                                            <td class="border text-center">{{ice_sk.mana}}</td>
-                                            <td class="border text-center">{{ice_sk.cooldown}}</td>
-                                            <td class="border text-center">{{ice_sk.skill_point}}</td>
-                                        </tr>
+                                            {% if forloop.counter0|divisibleby:2  %}
+                                                <tr class="border bg-[#262b30]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                            <img src="{{ice_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{ice_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{ice_sk.description}}</td>
+                                                    <td class="border text-center">{{ice_sk.mana}}</td>
+                                                    <td class="border text-center">{{ice_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{ice_sk.skill_point}}</td>
+                                                </tr>
+                                            {% else %}
+                                                <tr class="border bg-[#21262b]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                            <img src="{{ice_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{ice_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{ice_sk.description}}</td>
+                                                    <td class="border text-center">{{ice_sk.mana}}</td>
+                                                    <td class="border text-center">{{ice_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{ice_sk.skill_point}}</td>
+                                                </tr>
+                                            {% endif %}
                                         {% endfor %}
                                     {% endif %}
 
                                     {% if skill_type == 'Light' %}
                                         {% for light_sk in mage_light %}
-                                        <tr class="border">
-                                            <td class="flex">
-                                                <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
-                                                    <img src="{{light_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
-                                                </div>
-                                                <span class="flex items-center w-full 2xl:w-auto">
-                                                    {{light_sk.name}}
-                                                </span>
-                                            </td>
-                                            <td class="border text-center">{{light_sk.description}}</td>
-                                            <td class="border text-center">{{light_sk.mana}}</td>
-                                            <td class="border text-center">{{light_sk.cooldown}}</td>
-                                            <td class="border text-center">{{light_sk.skill_point}}</td>
-                                        </tr>
+                                            {% if forloop.counter0|divisibleby:2  %}
+                                                <tr class="border bg-[#262b30]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                            <img src="{{light_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{light_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{light_sk.description}}</td>
+                                                    <td class="border text-center">{{light_sk.mana}}</td>
+                                                    <td class="border text-center">{{light_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{light_sk.skill_point}}</td>
+                                                </tr>
+                                            {% else %}
+                                                <tr class="border bg-[#21262b]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                            <img src="{{light_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1">
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{light_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{light_sk.description}}</td>
+                                                    <td class="border text-center">{{light_sk.mana}}</td>
+                                                    <td class="border text-center">{{light_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{light_sk.skill_point}}</td>
+                                                </tr>
+                                            {% endif %}
                                         {% endfor %}
                                     {% endif %}
 
                                     {% if skill_type == 'Mstr' %}
                                         {% for mstr_sk in mage_master %}
-                                        <tr class="border">
-                                            <td class="flex">
-                                                <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
-                                                    <img src="{{mstr_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1" >
-                                                </div>
-                                                <span class="flex items-center w-full 2xl:w-auto">
-                                                    {{mstr_sk.name}}
-                                                </span>
-                                            </td>
-                                            <td class="border text-center">{{mstr_sk.description}}</td>
-                                            <td class="border text-center">{{mstr_sk.mana}}</td>
-                                            <td class="border text-center">{{mstr_sk.cooldown}}</td>
-                                            <td class="border text-center">{{mstr_sk.skill_point}}</td>
-                                        </tr>
+                                            {% if forloop.counter0|divisibleby:2  %}
+                                                <tr class="border bg-[#262b30]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                            <img src="{{mstr_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1" >
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{mstr_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{mstr_sk.description}}</td>
+                                                    <td class="border text-center">{{mstr_sk.mana}}</td>
+                                                    <td class="border text-center">{{mstr_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{mstr_sk.skill_point}}</td>
+                                                </tr>
+                                            {% else %}
+                                                <tr class="border bg-[#21262b]">
+                                                    <td class="flex">
+                                                        <div class=" flex items-center 2xl:h-[50px] 2xl:w-[50px]">
+                                                            <img src="{{mstr_sk.img.url}}" class="w-[25px] h-[25px] 2xl:w-fit 2xl:h-fit p-1" >
+                                                        </div>
+                                                        <span class="flex items-center w-full 2xl:w-auto">
+                                                            {{mstr_sk.name}}
+                                                        </span>
+                                                    </td>
+                                                    <td class="border text-center">{{mstr_sk.description}}</td>
+                                                    <td class="border text-center">{{mstr_sk.mana}}</td>
+                                                    <td class="border text-center">{{mstr_sk.cooldown}}</td>
+                                                    <td class="border text-center">{{mstr_sk.skill_point}}</td>
+                                                </tr>
+                                            {% endif %}
                                         {% endfor %}
                                     {% endif %}
                                 </tbody>

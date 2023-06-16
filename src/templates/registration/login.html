@@ -4,11 +4,11 @@
 {% block body %}
 
     <div class="flex h-full justify-center items-center">
-            <div class="flex flex-col bg-zinc-800  mx-auto">
+            <div class="flex flex-col bg-zinc-800 mx-auto">
                 <div class="w-full text-center mt-3 mb-2">
-                        <h2 class="text-white text-2xs md:text-sm ">Sign In</h2>
+                        <h2 class="text-white text-2xs md:text-sm">Sign In</h2>
                 </div>
-                <hr class="bg-white mt-1 md:mt-2">
+                <hr class="mt-1 md:mt-2">
                 <div class="flex flex-col text-black mx-12 my-4">
                     <form method="post">
                         {% csrf_token %}
@@ -16,7 +16,7 @@
                         <input type="text" class="flex form-control text-2xs md:text-xs w-full" name="username" placeholder="Username">
                         <label class="flex text-white mt-4 mb-1 text-2xs md:text-xs ">Password</label>
                         <input type="password" class="flex form-control text-2xs md:text-xs w-full" name="password" placeholder="Password">
-                        <div class="text-white mt-1 ">
+                        <div class="text-white mt-1">
                         {% if form.non_field_errors %}
                                 <p class="text-2xs md:text-xs mt-2">Your login or password is incorrect</p>
                         {% endif %}
@@ -24,13 +24,13 @@
 
                         <div class="flex mt-4">
                             <button 
-                            class="text-white border-2 rounded-lg border-sky-600 hover:bg-sky-600  mr-4 w-[6rem] text-2xs h-8 md:text-xs"
-                            type="submit" >
+                            class="rounded-lg bg-[#dbae28] text-white hover:text-black mr-4 w-[6rem] text-xs h-8"
+                            type="submit">
                                 <p>Sign In</p>
                             </button>
                             
                             <button 
-                            class="text-white border-sky-600 border-2 rounded-lg hover:bg-sky-600 space-x-4 w-[6rem] h-8 text-2xs md:text-xs" 
+                            class="rounded-lg bg-[#dbae28] text-white hover:text-black mr-4 w-[6rem] text-xs h-8" 
                             type="button"    
                             onclick="location.href='/signup';">
                                 <p>Sign Up</p>

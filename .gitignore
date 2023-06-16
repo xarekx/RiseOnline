@@ -323,3 +323,4 @@ caddy
 
 # articles files
 src/templates/articles/*
+copy_styles.sh

@@ -1,64 +1,63 @@
 {% extends 'base.html' %}
-{% block title %} Rise Online World Login {% endblock %}
+{% block title %} Rise Online Armors {% endblock %}
 
 {% block body %}
-    <div class="flex h-fit w-full">
         <!-- content div -->
-        <div class="flex flex-col bg-[#191D21] h-fit w-full">
+        <div class="flex flex-col bg-[#191D21] h-fit w-full pl-2 pr-2 pb-2 md:pb-4">
             <!-- navigator cards -->
-            <div class="flex flex-col w-full  justify-center">
+            <div class="flex flex-col w-full justify-center pb-4 md:pb-8">
                 <div class="flex w-full pt-2 pb-2">
-                    <div class="text-2xl mx-auto text-[#dbae28] pb-2">Armors</div>
+                    <div class="text-2xl mx-auto text-[#dbae28] md:pb-8 pb-4 md:pt-4 pt-2 md:text-3xl">Armors</div>
                 </div>
                 <div class="w-full pb-4 ">
                     <!-- Item categories  -->
                     <div class="grid grid-flow-col gap-1 text-white justify-items-center">
                         <!-- card with categories -->
                         <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer 
-                        w-16 xl:w-24 2xl:w-32
-                        h-12 xl:h-24 2xl:h-32" 
+                        w-12 md:w-16 xl:w-24 2xl:w-28
+                        h-12 md:h-16 xl:h-24 2xl:h-28" 
                         item-menu-button>
                             <div class="flex items-center justify-center w-full h-3/4">
                                 <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]"></i>
                             </div>
                             <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center">
-                                <span class="text-black text-2xs font-bold">Warrior</span>
+                                <span class="text-black text-2xs lg:text-sm 2xl:text-base font-bold">Warrior</span>
                             </div>
                         </div>
 
                         <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer 
-                        w-16 xl:w-24 2xl:w-32
-                        h-12 xl:h-24 2xl:h-32" 
-                        item-menu-button>
-                            <div class="flex items-center justify-center w-full h-3/4">
-                                <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]"></i>
-                            </div>
-                            <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center xl:w-24 2xl:w-32">
-                                <span class="text-black text-2xs font-bold">Priest</span>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer 
-                        w-16 xl:w-24 2xl:w-32
-                        h-12 xl:h-24 2xl:h-32" 
+                        w-12 md:w-16 xl:w-24 2xl:w-28
+                        h-12 md:h-16 xl:h-24 2xl:h-28" 
                         item-menu-button>
                             <div class="flex items-center justify-center w-full h-3/4">
                                 <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]"></i>
                             </div>
                             <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center">
-                                <span class="text-black text-2xs font-bold">Rogue</span>
+                                <span class="text-black text-2xs lg:text-sm 2xl:text-base font-bold">Priest</span>
                             </div>
                         </div>
 
                         <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer 
-                        w-16 xl:w-24 2xl:w-32
-                        h-12 xl:h-24 2xl:h-32" 
+                        w-12 md:w-16 xl:w-24 2xl:w-28
+                        h-12 md:h-16 xl:h-24 2xl:h-28" 
                         item-menu-button>
                             <div class="flex items-center justify-center w-full h-3/4">
                                 <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]"></i>
                             </div>
                             <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center">
-                                <span class="text-black text-2xs font-bold">Mage</span>
+                                <span class="text-black text-2xs lg:text-sm 2xl:text-base font-bold">Rogue</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col bg-slate-500 text-center rounded-[5px] cursor-pointer 
+                        w-12 md:w-16 xl:w-24 2xl:w-28
+                        h-12 md:h-16 xl:h-24 2xl:h-28" 
+                        item-menu-button>
+                            <div class="flex items-center justify-center w-full h-3/4">
+                                <i class="fa-solid fa-shield-halved text-white text-[1.5rem] 2xl:text-[3rem]"></i>
+                            </div>
+                            <div class="flex flex-col w-full h-1/4 bg-slate-200 items-center justify-center">
+                                <span class="text-black text-2xs lg:text-sm 2xl:text-base font-bold">Mage</span>
                             </div>
                         </div>
                 
@@ -66,69 +65,69 @@
                 </div>
             </div>
             <!-- armors content grid view -->
-            <div class="text-white text-center pb-2 text-sm" id="warrior">
-                Warrior Armors
+            <div class="text-center pb-2" id="warrior">
+                <span class="text-[#dbae28] text-xl md:text-2xl">Warrior Armors</span>
             </div>
             
             <div class="flex flex-col w-full justify-center">
-                <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8 justify-items-center mb-4 text-center">
                     {% for warrior_armor in warrior_armors %}
-                        <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                        <div class="w-[90px] md:w-[100px] h-[50px] md:h-[70px] 2xl:w-fit 2xl:h-fit text-black">
                             <div class="flex justify-center w-full">
-                                <img src="{{warrior_armor.img.url}}"  alt="training_sword" class="w-6 2xl:w-12">
+                                <img src="{{warrior_armor.img.url}}"  alt="training_sword" class="w-6 md:w-8 lg:w-10 2xl:w-12">
                             </div>
-                            <span class="text-white">{{warrior_armor.name}}</span>
+                            <span class="text-white md:text-sm">{{warrior_armor.name}}</span>
                         </div>
                     {% endfor %}
                 </div>
             </div>
 
-            <div class="text-white text-center pb-2 text-sm" id="priest">
-                Priest Armors
+            <div class="text-center pb-2" id="priest">
+                <span class="text-[#dbae28] text-xl md:text-2xl">Priest Armors</span>
             </div>
 
             <div class="flex flex-col w-full justify-center">
-                <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8 justify-items-center mb-4 text-center">
                     {% for priest_armor in priest_armors %}
-                        <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                        <div class="w-[90px] md:w-[100px] h-[50px] md:h-[70px] 2xl:w-fit 2xl:h-fit text-black">
                             <div class="flex justify-center w-full">
-                                <img src="{{priest_armor.img.url}}"  alt="{{priest_armor.name}}" class="w-6 2xl:w-12">
+                                <img src="{{priest_armor.img.url}}"  alt="{{priest_armor.name}}" class="w-6 md:w-8 lg:w-10 2xl:w-12">
                             </div>
-                            <span class="text-white">{{priest_armor.name}}</span>
+                            <span class="text-white md:text-sm">{{priest_armor.name}}</span>
                         </div>
                     {% endfor %}
                 </div>
             </div>
 
-            <div class="text-white text-center pb-2 text-sm" id="rogue">
-                Rogue Armors
+            <div class="text-center pb-2" id="rogue">
+                <span class="text-[#dbae28] text-xl md:text-2xl">Rogue Armors</span>
             </div>
 
             <div class="flex flex-col w-full justify-center">
-                <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8 justify-items-center mb-4 text-center">
                     {% for rogue_armor in rogue_armors %}
-                        <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                        <div class="w-[90px] md:w-[100px] h-[50px] md:h-[70px] 2xl:w-fit 2xl:h-fit text-black">
                             <div class="flex justify-center w-full">
-                                <img src="{{rogue_armor.img.url}}"  alt="{{rogue_armor.name}}" class="w-6 2xl:w-12">
+                                <img src="{{rogue_armor.img.url}}"  alt="{{rogue_armor.name}}" class="w-6 md:w-8 lg:w-10 2xl:w-12">
                             </div>
-                            <span class="text-white">{{rogue_armor.name}}</span>
+                            <span class="text-white md:text-sm">{{rogue_armor.name}}</span>
                         </div>
                     {% endfor %}
                 </div>
             </div>
 
-            <div class="text-white text-center pb-2 text-sm" id="mage">
-                Mage Armors
+            <div class="text-center pb-2" id="mage">
+              <span class="text-[#dbae28] text-xl md:text-2xl">Mage Armors</span>
             </div>
 
             <div class="flex flex-col w-full justify-center">
-                <div class="grid grid-cols-6 gap-4 justify-items-center mb-4 text-center">
+                <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8 justify-items-center mb-4 text-center">
                     {% for mage_armor in mage_armors %}
-                        <div class="w-[50px] h-[40px] 2xl:w-fit 2xl:h-fit text-black">
+                        <div class="w-[90px] md:w-[100px] h-[50px] md:h-[70px] 2xl:w-fit 2xl:h-fit text-black">
                             <div class="flex justify-center w-full">
-                                <img src="{{mage_armor.img.url}}"  alt="{{mage_armor.name}}" class="w-6 2xl:w-12">
+                                <img src="{{mage_armor.img.url}}"  alt="{{mage_armor.name}}" class="w-6 md:w-8 lg:w-10 2xl:w-12">
                             </div>
-                            <span class="text-white">{{mage_armor.name}}</span>
+                            <span class="text-white md:text-sm">{{mage_armor.name}}</span>
                         </div>
                     {% endfor %}
                 </div>

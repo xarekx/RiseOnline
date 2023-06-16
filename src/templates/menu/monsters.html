@@ -2,9 +2,8 @@
 {% block title %}Rise Online Monsters{% endblock %}
 
 {% block body %}
-    <div class="flex h-fit justify-between">
         <!-- content div -->
-        <div class="flex flex-col h-fit bg-[#191D21] w-fit">
+        <div class="flex flex-col h-fit bg-[#191D21] w-full">
             <div class="flex flex-col w-full h-full 2xl:ps-5 2xl:pe-5 ps-3 pe-3">
                 <div class="flex flex-col h-fit w-full pb-4 " >
                         
@@ -16,17 +15,18 @@
                     <!-- Monster table  -->
                     <div class="pl-2 pr-2">
                         <table class="table-auto text-white  flex-col w-full">
-                            <thead class="border-1 text-center">
+                            <thead class="border-1 text-center bg-[#191D21]">
                                 <tr>
-                                    <th class="border-1 w-1/6">Skill Name</th>
-                                    <th class="border-1 w-1/6">Level</th>
-                                    <th class="border-1 w-1/6">Zone</th>
-                                    <th class="border-1 w-1/2">Drop List</th>
+                                    <th class="border w-1/6">Skill Name</th>
+                                    <th class="border w-1/6">Level</th>
+                                    <th class="border w-1/6">Zone</th>
+                                    <th class="border w-1/2">Drop List</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {% for monster in monsters %}
-                                    <tr class="border h-full ">
+                                    {% if forloop.counter0|divisibleby:2  %}
+                                    <tr class="border h-full bg-[#262b30]">
                                         <td class="flex pl-2">
                                             <span class="flex items-center w-full 2xl:w-auto">
                                                 {{monster.name}}
@@ -42,6 +42,24 @@
                                             {% endfor %}
                                         </td>
                                     </tr>
+                                    {% else %}
+                                    <tr class="border h-full bg-[#21262b]">
+                                        <td class="flex pl-2">
+                                            <span class="flex items-center w-full 2xl:w-auto">
+                                                {{monster.name}}
+                                            </span>
+                                        </td>
+                                        <td class="border-l border-r text-center">{{monster.level}}</td>
+                                        <td class="border-r text-center">{{monster.zone_mob}}</td>
+                                        <td class="border-r p-1">
+                                            {% for item in items %} 
+                                                {% if monster.id == item.dropped_by_id %}
+                                                    {{item.name}},
+                                                {% endif %}
+                                            {% endfor %}
+                                        </td>
+                                    </tr>
+                                    {% endif %}
                                 {% endfor %}
                             </tbody>
                         </table>

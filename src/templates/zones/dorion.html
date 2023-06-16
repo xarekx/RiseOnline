@@ -4,39 +4,44 @@
 
 {% block body %} 
     <!--    content div -->
-    <div class="flex flex-col h-fit bg-zinc-800 w-fit pb-2">
-        <span class="w-full text-white text-center pt-2 text-xl">
-            <strong>Dorion</strong>
-        </span>
-        <span id="description" class="text-white m-2 text-center"> In this zone you are starting your journey in Rise Online World.</span>
-        <div class="flex flex-wrap justify-center justify-items-center
-        2xl:p-4 2xl:gap-2 2xl:grid 2xl:grid-cols-2
-        md:content-center md:justify-center md:m-2
-        text-white p-2">
-            <div>
-                <span>The first graphic shows view after your first login into game.</span>
-            </div> 
-            <img src="{% static 'Dorion-gif.gif' %}" class="w-full">
-        </div>
-        <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
-            <span class="">Dorion is a place where you will do your first exciting quests. For every done task you will get some valuable rewards.
-                Npcs with question mark have some quests to you. You can take the quest by clicking "take". 
-                Npcs have various tasks to you, from simple to hard. Quest log in NPC is visible on the third graphic.
+        <div class="flex flex-col bg-[#191D21] h-fit w-full pb-4">
+            <div class="flex w-full justify-center pb-8">
+                <span class="w-full text-white text-center pt-2 text-xl">
+                    <strong>Dorion</strong>
+                </span>
+            </div>
+            <span id="description" class="text-white m-2 text-center">
+                In this zone you are starting your journey in Rise Online World.
             </span>
             <div class="flex flex-wrap justify-center justify-items-center
-            2xl:p-4 2xl:grid 2xl:grid-cols-2
-            md:content-center md:justify-center 
-            text-white p-2 gap-2">
-                <img src="{% static 'Dorion-gif1.gif' %}" class="w-full"> 
-                <img src="{% static 'Dorion-gif2.gif' %}" class="w-full">
+            2xl:p-4 2xl:gap-2 2xl:grid 2xl:grid-cols-2
+            md:content-center md:justify-center md:m-2
+            text-white p-2">
+                <div>
+                    <span>The first graphic shows view after your first login into game.</span>
+                </div> 
+                <img src="{% static 'Dorion-gif.gif' %}" class="w-full">
             </div>
-        </div>
-        <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2 ">
-        <div class="2xl:pb-4 pb-2">
-            <span>To open World Map you have to use "M" keyword on your keyboard. Then you will be able to see similiar graphic. 
-                The picture is presenting Dorion's map. Green square it is a NPC symbol. Yellow diamond is monster signature. T</span>
-        </div>
-        <img src="{% static 'Dorion-gif3.gif' %}" class="w-full">
+            <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
+                <span class="">Dorion is a place where you will do your first exciting quests. For every done task you will get some valuable rewards.
+                    Npcs with question mark have some quests to you. You can take the quest by clicking "take". 
+                    Npcs have various tasks to you, from simple to hard. Quest log in NPC is visible on the third graphic.
+                </span>
+                <div class="flex flex-wrap justify-center justify-items-center
+                2xl:p-4 2xl:grid 2xl:grid-cols-2
+                md:content-center md:justify-center 
+                text-white p-2 gap-2">
+                    <img src="{% static 'Dorion-gif1.gif' %}" class="w-full"> 
+                    <img src="{% static 'Dorion-gif2.gif' %}" class="w-full">
+                </div>
+            </div>
+            <div class="text-white 2xl:pl-4 2xl:pr-4 pl-2 pr-2">
+                <div class="2xl:pb-4 pb-2">
+                    <span>To open World Map you have to use "M" keyword on your keyboard. Then you will be able to see similiar graphic. 
+                        The picture is presenting Dorion's map. Green square it is a NPC symbol. Yellow diamond is monster signature. T</span>
+                </div>
+                <img src="{% static 'Dorion-gif3.gif' %}" class="w-full">
+            </div>
         </div>
     </div>
 {% endblock %}

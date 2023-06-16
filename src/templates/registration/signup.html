@@ -7,8 +7,8 @@
         <div class="flex h-10 justify-center items-center my-auto">
                 <h2 class="text-white text-2xs md:text-xs">Sign Up</h2>
         </div>
-        <hr class="bg-white mb-2">
-        <div class="flex flex-col text-black px-14 md:px-20" >
+        <hr class="mb-2">
+        <div class="flex flex-col text-black mx-12 my-4" >
             <form method="POST" class="w-full">
                 {% csrf_token %}
                 <label class="flex text-white mb-1 w-full text-2xs md:text-xs ">Username</label>
@@ -33,13 +33,13 @@
 
                 <div class="flex mt-4">
                     <button 
-                    class="text-white border-2 rounded-lg border-sky-600 hover:bg-sky-600 mr-4 w-[6rem] h-8 text-2xs md:text-xs"
+                    class="rounded-lg bg-[#dbae28] text-white hover:text-black mr-4 w-[6rem] h-8 text-xs"
                     type="submit">
                         <p>Sign Up</p>
                     </button>
 
                     <button 
-                    class="text-white border-2 rounded-lg border-sky-600 hover:bg-sky-600 space-x-4 w-[6rem] h-8 text-2xs md:text-xs" 
+                    class="rounded-lg bg-[#dbae28] text-white hover:text-black mr-4 w-[6rem] h-8 text-xs" 
                     type="button" 
                     onclick="location.href='/login';"> 
                         <p>Sign In</p>
