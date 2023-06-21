@@ -95,19 +95,19 @@
             </table>
             <div class="flex text-white pl-1 md:pl-3 pb-2">
                 <span class="current justify-start w-full">
-                    Page 
+                    Page
                     {% if quests.has_previous %}
-                        <a href="?page=1&order_by={{order_by}}&direction={{direction}}" class="hover:text-gray-400">&laquo; first</a>
-                        <a href="?page={{quests.previous_page_number}}&order_by={{order_by}}&direction={{direction}}" class="hover:text-gray-400">{{ quests.previous_page_number }},</a>
+                        <a href="?page=1&order_by={{ordering}}&direction={{direction}}" class="hover:text-gray-400">&laquo; first</a>
+                        <a href="?page={{quests.previous_page_number}}&order_by={{ordering}}&direction={{direction}}" class="hover:text-gray-400">{{ quests.previous_page_number }},</a>
                      {% endif %}
 
                     <span class="text-gray-600">{{ quests.number }}</span>{% if quests.has_next %},{% endif%}
 
                     {% if quests.has_next %}        
-                        <a href="?page={{quests.next_page_number}}&order_by={{order_by}}&direction={{direction}}" class="hover:text-gray-400">{{ quests.next_page_number }}</a>
+                        <a href="?page={{quests.next_page_number}}&order_by={{ordering}}&direction={{direction}}" class="hover:text-gray-400">{{ quests.next_page_number }}</a>
                         {% if quests.next_page_number != quests.paginator.num_pages %}  
                             {{quests.paginator.ELLIPSIS}}
-                            <a href="?page={{quests.paginator.num_pages}}&order_by={{order_by}}&direction={{direction}}" class="hover:text-gray-400">{{ quests.paginator.num_pages }}</a>
+                            <a href="?page={{quests.paginator.num_pages}}&order_by={{ordering}}&direction={{direction}}" class="hover:text-gray-400">{{ quests.paginator.num_pages }}</a>
                         {% endif %}
                     {% endif %}
                 </span>

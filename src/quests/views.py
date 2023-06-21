@@ -34,5 +34,6 @@ def quests(request):
                                                 'rewards':rewards, 
                                                 'direction':direction, 
                                                 'quests': page_obj, 
-                                                'order_by':order_by})
+                                                'order_by': order_by,
+                                                'ordering': ordering})
     
