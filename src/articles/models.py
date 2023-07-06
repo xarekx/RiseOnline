@@ -5,7 +5,9 @@ from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.models import User
 import os.path
 from config import settings
+import collections
 
+collections.Callable = collections.abc.Callable
 
 # Create your models here.
 class Article(models.Model):

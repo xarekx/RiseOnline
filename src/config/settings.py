@@ -54,7 +54,8 @@ INSTALLED_APPS: list[str] = [
     'monsters.apps.MonstersConfig',
     'items.apps.ItemsConfig',
     'rewards.apps.RewardsConfig',
-    'contacts.apps.ContactsConfig'
+    'contacts.apps.ContactsConfig',
+    'django_nose',
 ]
 
 MIDDLEWARE = [
@@ -174,3 +175,12 @@ TAILWIND_CSS_PATH = 'css/dist/styles.css'
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
 
 CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS_ENV")
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+NOSE_ARGS = [
+    '--with-coverage',
+    '--cover-package=articles',
+    '--cover-html',
+]
+
