@@ -20,6 +20,10 @@ django-dotenv = "^1.4.2"
 django-env = "^0.2.1"
 tailwindcss = "^0.0.1"
 npm = "^0.1.1"
+pytest = "^7.3.2"
+pytest-django = "^4.5.2"
+django-nose = "^1.4.7"
+coverage = "^7.2.7"
 
 [tool.poetry.dev-dependencies]
 
@@ -29,3 +33,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 app = "manage:runserver"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
