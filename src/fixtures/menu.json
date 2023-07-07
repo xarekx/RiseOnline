@@ -46,5 +46,13 @@
             "name": "Monsters",
             "priority": 6
         }
+    },
+    {
+        "model": "menu.leftsidemenu",
+        "pk": 7,
+        "fields": {
+            "name": "Contacts",
+            "priority": 7
+        }
     }
 ]

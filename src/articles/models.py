@@ -14,7 +14,7 @@ class Article(models.Model):
     title = models.CharField(_("title"), max_length=64)
     article = models.TextField(_("article"), max_length=256)
     full_article = models.TextField(_("full_article"), default="")
-    created_date = models.DateField(_("created_date"), auto_now=True)
+    created_date = models.DateTimeField(_("created_date"), auto_now=True)
     created_by = models.ForeignKey(User, related_name="article_created_by", on_delete=models.CASCADE)
     
     class Meta:
