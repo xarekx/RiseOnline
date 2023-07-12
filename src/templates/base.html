@@ -14,10 +14,11 @@
    
     <title>{% block title %} {% endblock %}</title>
 </head>
-<body class="flex flex-col gap-10 h-screen" style="background-image:url({% static 'background_photo.jpg' %});">
+<!-- <body class="flex flex-col gap-10 h-screen" style="background-image:url({% static 'background_photo.jpg' %});"> -->
+    <body class="flex flex-col h-screen gap-10 bg-gradient-to-r from-zinc-800 via-gray-600 to-zinc-800">
     
     
-    <div class="flex bg-zinc-800">
+    <div class="flex bg-zinc-900">
         <div class="w-full">
             <div class="flex py-1 justify-between
             2xl:py-2 2xl:justify-start 2xl:space-x-10">
@@ -53,12 +54,12 @@
     </div>
     
     <section class="flex justify-center" aria-label="Newest Photos">
-        <div class="relative w-1/2 h-vh-2 md:h-vh-3 lg:h-vh-4 2xl:h-vh-5" data-carousel>
+        <div class="relative w-vw-4  h-[15vh] md:h-vh-3 xl:h-vh-4 " data-carousel>
           <button class="carousel-button prev text-base left-1 md:left-2 md:text-[1.5rem] xl:text-[2.5rem] " data-carousel-button="prev"><i class="fa-solid fa-arrow-left"></i></button>
           <button class="carousel-button next text-base right-1 md:right-2 md:text-[1.5rem] xl:text-[2.5rem]" data-carousel-button="next"><i class="fa-solid fa-arrow-right"></i></button>
           <ul data-slides class="m-0 p-0 list-none">
             <li class="w-full h-full slide absolute inset-0 opacity-0 ease-in-out duration-300 delay-300" data-active>
-              <img src="{% static 'rise.jpg' %}" alt="Nature Image #1" class="block w-full h-full object-fit object-center">
+              <img src="{% static 'mount_race.jpg' %}" alt="Nature Image #1" class="block w-full h-full object-fit object-center">
             </li>
             <li class="w-full h-full slide absolute inset-0 opacity-0 ease-in-out duration-300 delay-300">
               <img src="{% static 'rise1.jpg' %}" alt="Nature Image #2" class="block w-full h-full object-fit object-center">
@@ -78,7 +79,7 @@
                 2xl:text-lg 2xl:space-x-16 2xl:mx-12">
 
 <!--        left menu -->
-        <div class="flex flex-col h-fit bg-zinc-800 text-white text-left w-2/12">
+        <div class="flex flex-col h-fit bg-zinc-900 text-white text-left w-2/12 ">
             <div class="menuWrapper">
                 {% for item in left_side_item %}
                     <div id="{{item.name}}" class="nav_item cursor-pointer ml-1 mr-1 mt-1.5 mb-1.5 sm:ml-2 sm:mr-2 text-[#dbae28]">
@@ -134,7 +135,7 @@
         <div class="flex flex-col w-full space-y-3">
             
             <nav aria-label="Breadcrumb">
-                <ol class="inline-flex items-center space-x-1 md:space-x-3 ">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3 ml-2">
                     <li class="inline-flex items-center">
                         <a href="/" class="inline-flex items-center text-xs md:text-sm font-medium text-white hover:text-[#dbae28]">
                         <svg aria-hidden="true" class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
@@ -165,16 +166,16 @@
     <div class="flex flex-col w-2/12 space-y-8">
 
         <!--  first add-->
-        <div class="flex w-full bg-zinc-800 text-white h-28 md:h-40 lg:h-52 xl:h-60 2xl:h-72">First add
+        <div class="flex w-full bg-zinc-900 text-white h-28 md:h-40 lg:h-52 xl:h-60 2xl:h-72">First add
         </div>
 
         <!-- second add -->
-        <div class="flex w-full text-white bg-zinc-800 h-28 md:h-40 lg:h-52 xl:h-60 2xl:h-72">Second add
+        <div class="flex w-full text-white bg-zinc-900 h-28 md:h-40 lg:h-52 xl:h-60 2xl:h-72">Second add
         </div>
     </div>
 </main>
     
-        <footer class="flex flex-col mt-auto w-full bg-zinc-800
+        <footer class="flex flex-col mt-auto w-full bg-zinc-900
                         sm:text-xs 
                         md:text-xs
                         lg:text-sm

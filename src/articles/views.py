@@ -6,12 +6,19 @@ from django.contrib.auth.decorators import login_required
 from django.views.generic import CreateView
 from articles.forms import SignUpForm
 from django.contrib.auth.forms import AuthenticationForm
+from django.core.paginator import Paginator
 
 def index(request):
+    
+    
+    
     articles = Article.objects.all().order_by("-created_date")
+    paginator = Paginator(articles,5)
+    page_number = request.GET.get('page')
+    articles_page = paginator.get_page(page_number)
     left_side_item = LeftSideMenu.objects.all().order_by("priority")
 
-    return render(request, 'index.html', {'left_side_item': left_side_item, 'articles': articles, })
+    return render(request, 'index.html', {'left_side_item': left_side_item, 'articles': articles, 'articles_page':articles_page })
 
 
 class SignUpView(CreateView):

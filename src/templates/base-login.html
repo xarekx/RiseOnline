@@ -11,9 +11,10 @@
     {% tailwind_css %}
     <title>{% block title %} {% endblock %}</title>
 </head>
-<body class="flex flex-col h-full" style="background-image:url({% static 'background_photo.jpg' %});">    
+<!-- <body class="flex flex-col h-full" style="background-image:url({% static 'background_photo.jpg' %});">     -->
+    <body class="flex flex-col h-screen bg-gradient-to-r from-zinc-800 via-gray-600 to-zinc-800">
     
-    <div class="flex bg-zinc-800">
+    <div class="flex bg-zinc-900">
         <div class="w-full">
             <div class="flex py-1 justify-between
             2xl:py-2 2xl:justify-start 2xl:space-x-10">
